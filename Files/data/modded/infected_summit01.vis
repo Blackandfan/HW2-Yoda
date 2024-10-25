@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="Building_Deployed">
+	<model name="Building_Deployed">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2\pack1\units\flood\structure\flood_banished_summit_01\mesh_flood_banished_summit_01</file>
+				<damagefile>units/covenant/structure/summit01/deployed/summit01</damagefile>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedSmokeRoofVent" tobone="bone_vfx_vent02" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedSmokeRoofVent" tobone="bone_vfx_vent01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedSteam" tobone="bone_vfx_steam_front" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedSteam" tobone="bone_vfx_steam_back" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedCircularStandardGroundImpact" tobone="GrannyRootBone_deployed" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Landinglights_Green" tobone="GrannyRootBone_deployed" frombone="GrannyRootBone_landinglights_building_green" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Landinglights_Off" tobone="GrannyRootBone_deployed" frombone="GrannyRootBone_landinglights_building_off" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/summit01/deployed/idle01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="Play_SFX_3D_BLD_BAN_SummitManufacture_StopAll" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="LightFile" name="Lights/BuildingsLights/Buildingbanish_warehouse_creationLight" tobone="bone_vfx_lightSides_001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/BuildingSpotLightSmall04" tobone="bone_vfx_lightBack_001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/BuildingSpotLightSmall04" tobone="bone_vfx_lightBack_002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/BuildingSpotLightSmall04" tobone="bone_vfx_lightBack_003" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/BuildingSpotLightSmall01" tobone="bone_vfx_lightBack_004" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Intro" exitAction="Transition" tweenTime="0" tweenToAnimation="Loop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/summit01/deployed/manufacture01_into</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.00100000005" end="1" name="Play_SFX_3D_BLD_BAN_SummitManufactureBackgroundLoop" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.00999999978" end="1" name="Play_SFX_3D_BLD_BAN_SummitShudder" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0649999976" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorClunk" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0960000008" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorMoveStart" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.216999993" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorMoveStop" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.246999994" end="1" name="Play_SFX_3D_BLD_BAN_SummitMastClunk" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.486000001" end="1" name="Play_SFX_3D_BLD_BAN_SummitMastMoveStart" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.5" end="1" name="Play_SFX_3D_BLD_BAN_SummitShelfClunk" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.523999989" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorMoveStart" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.55400002" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorClunk" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.750999987" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorMoveStop" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.787999988" end="1" name="Play_SFX_3D_BLD_BAN_SummitMastMoveStop" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.787999988" end="1" name="Play_SFX_3D_BLD_BAN_SummitMastClunk" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.800000012" end="1" name="Play_SFX_3D_BLD_BAN_SummitShelfClunk" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.815999985" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorClunk" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="LightFile" name="Lights/BuildingsLights/Submit_tailLightRED" tobone="bone_vfx_lightTop_001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/Submit_tailLightRED" tobone="bone_vfx_lightSides_002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedSummitRelay" tobone="bone_vfx_research" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Loop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/summit01/deployed/manufacture01_loop</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="LightFile" name="Lights/BuildingsLights/Submit_tailLightRED" tobone="bone_vfx_lightTop_001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/Submit_tailLightRED" tobone="bone_vfx_lightSides_002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedSummitRelay" tobone="bone_vfx_research" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Outro" exitAction="Transition" tweenTime="0" tweenToAnimation="idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/summit01/deployed/manufacture01_out</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedSummitRelay" tobone="bone_vfx_research" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0599999987" end="1" name="Play_SFX_3D_BLD_BAN_SummitMastMoveStart" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.270000011" end="1" name="Play_SFX_3D_BLD_BAN_SummitMastMoveStop" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.287" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorClunk" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.300000012" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorMoveStart" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.300000012" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorClunk" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.400000006" end="1" name="Stop_SFX_3D_BLD_BAN_SummitManufactureBackgroundLoop" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.407999992" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorMoveStop" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.439999998" end="1" name="Play_SFX_3D_BLD_BAN_SummitMastClunk" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.441000015" end="1" name="Play_SFX_3D_BLD_BAN_SummitShelfClunk" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.59799999" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorClunk" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.611999989" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorMoveStart" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.699999988" end="1" name="Play_SFX_3D_BLD_BAN_SummitDoorMoveStop" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.720000029" end="1" name="Play_SFX_3D_BLD_BAN_SummitShelfClunk" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.763000011" end="1" name="Play_SFX_3D_BLD_BAN_SummitShudder" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="LightFile" name="Lights/BuildingsLights/Submit_tailLightRED" tobone="bone_vfx_lightTop_001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/Submit_tailLightRED" tobone="bone_vfx_lightSides_002" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/summit01/deployed/death01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Building_Deploying">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/summit01/deploying/mesh_deploying</file>
+				<damagefile>units/covenant/structure/summit01/deploying/summit01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Hologram_Active" tobone="GrannyRootBone_deploying" frombone="GrannyRootBone_hologram_projector" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/summit01/deploying/incoming_idle01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="Play_SFX_3D_BLD_BAN_DestructionMute" tobone="GrannyRootBone_deploying" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/summit01/deploying/incoming01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.5" end="1" name="Play_SFX_3D_BLD_BAN_DestructionUnmute" tobone="GrannyRootBone_deploying" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/summit01/deploying/abort01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/summit01/deploying/landing01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/summit01/deploying/dropoff01</file>
+				<weight>1</weight>
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0.763000011" end="1" tobone="bone_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0" fadeOutTime="0.800000012" translationStrength="0" translationFrequency="5" yawPitchStrength="3" rollStrength="1" rotationFrequency="3" />
+				<tag type="Particle" start="0" position_type="Time" position="0.769999981" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedCircularStandardGroundImpact" tobone="bone_vfx_GroundImpact" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.771000028" end="1" name="Play_SFX_3D_BLD_BAN_SummitDrop" tobone="GrannyRootBone_deploying" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Deploy" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/summit01/deploying/deploy01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.00100000005" end="1" name="Play_SFX_3D_BLD_BAN_SummitDeploy" tobone="GrannyRootBone_deploying" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.546999991" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedSmokeRoofVent" tobone="bone_vfx_vent01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.546999991" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedSmokeRoofVent" tobone="bone_vfx_vent02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.564999998" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.569999993" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.579999983" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.583000004" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.587000012" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.588999987" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.59799999" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.606000006" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.845000029" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet008" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.84799999" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.850000024" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet07" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.856999993" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.862999976" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.865999997" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.867999971" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon07" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.874000013" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedDeployingPlasma" tobone="bone_vfx_GroundImpact" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/pelican01/airpad01/incoming_idle01</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0.99999995529651686</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.99999997764825821</Value>
+							<Alpha>0.019999999552965164</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.019999999552965164</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.99999995529651686</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_VEH_PelicanDestruct" tobone="bone_engine_left_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/BanishedAirExplosionLarge" tobone="b_root" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+	</model>
+	<model name="Spirit">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/vehicles/spirit01/mesh_spirit01</file>
+			</asset>
+			<attach type="ModelRef" name="Spirit_Right_Hatch" tobone="socketbone_hatch_right_01" frombone="GrannyRootBone_hatch_right_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Spirit_Left_Hatch" tobone="socketbone_hatch_left_01" frombone="GrannyRootBone_hatch_left_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasma" tobone="bone_vfx_LeftPlasma" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasma" tobone="bone_vfx_RightPlasma" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/incoming_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/incoming01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_RightPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_LeftPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_VEH_SpiritBuildingDeliverySummitIncoming" tobone="socketbone_hatch_right_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/abort01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_RightPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="4.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_LeftPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="4.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_VEH_SpiritBuildingDeliverySummitAbort" tobone="socketbone_hatch_right_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/landing01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_RightPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_LeftPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/dropoff01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_RightPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="4.5999999" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_LeftPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="4.5999999" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Takeoff" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/takeoff01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/outgoing01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Spirit_Left_Hatch">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/vehicles/spirit01/mesh_hatch_left_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/incoming_idle01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/landing01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/abort01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/landing01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/dropoff01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Takeoff" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/takeoff01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/outgoing01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Spirit_Right_Hatch">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/vehicles/spirit01/mesh_hatch_right_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/incoming_idle01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/incoming01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/abort01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/landing01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/dropoff01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Takeoff" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/takeoff01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/summit01/outgoing01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Plot_Queued">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/empty_plot/mesh_empty_plot</file>
+			</asset>
+			<attach type="ModelRef" name="Hologram_Queued" tobone="GrannyRootBone_empty_plot" frombone="GrannyRootBone_hologram_projector" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Landinglights_Off" tobone="GrannyRootBone_empty_plot" frombone="GrannyRootBone_landinglights_building_off" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Flares_Off" tobone="GrannyRootBone_empty_plot" frombone="GrannyRootBone_hologram_building" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedBasePadDust" tobone="GrannyRootBone_active_plot_fabricator" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<point pointType="Impact" bone="bone_impact_01" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/empty/2frames</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0.00100000005" end="1" name="Play_SFX_3D_BLD_BAN_PlotAppears" tobone="GrannyRootBone_hologram_building" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Plot_Active">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/empty_plot/mesh_empty_plot</file>
+				<damagefile>units/covenant/structure/main_hq_dressing01/empty_plot/empty_plot</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Building_Deploying" tobone="GrannyRootBone_empty_plot" frombone="GrannyRootBone_deploying" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Spirit" tobone="GrannyRootBone_empty_plot" frombone="GrannyRootBone_spirit01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Landinglights_Red" tobone="GrannyRootBone_empty_plot" frombone="GrannyRootBone_landingslights_building" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Flares_On" tobone="GrannyRootBone_empty_plot" frombone="GrannyRootBone_hologram_building" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<point pointType="Impact" bone="bone_impact_01" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/empty_plot/maxanim_empty_idle_empty_plot</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Hologram_Queued">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/hologram_projector/mesh_hologram_projector</file>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotTeleportIN" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsAirpadIDLE" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/empty_plot/maxanim_empty_idle_empty_plot</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="Play_SFX_3D_BLD_BAN_Hologram" tobone="GrannyRootBone_empty_plot" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Hologram_Active">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/hologram_projector/mesh_hologram_projector</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/empty_plot/maxanim_empty_idle_empty_plot</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="Play_SFX_3D_BLD_BAN_Hologram" tobone="GrannyRootBone_empty_plot" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsAirpadIDLE" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsAirpadIDLE" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsAirpadOUT" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsAirpadIDLE" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsAirpadOUT" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Deploy" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Landinglights_Off">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/landinglights_building_off/mesh_landinglights_building_off</file>
+			</asset>
+		</component>
+	</model>
+	<model name="Landinglights_Red">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/landingslights_building/mesh_landingslights_building</file>
+			</asset>
+		</component>
+	</model>
+	<model name="Landinglights_Green">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/landinglights_building_green/mesh_landinglights_building_green</file>
+			</asset>
+		</component>
+	</model>
+	<model name="Flares_Off">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/mesh_hologram_building</file>
+			</asset>
+		</component>
+	</model>
+	<model name="Flares_On">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/mesh_hologram_building</file>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlareTeleportIN" tobone="bone_vfx_Flare04" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlareTeleportIN" tobone="bone_vfx_Flare03" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlareTeleportIN" tobone="bone_vfx_Flare02" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlareTeleportIN" tobone="bone_vfx_Flare01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlares" tobone="bone_vfx_Flare01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlares" tobone="bone_vfx_Flare02" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlares" tobone="bone_vfx_Flare03" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlares" tobone="bone_vfx_Flare04" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+	</model>
+	<logic type="BuildingCompletion">
+		<logicdata value="p-1" modelref="Plot_Queued" weight="1" />
+		<logicdata value="p0" modelref="Plot_Active" weight="1" />
+		<logicdata value="p100" modelref="Building_Deployed" weight="1" />
+	</logic>
+</visual>

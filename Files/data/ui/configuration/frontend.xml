@@ -106,8 +106,16 @@
 					<value>../textures/common/gamertag/img_leader_gamertag_Voridus</value>
 				</entry>
 				<entry>
+					<key>CorruptBrute</key>
+					<value>../textures/common/gamertag/img_leader_gamertag_Voridus</value>
+				</entry>
+				<entry>
 					<key>UnbreakableBrute</key>
 					<value>../textures/common/gamertag/img_leader_gamertag_Pavium</value>
+				</entry>
+				<entry>
+					<key>Flood_EventLeader</key>
+					<value>../textures/common/gamertag/img_leader_gamertag_flood</value>
 				</entry>
 			</group>
 			<group name="carousel">
@@ -225,6 +233,12 @@
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_locked_Pavium</value>
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Pavium</value>
 				</entry>
+				<entry>
+					<key>Flood_EventLeader</key>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_flood</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_flood</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_flood</value>
+				</entry>
 			</group>
 			<group name="startingArmy">
 				<entry>
@@ -290,6 +304,10 @@
 				<entry>
 					<key>UnbreakableBrute</key>
 					<value>../textures/frontend/RosterMode/DeckBuilder/startingArmyPortrait_Pavium</value>
+				</entry>
+				<entry>
+					<key>Flood_EventLeader</key>
+					<value>../textures/frontend/RosterMode/DeckBuilder/startingArmyPortrait_Voridus</value>
 				</entry>
 			</group>
 			<group name="deckSelection">
@@ -357,6 +375,10 @@
 					<key>UnbreakableBrute</key>
 					<value>../textures/frontend/RosterMode/DeckSelection/FE_Roster_DeckSelectionPortrait_Pavium</value>
 				</entry>
+				<entry>
+					<key>Flood_EventLeader</key>
+					<value>../textures/frontend/RosterMode/DeckSelection/FE_Roster_DeckSelectionPortrait_Voridus</value>
+				</entry>
 			</group>
 			<group name="cards">
 				<entry>
@@ -422,6 +444,10 @@
 				<entry>
 					<key>UnbreakableBrute</key>
 					<value>../textures/frontend/RosterMode/PackOpening/PackOpen_Leader_Pavium</value>
+				</entry>
+				<entry>
+					<key>Flood_EventLeader</key>
+					<value>../textures/frontend/RosterMode/PackOpening/PackOpen_Leader_Voridus</value>
 				</entry>
 			</group>
 			<group name="rosterModeHomeQuickMatchButton">
@@ -489,6 +515,10 @@
 					<key>UnbreakableBrute</key>
 					<value>../textures/frontend/MenuTiles/RM_QuickMatch/img_tile_Pavium</value>
 				</entry>
+				<entry>
+					<key>Flood_EventLeader</key>
+					<value>../textures/frontend/MenuTiles/RM_QuickMatch/img_tile_Voridus</value>
+				</entry>
 			</group>
 			<group name="leaderboards">
 				<entry>
@@ -554,6 +584,10 @@
 				<entry>
 					<key>UnbreakableBrute</key>
 					<value>../textures/frontend/Leaderboard/img_leaderboard_Pavium</value>
+				</entry>
+				<entry>
+					<key>Flood_EventLeader</key>
+					<value>../textures/frontend/Leaderboard/img_leaderboard_flood</value>
 				</entry>
 			</group>
 		</group>
@@ -787,6 +821,16 @@
 				<value>UIMP.FINDMATCH.NA</value>
 				<value>UIEP2.LEADERSELECT.ROLE02.UNBREAKABLE</value>
 				<value>UIEP2.LEADERSELECT.SHORTDESCR.UNBREAKABLE.BLITZ</value>
+			</entry>
+			<entry>
+				<key>Flood_EventLeader</key>
+				<value>UIENT.LEADERSELECT.TITLE.FLOODBOY</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.FLOODBOY</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIENT.LEADERSELECT.ROLE01.FLOODBOY</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIENT.LEADERSELECT.ROLE02.FLOODBOY</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.FLOODBOY.BLITZ</value>
 			</entry>
 		</group>
 	</group>

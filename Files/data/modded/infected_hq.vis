@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="Building_Deployed">
+	<model name="Building_Deployed">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/flood_banished_hq_01/mesh_flood_banished_hq_01</file>
+				<damagefile>episode2/pack1/units/flood/structure/flood_banished_hq_01/flood_banished_hq_01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="doors" tobone="socketbone_doors_01" frombone="GrannyRootBone_doors_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Tower" tobone="GrannyRootBone_deployed" frombone="GrannyRootBone_upgrade_tower" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Teleporter_Rings" tobone="socketbone_teleporter_rings_01" frombone="GrannyRootBone_teleporter_rings_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Landinglights_Green" tobone="GrannyRootBone_deployed" frombone="GrannyRootBone_landinglights_main_hq_green" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Landinglights_Off" tobone="GrannyRootBone_deployed" frombone="GrannyRootBone_landinglights_main_hq_off" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/Buildingbanish_vanishHQ_Light" tobone="bone_vfx_interiorLight001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/Buildingbanish_vanishHQ_Light02" tobone="bone_vfx_interiorLight005" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/Buildingbanish_warehouse_creationLight" tobone="bone_vfx_interiorLight006" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/BuildingSpotLightSmall04" tobone="bone_vfx_Front_Light001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/BuildingSpotLightSmall04" tobone="bone_vfx_Front_Light002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/BuildingSpotLightSmall03" tobone="bone_vfx_Front_Light003" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedBasePadDustDeployed" tobone="GrannyRootBone_deployed" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHQCircularStandardGroundImpact" tobone="GrannyRootBone_deployed" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHQSteam" tobone="bone_vfx_SteamSide01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHQSteam" tobone="bone_vfx_SteamSide02" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHQSteam" tobone="bone_vfx_SteamBack" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<point pointType="Impact" bone="bone_impact_centre" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.591000021" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.898000002" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.971000016" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Intro" exitAction="Transition" tweenTime="0" tweenToAnimation="Loop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.591000021" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.898000002" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.971000016" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_BLD_BAN_HQManufacturePanelsDown" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_BLD_BAN_HQManufactureStart" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedMiniHQCorePowering" tobone="socketbone_teleporter_rings_01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/BanishedHQ_tailLightRED" tobone="bone_vfx_Explosion16" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Loop" exitAction="Loop" tweenTime="0" tweenToAnimation="Loop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.591000021" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.898000002" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.971000016" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedMiniHQCorePowering" tobone="socketbone_teleporter_rings_01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/BanishedHQ_tailLightRED" tobone="bone_vfx_Explosion16" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Outro" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.591000021" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.898000002" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.971000016" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.200000003" end="1" name="Play_SFX_3D_BLD_BAN_HQManufactureStop" tobone="GrannyRootBone_deployed" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.200000003" end="1" name="Play_SFX_3D_BLD_BAN_HQManufacturePanelsUp" tobone="GrannyRootBone_deployed" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedMiniHQCorePowering" tobone="socketbone_teleporter_rings_01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/BanishedHQ_tailLightRED" tobone="bone_vfx_Explosion16" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/empty/3seconds</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Building_Deploying">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq01/deploying/mesh_deploying</file>
+				<damagefile>units/covenant/structure/main_hq01/deploying/main_hq01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Door_Deploying" tobone="socketbone_doors_01" frombone="GrannyRootBone_doors_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Hologram_Active" tobone="GrannyRootBone_deploying" frombone="GrannyRootBone_hologram_hq" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/main_hq01/deploying/incoming_idle01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="Play_SFX_3D_BLD_BAN_PlotAppears" tobone="bone_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="Play_SFX_3D_BLD_BAN_Hologram" tobone="GrannyRootBone_deploying" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="Play_SFX_3D_BLD_BAN_DestructionMute" tobone="GrannyRootBone_deploying" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/main_hq01/deploying/incoming01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.5" end="1" name="Play_SFX_3D_BLD_BAN_DestructionUnmute" tobone="GrannyRootBone_deploying" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/warehouse01/deploying/abort01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/main_hq01/deploying/landing01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/main_hq01/deploying/dropoff01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.699999988" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHQCircularStandardGroundImpact" tobone="bone_vfx_GroundImpact02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.709999979" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHQCircularStandardGroundImpact" tobone="bone_vfx_GroundImpact" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="CameraShake" start="0" position_type="Time" position="0.709999979" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="1" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.711000025" end="1" name="Play_SFX_3D_BLD_BAN_HQDrop" tobone="GrannyRootBone_deploying" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Deploy" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/main_hq01/deploying/deploy01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_BLD_BAN_HQDeploy" tobone="GrannyRootBone_deploying" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.291000009" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.293000013" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.296000004" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.298000008" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.30399999" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.308999985" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.312999994" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.321999997" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.361999989" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.365999997" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.368000001" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonJet" tobone="bone_vfx_harpoonJet05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.370000005" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_harpoon06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.633000016" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHQCoreDeploying" tobone="bone_vfx_HQCore" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHQDeployingPlasma" tobone="bone_vfx_GroundImpact" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+	</model>
+	<model name="Door_Deployed">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq01/deployed/mesh_doors_01</file>
+				<damagefile>units/covenant/structure/main_hq01/deployed/door</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/main_hq01/deployed/doors_closed_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ActiveIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/main_hq01/deployed/doors_open_idle01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="LightFile" name="Lights/BuildingsLights/BanishedHQDoorSpotLightShadow" tobone="bone_vfx_DoorLight02" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Open" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/main_hq01/deployed/doors_open01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_BLD_BAN_HQDoorOpen" tobone="GrannyRootBone_doors_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.526000023" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedDoorSmokeEjection" tobone="bone_vfx_DoorLight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.547999978" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHQDoorGroundImpact" tobone="bone_vfx_DoorGround" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="LightFile" name="Lights/BuildingsLights/BanishedHQDoorSpotLightShadow" tobone="bone_vfx_DoorLight02" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Close" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/main_hq01/deployed/doors_close01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_BLD_BAN_HQDoorClose" tobone="GrannyRootBone_doors_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Light" start="0" position_type="Time" position="0" end="1" name="Lights/BuildingsLights/BanishedHQDoorSpotLightShadow" tobone="bone_vfx_DoorLight02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Door_Deploying">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq01/deploying/mesh_doors_01</file>
+			</asset>
+		</component>
+	</model>
+	<model name="Tower">
+		<component>
+			<logic type="Tech">
+				<logicdata value="cov_base_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>units/covenant/structure/main_hq01/deployed/mesh_upgrade_tower</file>
+						<damagefile>units/covenant/structure/main_hq01/deployed/upgrade_tower</damagefile>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>units/covenant/structure/main_hq01/deployed/mesh_empty</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq01/deployed/mesh_upgrade_tower</file>
+				<damagefile />
+			</asset>
+			<attach type="LightFile" name="Lights/BuildingsLights/BuildingHQ_SpotLight" tobone="bone_vfx_spotlightsLight003" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/BuildingHQ_SpotLight" tobone="bone_vfx_spotlightsLight004" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/BuildingHQ_SpotLight" tobone="bone_vfx_spotlightsLight005" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/BuildingHQ_SpotLight" tobone="bone_vfx_spotlightsLight006" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+	</model>
+	<model name="Teleporter_Rings">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq01/deployed/mesh_teleporter_rings_01</file>
+				<damagefile>units/covenant/structure/main_hq01/deployed/teleport_rings</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="15" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/main_hq01/deployed/idle01_teleporter_rings_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHQCoreIdle" tobone="bone_vfx_HQCore" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="PowerIdle" exitAction="Transition" tweenTime="15" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/main_hq01/deployed/idle_long_teleporter_rings_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.779999971" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHQCoreTeleport" tobone="bone_vfx_HQCore" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHQCorePowerIDLE" tobone="bone_vfx_HQCore" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+	</model>
+	<model name="Lich">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/vehicles/lich01/mesh_lich01</file>
+			</asset>
+			<attach type="ModelRef" name="Lich_Fin_Left" tobone="socketbone_fin_left_01" frombone="GrannyRootBone_fin_left_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Lich_Fin_Right" tobone="socketbone_fin_right_01" frombone="GrannyRootBone_fin_right_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/LichTrail" tobone="bone_vfx_trailRight" syncanims="false" disregardorient="false" removeimmediately="true" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/LichTrail" tobone="bone_vfx_trailLeft" syncanims="false" disregardorient="false" removeimmediately="true" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/LichEngines" tobone="bone_vfx_eninge02" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/LichEngines" tobone="bone_vfx_eninge01" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/lich01/main_hq01/incoming_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/lich01/main_hq01/incoming01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_VEH_LichBuildingDeliveryHQIncoming" tobone="GrannyRootBone_lich01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/LichTransport" tobone="bone_vfx_engines" syncanims="false" disregardorient="false" removeimmediately="true" />
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/lich01/main_hq01/lich01_temp_idle</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_VEH_LichBuildingDeliveryHQAbort" tobone="GrannyRootBone_lich01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/LichTransport" tobone="bone_vfx_engines" syncanims="false" disregardorient="false" removeimmediately="true" />
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/lich01/main_hq01/landing01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/LichTransport" tobone="bone_vfx_engines" syncanims="false" disregardorient="false" removeimmediately="true" />
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/lich01/main_hq01/dropoff01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/LichTransport" tobone="bone_vfx_engines" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.800000012" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Takeoff" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/lich01/main_hq01/takeoff01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/lich01/main_hq01/outgoing01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/pelican01/airpad01/incoming_idle01</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0.99999995529651686</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.99999997764825821</Value>
+							<Alpha>0.019999999552965164</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.019999999552965164</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.99999995529651686</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_VEH_PelicanDestruct" tobone="bone_engine_left_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/BanishedAirExplosionLarge" tobone="b_root" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+	</model>
+	<model name="Lich_Fin_Left">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/vehicles/lich01/mesh_fin_left_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/incoming_idle01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/incoming01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/abort01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/landing01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/dropoff01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Takeoff" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/takeoff01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/outgoing01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Lich_Fin_Right">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/vehicles/lich01/mesh_fin_right_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/incoming_idle01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/incoming01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/abort01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/landing01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/dropoff01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Takeoff" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/takeoff01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/warehouse01/outgoing01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Plot_Active">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/empty_plot/mesh_empty_plot</file>
+				<damagefile>units/covenant/structure/main_hq_dressing01/empty_plot/empty_plot</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Building_Deploying" tobone="GrannyRootBone_empty_plot" frombone="GrannyRootBone_deploying" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Lich" tobone="GrannyRootBone_empty_plot" frombone="GrannyRootBone_lich01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Landinglights_Red" tobone="GrannyRootBone_empty_plot" frombone="GrannyRootBone_landinglights_main_hq" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<point pointType="Impact" bone="bone_impact_01" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/empty_plot/maxanim_empty_idle_empty_plot</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Hologram_Active">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/hologram_hq/mesh_hologram_hq</file>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlares" tobone="bone_vfx_Flare01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlares" tobone="bone_vfx_Flare02" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlares" tobone="bone_vfx_Flare03" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlares" tobone="bone_vfx_Flare04" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlares" tobone="bone_vfx_Flare005" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlares" tobone="bone_vfx_Flare006" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotTeleportIN" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0.00100000005" end="1" name="Play_SFX_3D_BLD_BAN_PlotAppears" tobone="GrannyRootBone_hologram_building" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsHQIDLE" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsHQIDLE" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsHQOUT" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsHQIDLE" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsHQOUT" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Deploy" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Landinglights_Off">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/landinglights_main_hq_off/mesh_landinglights_main_hq_off</file>
+			</asset>
+		</component>
+	</model>
+	<model name="Landinglights_Red">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/landinglights_main_hq/mesh_landinglights_main_hq</file>
+			</asset>
+		</component>
+	</model>
+	<model name="Landinglights_Green">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/landinglights_main_hq_green/mesh_landinglights_main_hq_green</file>
+			</asset>
+		</component>
+	</model>
+	<model name="doors">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/flood_banished_hq_01/mesh_doors_01</file>
+				<damagefile>episode2/pack1/units/flood/structure/flood_banished_hq_01/mesh_doors_01</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_door_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Loop" exitAction="Transition" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_door_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Loop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_door_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outro" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_door_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_door_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<logic type="BuildingCompletion">
+		<logicdata value="p0" modelref="Plot_Active" weight="1" />
+		<logicdata value="p100" modelref="Building_Deployed" weight="1" />
+	</logic>
+</visual>

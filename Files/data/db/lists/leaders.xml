@@ -557,6 +557,32 @@
 		<Pop Type="HonorGuard" Max="3">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 	</Leader>
+	<Leader Name="Flood_EventLeader" Icon="ui\game\icon\covenant\leader\Arbiter" Alpha="0">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderFlood</Tech>
+		<NameID>7010</NameID>
+		<DescriptionID>7011</DescriptionID>
+		<FlashImg>arbiter</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\arbiter.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_arbiter.ddx</UIControlBackground>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">400</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_generic_grunt</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_grunt</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,20">cov_inf_generic_grunt</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="500">80</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="HonorGuard" Max="3">1</Pop>
+		<Pop Type="Reactor" Max="20">0</Pop>
+	</Leader>
 	<Leader Name="ep2_sp_leader_m1y2y3" Icon="ui\game\icon\covenant\leader\Brute General" SinglePlayerOnly="true">
 		<Civ>Covenant</Civ>
 		<Tech>ep2_sp_leader_m1y2y3</Tech>
