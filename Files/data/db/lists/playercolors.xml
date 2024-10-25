@@ -21,26 +21,26 @@
 		<color name="ban_green" objects="210 105 30" corpse="210 105 30" selection="210 105 30" minimap="210 105 30" ui="210 105 30" captureeffects="210 105 30" obscuringunit="210 105 30" effects="210 105 30" lights="210 105 30" enum="blue" />
 		<color name="flood" objects="255 0 255" corpse="255 0 255" selection="255 0 255" minimap="255 0 255" ui="255 0 255" captureeffects="255 0 255" obscuringunit="255 0 255" effects="255 0 255" lights="255 0 255" enum="flood" />
 		<civ>
-			<player num="1" colorName="unsc_red" />
+			<player num="1" colorName="unsc_yellow" />
 			<player num="2" colorName="unsc_3v3red" />
-			<player num="3" colorName="unsc_yellow" />
-			<player num="4" colorName="unsc_orange" />
-			<player num="5" colorName="unsc_blue" />
+			<player num="3" colorName="unsc_orange" />
+			<player num="4" colorName="unsc_red" />
+			<player num="5" colorName="unsc_cyan" />
 			<player num="6" colorName="unsc_3v3navy" />
-			<player num="7" colorName="unsc_cyan" />
-			<player num="8" colorName="unsc_green" />
+			<player num="7" colorName="unsc_green" />
+			<player num="8" colorName="unsc_blue" />
 			<player num="0" colorName="gaia" />
 			<player num="9" colorName="creeps" />
 			<player num="10" colorName="flood" />UNSC</civ>
 		<civ>
-			<player num="1" colorName="ban_red" />
+			<player num="1" colorName="ban_yellow" />
 			<player num="2" colorName="ban_3v3red" />
-			<player num="3" colorName="ban_yellow" />
-			<player num="4" colorName="ban_orange" />
-			<player num="5" colorName="ban_blue" />
+			<player num="3" colorName="ban_orange" />
+			<player num="4" colorName="ban_red" />
+			<player num="5" colorName="ban_cyan" />
 			<player num="6" colorName="ban_3v3navy" />
-			<player num="7" colorName="ban_cyan" />
-			<player num="8" colorName="ban_green" />
+			<player num="7" colorName="ban_green" />
+			<player num="8" colorName="ban_blue" />
 			<player num="0" colorName="gaia" />
 			<player num="9" colorName="creeps" />
 			<player num="10" colorName="flood" />Covenant</civ>
