@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ShadePlasma</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<Projectile>fx_proj_shadeplasma_01</Projectile>
+		<ImpactEffect size="Medium">SmallPlasmaExplosion</ImpactEffect>
+		<MaxVelocityLead>35</MaxVelocityLead>
+		<MaxRange>55</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="Aircraft">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.200000003</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.300000012</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>OrbitalLandingWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<MaxRange>1.84500003</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Name>ShadePlasmaAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>ShadePlasma</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>OrbitalLanding</Name>
+		<ActionType>JumpLandOnly</ActionType>
+		<Weapon>OrbitalLandingWeapon</Weapon>
+		<MaxJumpAnimDuration>15.0f</MaxJumpAnimDuration>
+		<MaxDistance>70</MaxDistance>
+		<VelocityScalar>30</VelocityScalar>
+		<Anim noInterrupt="true">OrbitalDropLoop</Anim>
+		<EndAnim noInterrupt="true" motionExtraction="false">OrbitalLanding</EndAnim>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ShadePlasmaAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>OrbitalLanding</Ability>
+			<Action>OrbitalLanding</Action>
+			<TargetsGround />
+		</TargetRule>
+	</Tactic>
+</TacticData>

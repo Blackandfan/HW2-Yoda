@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Cleansing</Name>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>GlassingBeamT3</WeaponType>
+		<Projectile>pow_proj_cleansing_03</Projectile>
+		<ImpactCameraShake duration="0.200000003" strength="0.150000006" />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>107</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>14</Radius>
+				<DamageRatio>75</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>CleansingAttackAction</Name>
+		<Weapon>Cleansing</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

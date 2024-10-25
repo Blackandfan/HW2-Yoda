@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>UnstableConcoctionMissile</Name>
+		<DamagePerSecond>500</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>TankExplosive</WeaponType>
+		<Projectile>pow_proj_unstableconcoction_01</Projectile>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.600000024" yawpitchstrength="2.9000001" rollstrength="1.29999995" rotationfrequency="12" translationstrength="0" translationfrequency="6" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="0.200000003" rightRumbleType="Fixed" rightStrength="0.200000003" duration="0.200000003" />
+		<ImpactEffect size="Medium" doShockwaveAction="true">UnstableConcoctionL3</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>UnstableConcoctionAttackAction</Name>
+		<Weapon>UnstableConcoctionMissile</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

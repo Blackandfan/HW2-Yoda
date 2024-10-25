@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>CryoSpray</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>31</DamagePerSecond>
+		<Projectile>fx_proj_cryobeam_01</Projectile>
+		<WeaponType>AntiBuildingFire</WeaponType>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>20</MaxRange>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3</Width>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.25</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<Chill Amount="1.57500005" TargetType="Infantry" SingleTarget="true" />
+		<Chill Amount="0.5" TargetType="GroundVehicle" />
+		<Chill Amount="1" TargetType="CryoBuilding" />
+		<Chill Amount="1" TargetType="TurretBuilding" />
+	</Weapon>
+	<Weapon>
+		<Name>InCoverCryoSpray</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>31</DamagePerSecond>
+		<Projectile>fx_proj_cryobeam_01</Projectile>
+		<WeaponType>AntiBuildingFire</WeaponType>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>25</MaxRange>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3</Width>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<Chill Amount="1.57500005" TargetType="Infantry" SingleTarget="true" />
+		<Chill Amount="0.5" TargetType="GroundVehicle" />
+		<Chill Amount="1" TargetType="CryoBuilding" />
+		<Chill Amount="1" TargetType="TurretBuilding" />
+	</Weapon>
+	<Weapon>
+		<Name>CryoSprayUpgrade</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>44</DamagePerSecond>
+		<Projectile>fx_proj_cryobeamupgrade</Projectile>
+		<WeaponType>AntiBuildingFire</WeaponType>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>4</Width>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<Chill Amount="2.0999999" TargetType="Infantry" SingleTarget="true" />
+		<Chill Amount="1" TargetType="GroundVehicle" />
+		<Chill Amount="1.5" TargetType="CryoBuilding" />
+		<Chill Amount="1.5" TargetType="TurretBuilding" />
+	</Weapon>
+	<Weapon>
+		<Name>InCoverCryoSprayUpgrade</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>44</DamagePerSecond>
+		<Projectile>fx_proj_cryobeamupgrade</Projectile>
+		<WeaponType>AntiBuildingFire</WeaponType>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>4</Width>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<Chill Amount="2.0999999" TargetType="Infantry" SingleTarget="true" />
+		<Chill Amount="1" TargetType="GroundVehicle" />
+		<Chill Amount="1.5" TargetType="CryoBuilding" />
+		<Chill Amount="1.5" TargetType="TurretBuilding" />
+	</Weapon>
+	<Action>
+		<Name>CryoSprayAttackAction1</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>CryoSprayAttack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<Weapon>CryoSpray</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="120" trackingSpeed="40" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>InCoverCryoSprayAttackAction1</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>CryoSprayAttack</Anim>
+		<Weapon>InCoverCryoSpray</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="120" trackingSpeed="40" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>InCoverCryoUpgradeAttackAction1</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>CryoUpgradeAttack</Anim>
+		<Weapon>InCoverCryoSprayUpgrade</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="120" trackingSpeed="40" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<StartDisabled />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>CryoUpgradeAttackAction1</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>CryoUpgradeAttack</Anim>
+		<MoveAnim>UpgradeAttackJog</MoveAnim>
+		<Weapon>CryoSprayUpgrade</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="120" trackingSpeed="40" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<StartDisabled />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>8.61000061</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>0.600000024</CaptureRate>
+		<DecaptureRate>0.899999976</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>InCoverCryoSprayAttackAction1</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>InCoverCryoUpgradeAttackAction1</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>CryoUpgradeAttackAction1</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>CryoSprayAttackAction1</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

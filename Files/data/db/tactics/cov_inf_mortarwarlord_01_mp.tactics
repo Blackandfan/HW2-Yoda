@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Melee</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>420</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<MaxRange>4</MaxRange>
+		<Hardpoint>Torso</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.79999995</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>Mortar</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>375</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>vfx_episode2_units_warlordmortar</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">warlordMortarImpact</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1" yawpitchstrength="1.5" rollstrength="0.600000024" rotationfrequency="3" translationstrength="0" translationfrequency="6" />
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>80</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7.5</Radius>
+				<DamageRatio>40</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>MortarAA</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>375</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>vfx_episode2_units_warlordmortar</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">warlordMortarImpactAir</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1" yawpitchstrength="1.5" rollstrength="0.600000024" rotationfrequency="3" translationstrength="0" translationfrequency="6" />
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>80</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7.5</Radius>
+				<DamageRatio>40</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>DesignatorMortar</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>375</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>vfx_episode2_units_warlordmortar2</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">warlordMortarImpact2</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1" yawpitchstrength="2" rollstrength="1" rotationfrequency="5" translationstrength="0" translationfrequency="6" />
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>80</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>9.5</Radius>
+				<DamageRatio>40</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Buff TargetType="Military" BuffType="PaintTarget" DamageMitigationScalar="1.20000005" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">2f</Buff>
+	</Weapon>
+	<Weapon>
+		<Name>DesignatorMortarAA</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>375</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>vfx_episode2_units_warlordmortar2</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">warlordMortarImpactAir2</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1" yawpitchstrength="2" rollstrength="1" rotationfrequency="5" translationstrength="0" translationfrequency="6" />
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>80</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>9.5</Radius>
+				<DamageRatio>40</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Buff TargetType="Military" BuffType="PaintTarget" DamageMitigationScalar="1.20000005" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">2f</Buff>
+	</Weapon>
+	<Weapon>
+		<Name>PaintTarget</Name>
+		<DamagePerSecond>350</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>vfx_episode2_units_warLordBeam</Projectile>
+		<ImpactEffect size="Medium">CyclopsUpgradeImpact</ImpactEffect>
+		<MaxRange>120</MaxRange>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>40</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Buff TargetType="Military" BuffType="PaintTarget" slowModifier="0.600000024" DamageMitigationScalar="1.20000005" OverwritesSelf="true">1.0f</Buff>
+		<Buff TargetType="Military" BuffType="Revealer" ProtoObject="episode2_pack1_units_covenant_revealer">1.0f</Buff>
+	</Weapon>
+	<Weapon>
+		<Name>UpgradedPaintTarget</Name>
+		<DamagePerSecond>400</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>vfx_episode2_units_warLordBeam_Upgrade1</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxRange>120</MaxRange>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>19</Radius>
+				<DamageRatio>30</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<Buff TargetType="Military" BuffType="PaintTarget" slowModifier="0.400000006" DamageMitigationScalar="1.20000005" OverwritesSelf="true">1.0f</Buff>
+		<Buff TargetType="Military" BuffType="Revealer" ProtoObject="episode2_pack1_units_covenant_revealer">1.0f</Buff>
+	</Weapon>
+	<Action>
+		<Name>MeleeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>Melee</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>MortarAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackMove</MoveAnim>
+		<Weapon>Mortar</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>MortarAAAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackMove</MoveAnim>
+		<Weapon>MortarAA</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>DesignatorMortarAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GatlingAttack</Anim>
+		<MoveAnim>AttackMove</MoveAnim>
+		<Weapon>DesignatorMortar</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>DesignatorMortarAAAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GatlingAttack</Anim>
+		<MoveAnim>AttackMove</MoveAnim>
+		<Weapon>DesignatorMortarAA</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>PaintTargetAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>AttackLaser</Anim>
+		<Weapon>PaintTarget</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="50" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Duration DurationSpread="0">10</Duration>
+		<DisableAttackWaitTimer />
+		<LoopAttackAnim />
+		<DontAutoRestart />
+	</Action>
+	<Action>
+		<Name>UpgradedPaintTargetAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>UpgradedAttackLaser</Anim>
+		<Weapon>UpgradedPaintTarget</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="50" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Duration DurationSpread="0">10</Duration>
+		<DisableAttackWaitTimer />
+		<LoopAttackAnim />
+		<DontAutoRestart />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>0.25</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Gather</Anim>
+		<CaptureRate>0.600000024</CaptureRate>
+		<DecaptureRate>0.899999976</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>FiendishReturn</Name>
+		<ActionType>ReflectDamage</ActionType>
+		<WorkRate>0.0900000036</WorkRate>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RageBuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<Duration>1</Duration>
+		<WorkRange>0</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="AdvancedOptics" MaximumVelocity="1">0.1f</BuffParams>
+			<TargetTypes>
+				<Type>NonFlying</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Self</Relation>
+			</Relations>
+			<PauseWhenGarrisonedAndInvulnerable />
+		</SpecificData>
+		<ProtoObject>vfx_episode2_mortarwarlordshield</ProtoObject>
+		<AffectsOnlySelf />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>SpawnDrone</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>cov_air_healdrone_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>InfantryEnergyShield</ActionType>
+		<Duration>1</Duration>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>PaintTargetAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>UpgradedPaintTargetAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MortarAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>MortarAAAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>DesignatorMortarAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>DesignatorMortarAAAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MeleeAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentSquadAction>FiendishReturn</PersistentSquadAction>
+		<PersistentAction>RageBuff</PersistentAction>
+		<PersistentAction>SpawnDrone</PersistentAction>
+	</Tactic>
+</TacticData>

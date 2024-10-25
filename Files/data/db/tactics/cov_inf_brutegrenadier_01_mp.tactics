@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Bomb</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>420</DamagePerSecond>
+		<UseDPSasDPA />
+		<Corruption />
+		<WeaponType>CorruptedGrenadier</WeaponType>
+		<Projectile>fx_proj_corruptionmediumexp_01_mp</Projectile>
+		<ImpactEffect doShockwaveAction="true">CorruptionMedium</ImpactEffect>
+		<Shockwave duration="30" />
+		<MaxRange>5</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<AOERadius>20</AOERadius>
+		<Corruption overlap="1.3f" />
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>RM_Bomb</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>420</DamagePerSecond>
+		<UseDPSasDPA />
+		<Corruption />
+		<WeaponType>CorruptedGrenadier</WeaponType>
+		<Projectile>fx_proj_corruptionmediumexp_01_rm</Projectile>
+		<ImpactEffect doShockwaveAction="true">CorruptionMedium</ImpactEffect>
+		<Shockwave duration="30" />
+		<MaxRange>5</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<AOERadius>20</AOERadius>
+		<Corruption overlap="1.3f" />
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>AOEBrutegun</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>32</DamagePerSecond>
+		<WeaponType>CorruptedGrenadier</WeaponType>
+		<Projectile>fx_proj_brutegrenadier_01</Projectile>
+		<ImpactEffect size="small">BruteGrenadierImpact</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>45</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="Aircraft">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">1</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.899999976</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>AOEBrutegun2</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>40</DamagePerSecond>
+		<WeaponType>CorruptedGrenadier</WeaponType>
+		<Projectile>fx_proj_brutegrenadier_02</Projectile>
+		<ImpactEffect size="small">BruteGrenadierImpact2</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="Aircraft">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.899999976</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>AOEBrutegun3</Name>
+		<AttackRate>4</AttackRate>
+		<Corruption />
+		<DamagePerSecond>48</DamagePerSecond>
+		<WeaponType>CorruptedGrenadier</WeaponType>
+		<Projectile>fx_proj_bruteshot_corrupted_mp</Projectile>
+		<ImpactEffect doShockwaveAction="true">CorruptionSmallExp</ImpactEffect>
+		<Shockwave duration="10" />
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>55</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>55</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<AOERadius>5</AOERadius>
+		<Corruption overlap="0.3f" />
+		<Hardpoint>Torso</Hardpoint>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="Aircraft">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.899999976</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+	</Weapon>
+	<Action>
+		<Name>SprintSuicideBomb</Name>
+		<ActionType>Detonate</ActionType>
+		<AutoDetonate AutoDetonateIdleTime="0.100000001" AutoDetonateAggroRange="35" />
+		<Weapon>Bomb</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<WorkRange>8</WorkRange>
+		<DodgeChanceMax>175</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
+	</Action>
+	<Action>
+		<Name>RM_SprintSuicideBomb</Name>
+		<ActionType>Detonate</ActionType>
+		<AutoDetonate AutoDetonateIdleTime="0.100000001" AutoDetonateAggroRange="35" />
+		<Weapon>RM_Bomb</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<WorkRange>8</WorkRange>
+		<DodgeChanceMax>175</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
+	</Action>
+	<Action>
+		<Name>SpecialBuff</Name>
+		<ActionType>SuperchargedSiphon</ActionType>
+		<Anim noInterrupt="true">Special</Anim>
+		<SpecificData>
+			<AnimOnFail>SpecialFail</AnimOnFail>
+			<Radius>25</Radius>
+			<Tier1Buff>
+				<TotalCorruptionSizeToConsume>1</TotalCorruptionSizeToConsume>
+				<BuffParams BuffType="CorruptionConsume" SlowModifier="1.20000005" DamageMitigationScalar="0.649999976" DamageDealtModifier="2.1500001" BuffActivateFX="vfx_episode2_Units_GrenadierSiphonBuff1">12</BuffParams>
+			</Tier1Buff>
+			<Tier2Buff>
+				<TotalCorruptionSizeToConsume>10</TotalCorruptionSizeToConsume>
+				<BuffParams BuffType="CorruptionConsume" SlowModifier="1.20000005" DamageMitigationScalar="0.649999976" DamageDealtModifier="2.29999995" BuffActivateFX="vfx_episode2_Units_GrenadierSiphonBuff2" OverwritesSelf="true">25</BuffParams>
+			</Tier2Buff>
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>AOEBrutegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackMove</MoveAnim>
+		<Weapon>AOEBrutegun</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>AOEBrutegun2AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack2</Anim>
+		<MoveAnim>AttackMove2</MoveAnim>
+		<Weapon>AOEBrutegun2</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AOEBrutegun3AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack3</Anim>
+		<MoveAnim>AttackMove3</MoveAnim>
+		<Weapon>AOEBrutegun3</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>0.600000024</CaptureRate>
+		<DecaptureRate>0.899999976</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Any</Relation>
+			<Action>SpecialBuff</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>SpecialBuff</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>AOEBrutegun3AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>AOEBrutegun2AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>AOEBrutegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

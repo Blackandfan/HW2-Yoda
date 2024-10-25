@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>FoxyWeapon</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>130</DamagePerSecond>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2.5999999</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2.79999995</PostAttackCooldownMax>
+		<WeaponType>Artillery</WeaponType>
+		<Projectile>fx_proj_foxcannon_01</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">LargeExplosionImpact</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>200</MaxRange>
+		<MinRange>40</MinRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>5</MaxDeviation>
+		<AccuracyDistanceFactor>1</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>1</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>18</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>15</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>TurretLockdown</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>100</PhysicsForceMin>
+		<PhysicsForceMax>200</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>FoxyWeaponChill</Name>
+		<Chill Amount="1" TargetType="Infantry" SingleTarget="true" />
+		<Chill Amount="1" TargetType="GroundVehicle" />
+		<Chill Amount="1" TargetType="CryoBuilding" />
+		<Chill Amount="1" TargetType="TurretBuilding" />
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>130</DamagePerSecond>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2.5999999</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2.79999995</PostAttackCooldownMax>
+		<WeaponType>Artillery</WeaponType>
+		<Projectile>fx_proj_foxcannon_01</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">CryoBlast1</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>200</MaxRange>
+		<MinRange>40</MinRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>5</MaxDeviation>
+		<AccuracyDistanceFactor>1</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>1</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<RequirePreciseAiming />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>18</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>15</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>TurretLockdown</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>100</PhysicsForceMin>
+		<PhysicsForceMax>200</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Mine>unsc_bldg_siegeicecloud_01</Mine>
+	</Weapon>
+	<Weapon>
+		<Name>Machinegun</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>80</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_machinegun_01</Projectile>
+		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>27.6749992</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>MG</Hardpoint>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Aircraft">3</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.70000005</PostAttackCooldownMax>
+	</Weapon>
+	<Action>
+		<Name>FoxyFireAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>FoxyWeapon</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>LureBeaconAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>FoxyWeapon</Weapon>
+		<ProjectileInvokePower>UnscLureBeaconProc</ProjectileInvokePower>
+		<FullBodyAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>FoxyFireChillAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>FoxyWeaponChill</Weapon>
+		<FullBodyAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MachinegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim SoundLoopStartEvent="PLAY_SFX_3D_WPN_UNSC_FoxcannonMachineGun" SoundLoopEndEvent="STOP_SFX_3D_WPN_UNSC_FoxcannonMachineGun">MGAttack</Anim>
+		<Weapon>Machinegun</Weapon>
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>8.61000061</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>LockdownMove</Name>
+		<ActionType>Move</ActionType>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Unlock</Name>
+		<ActionType>ChangeMode</ActionType>
+		<SquadMode>Normal</SquadMode>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Deflect</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.5</DeflectChanceMin>
+		<DeflectChanceMax>0.5</DeflectChanceMax>
+		<DeflectMaxAngle>180</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<MultiDeflect />
+		<SquadMode>LockDown</SquadMode>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>Deflect</PersistentAction>
+		<PersistentAction>MachinegunAttackAction</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FoxyFireAction</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>LureBeaconAttackAction</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FoxyFireChillAction</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FoxyFireAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>LureBeaconAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FoxyFireChillAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MachinegunAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>Unlock</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<Action>Unlock</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>LockdownMove</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<Action>LockdownMove</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

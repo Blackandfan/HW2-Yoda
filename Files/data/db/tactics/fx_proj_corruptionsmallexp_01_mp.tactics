@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>CorruptionDamageOverTime</Name>
+		<DamagePerSecond>110</DamagePerSecond>
+		<WeaponType>Corruption</WeaponType>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="13.6000004" />
+		<AOERadius>6</AOERadius>
+		<Corruption overlap="0.9f" />
+		<Buff targetType="Infantry" buffType="CorruptionDebuff" slowModifier="0.800000012">0.5</Buff>
+		<Buff targetType="GroundVehicle" buffType="CorruptionDebuff" slowModifier="0.649999976">0.5</Buff>
+		<ImpactEffect size="Medium" doShockwaveAction="true">CorruptionSmallExp</ImpactEffect>
+	</Weapon>
+	<Action>
+		<Name>CorruptionDamageOverTimeAction</Name>
+		<Weapon>CorruptionDamageOverTime</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Abilities>
+	<Ability Name="Command" />
+	<Ability Name="Ungarrison" />
+	<Ability Name="Unhitch" />
+	<Ability Name="OrbitalLanding" />
+	<Ability Name="UnscBruteShockwave">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>40</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="UnscJeromeSpawnMantis">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Location</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<DontInterruptAttack>false</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="UnscSniperFlare">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>70</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="UnscRam">
+		<DisplayNameID>23621</DisplayNameID>
+		<RolloverTextID>23622</RolloverTextID>
+		<Type>Work</Type>
+		<SquadMode>HitAndRun</SquadMode>
+		<KeepSquadMode>false</KeepSquadMode>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<Priority Vehicle="5" Air="0" Terrain="0" Infantry="10" Building="0" />
+		<Application Vehicle="mono" Air="disabled" Terrain="disabled" Infantry="mono" Building="disabled" />
+	</Ability>
+	<Ability Name="UnscLockdown">
+		<DisplayNameID>6002</DisplayNameID>
+		<DisplayName2ID>6029</DisplayName2ID>
+		<RolloverTextID>6003</RolloverTextID>
+		<Type>ChangeMode</Type>
+		<SquadMode>Lockdown</SquadMode>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<Priority Vehicle="1" Air="1" Terrain="1" Infantry="0" Building="0" />
+		<Application Vehicle="deploy" Air="deploy" Terrain="deploy" Infantry="disabled" Building="disabled" />
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<UseFormation />
+	</Ability>
+	<Ability Name="UnscApcUnload">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Location</TargetType>
+		<Priority Vehicle="3" Air="3" Terrain="10" Infantry="3" Building="2" />
+		<Application Vehicle="1" Air="1" Terrain="normal" Infantry="1" Building="1" />
+		<UseFormation />
+		<NoAbilityReticle>true</NoAbilityReticle>
+	</Ability>
+	<Ability Name="UnscCobraLockdown">
+		<DisplayNameID>6002</DisplayNameID>
+		<DisplayName2ID>6029</DisplayName2ID>
+		<RolloverTextID>6003</RolloverTextID>
+		<Type>ChangeMode</Type>
+		<SquadMode>Lockdown</SquadMode>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<Priority Vehicle="1" Air="1" Terrain="1" Infantry="0" Building="0" />
+		<Application Vehicle="deploy" Air="deploy" Terrain="deploy" Infantry="disabled" Building="disabled" />
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<UseFormation />
+	</Ability>
+	<Ability Name="UnscUnload">
+		<DisplayNameID>6010</DisplayNameID>
+		<RolloverTextID>6011</RolloverTextID>
+		<Type>Unload</Type>
+		<TargetType>Location</TargetType>
+	</Ability>
+	<Ability Name="UnscWolverineBarrage">
+		<DisplayNameID>24552</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="UnscMarineRockets">
+		<DisplayNameID>6014</DisplayNameID>
+		<RolloverTextID>6015</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="7" Infantry="8" Building="8" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+	</Ability>
+	<Ability Name="UnscMarineRocketsMP">
+		<DisplayNameID>6014</DisplayNameID>
+		<RolloverTextID>6015</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="0" Terrain="0" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="disabled" Terrain="disabled" Infantry="mono" Building="mono" />
+		<StopMovementOnceInRange />
+	</Ability>
+	<Ability Name="UnscMarineGrenades">
+		<DisplayNameID>6014</DisplayNameID>
+		<RolloverTextID>6015</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="0" Terrain="7" Infantry="8" Building="8" />
+		<Application Vehicle="normal" Air="disabled" Terrain="normal" Infantry="normal" Building="normal" />
+	</Ability>
+	<Ability Name="UnscCyclopsThrow">
+		<DisplayNameID>23995</DisplayNameID>
+		<RolloverTextID>23996</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<MovementSpeedModifier>0.5</MovementSpeedModifier>
+		<MovementModifierType>Mode</MovementModifierType>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+	</Ability>
+	<Ability Name="UnscBarrage">
+		<DisplayNameID>6012</DisplayNameID>
+		<RolloverTextID>6013</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<RecoverAnimAttachment>BayDoors</RecoverAnimAttachment>
+		<RecoverStartAnim>CloseBay</RecoverStartAnim>
+		<RecoverEndAnim>OpenBay</RecoverEndAnim>
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="UnscVultureNuke">
+		<DisplayNameID>6002</DisplayNameID>
+		<DisplayName2ID>6029</DisplayName2ID>
+		<RolloverTextID>6003</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<Priority Vehicle="2" Air="2" Terrain="0" Infantry="2" Building="2" />
+		<Application Vehicle="mono" Air="mono" Terrain="disabled" Infantry="mono" Building="mono" />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<StopMovementOnceInRange />
+	</Ability>
+	<Ability Name="UnscSpartanTakeOver">
+		<DisplayNameID>24236</DisplayNameID>
+		<RolloverTextID>24237</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<Priority Vehicle="10" Air="10" Terrain="3" Infantry="5" Building="1" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="UnscScorpionSpecial">
+		<DisplayNameID>24553</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="mono" Terrain="disabled" Infantry="mono" Building="mono" />
+		<StopMovementOnceInRange />
+	</Ability>
+	<Ability Name="AggressorSentinelStun">
+		<DisplayNameID>24553</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+	</Ability>
+	<Ability Name="UnscGrizzlySpecial">
+		<DisplayNameID>24553</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>60</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="normal" Air="disabled" Terrain="normal" Infantry="normal" Building="normal" />
+	</Ability>
+	<Ability Name="UnscGrizzlySpecialMP">
+		<DisplayNameID>24553</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>60</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="0" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+		<StopMovementOnceInRange />
+	</Ability>
+	<Ability Name="UnscHornetSpecial">
+		<DisplayNameID>24555</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>10</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="UnscGremlinSpecial">
+		<DisplayNameID>24551</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<SmartTargetRange>30.0f</SmartTargetRange>
+	</Ability>
+	<Ability Name="UnscFlashBang">
+		<DisplayNameID>24548</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<SmartTargetRange>15.0f</SmartTargetRange>
+	</Ability>
+	<Ability Name="UnscSmokeBarrage">
+		<DisplayNameID>26234</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="1" Air="1" Terrain="6" Infantry="1" Building="1" />
+		<Application Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
+	</Ability>
+	<Ability Name="UnscSmokeBarrageMP">
+		<DisplayNameID>26234</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="1" Air="1" Terrain="6" Infantry="1" Building="1" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+		<StopMovementOnceInRange />
+	</Ability>
+	<Ability Name="UNSCRelocate">
+		<DisplayNameID>26240</DisplayNameID>
+		<RolloverTextID>26241</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>Location</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>120</RecoverTime>
+		<Duration>50</Duration>
+		<Priority Vehicle="1" Air="1" Terrain="4" Infantry="1" Building="1" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+	</Ability>
+	<Ability Name="UNSCScoutBeacon">
+		<DisplayNameID>27327</DisplayNameID>
+		<RolloverTextID>27328</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>40</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<AmmoCost>1</AmmoCost>
+		<Priority Vehicle="0" Air="0" Terrain="5" Infantry="0" Building="0" />
+		<Application Vehicle="disabled" Air="disabled" Terrain="1" Infantry="disabled" Building="disabled" />
+	</Ability>
+	<Ability Name="UNSCODSTMine">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Location</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<AmmoCost>1</AmmoCost>
+		<Priority Vehicle="8" Air="0" Terrain="9" Infantry="8" Building="3" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="UNSCHeroODSTEMP">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Location</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<AmmoCost>1</AmmoCost>
+		<Priority Vehicle="8" Air="8" Terrain="0" Infantry="8" Building="3" />
+		<Application Vehicle="mono" Air="mono" Terrain="disabled" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="UNSCArc">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<AmmoCost>0</AmmoCost>
+		<Priority Vehicle="8" Air="8" Terrain="4" Infantry="8" Building="3" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="UnscFlameWall">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>false</DontInterruptAttack>
+		<AmmoCost>0</AmmoCost>
+		<Priority Vehicle="8" Terrain="9" Infantry="8" Building="3" />
+		<Application Vehicle="mono" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="UNSCHealBeacon">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Location</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<AmmoCost>0</AmmoCost>
+		<Priority Vehicle="8" Air="8" Terrain="9" Infantry="8" Building="3" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+		<UseFormation />
+	</Ability>
+	<Ability Name="UnscColossusStomp">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>40</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="0" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+		<UseFormation />
+	</Ability>
+	<Ability Name="UnscCryoLockdown">
+		<DisplayNameID>6002</DisplayNameID>
+		<DisplayName2ID>6029</DisplayName2ID>
+		<RolloverTextID>6003</RolloverTextID>
+		<Type>ChangeMode</Type>
+		<SquadMode>Lockdown</SquadMode>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<Priority Vehicle="1" Air="1" Terrain="1" Infantry="0" Building="0" />
+		<Application Vehicle="deploy" Air="deploy" Terrain="deploy" Infantry="disabled" Building="disabled" />
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<UseFormation />
+	</Ability>
+	<Ability Name="UnscSeismicDrop">
+		<DisplayNameID>26234</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="6" Infantry="8" Building="8" />
+		<Application Vehicle="1" Air="1" Terrain="disabled" Infantry="1" Building="1" />
+	</Ability>
+	<Ability Name="CovGhostRam">
+		<DisplayNameID>24556</DisplayNameID>
+		<Type>Work</Type>
+		<SquadMode>HitAndRun</SquadMode>
+		<KeepSquadMode>false</KeepSquadMode>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>24</RecoverTime>
+		<Priority Vehicle="5" Air="0" Terrain="0" Infantry="10" Building="0" />
+		<Application Vehicle="mono" Air="disabled" Terrain="disabled" Infantry="mono" Building="disabled" />
+	</Ability>
+	<Ability Name="CovGruntGrenade">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Location</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="3" Air="0" Terrain="9" Infantry="3" Building="2" />
+		<Application Vehicle="1" Air="disabled" Terrain="normal" Infantry="1" Building="1" />
+		<UseFormation />
+	</Ability>
+	<Ability Name="CovGruntMine">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<AmmoCost>1</AmmoCost>
+		<Priority Vehicle="3" Air="3" Terrain="9" Infantry="3" Building="2" />
+		<Application Vehicle="1" Air="1" Terrain="normal" Infantry="1" Building="1" />
+		<UseFormation />
+	</Ability>
+	<Ability Name="CovGruntMineMP">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<DontInterruptAttack>false</DontInterruptAttack>
+		<AmmoCost>1</AmmoCost>
+		<Priority Vehicle="3" Air="3" Terrain="9" Infantry="3" Building="2" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="CovGruntSuicideExplode">
+		<DisplayNameID>24198</DisplayNameID>
+		<RolloverTextID>24199</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="1" Air="1" Terrain="0" Infantry="1" Building="1" />
+		<Application Vehicle="always" Air="always" Terrain="normal" Infantry="always" Building="always" />
+	</Ability>
+	<Ability Name="CovChopperRunOver">
+		<DisplayNameID>24230</DisplayNameID>
+		<RolloverTextID>24231</RolloverTextID>
+		<Type>Work</Type>
+		<SquadMode>HitAndRun</SquadMode>
+		<KeepSquadMode>false</KeepSquadMode>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<Priority Vehicle="5" Air="0" Terrain="0" Infantry="10" Building="0" />
+		<Application Vehicle="mono" Air="disabled" Terrain="disabled" Infantry="mono" Building="disabled" />
+	</Ability>
+	<Ability Name="CovLeaderGlassing">
+		<DisplayNameID>5040</DisplayNameID>
+		<RolloverTextID>5041</RolloverTextID>
+		<Type>Power</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="5" Air="5" Terrain="5" Infantry="5" Building="5" />
+	</Ability>
+	<Ability Name="CovLeaderRage">
+		<DisplayNameID>5040</DisplayNameID>
+		<RolloverTextID>5041</RolloverTextID>
+		<Type>Power</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="5" Air="5" Terrain="5" Infantry="5" Building="5" />
+	</Ability>
+	<Ability Name="CovLeaderWave">
+		<DisplayNameID>5040</DisplayNameID>
+		<RolloverTextID>5041</RolloverTextID>
+		<Type>Power</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="5" Air="5" Terrain="5" Infantry="5" Building="5" />
+	</Ability>
+	<Ability Name="CovStasis">
+		<DisplayNameID>24554</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<RecoverAnimAttachment>NeedlerTurret</RecoverAnimAttachment>
+		<RecoverStartAnim>PlasmaCannonAttack</RecoverStartAnim>
+		<RecoverEndAnim>Idle</RecoverEndAnim>
+		<SmartTargetRange>30</SmartTargetRange>
+	</Ability>
+	<Ability Name="CovCorruptionTrail">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<Duration>17</Duration>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="CovCloak">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<Duration>30</Duration>
+		<DamageTakenModifier>1</DamageTakenModifier>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="0" Air="0" Terrain="5" Infantry="0" Building="0" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+	</Ability>
+	<Ability Name="CovArbCloak">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<DamageTakenModifier>0.5</DamageTakenModifier>
+	</Ability>
+	<Ability Name="CovProwlerCloak">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>60</RecoverTime>
+		<Duration>15</Duration>
+		<DamageTakenModifier>0.5</DamageTakenModifier>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="0" Air="0" Terrain="5" Infantry="0" Building="0" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+	</Ability>
+	<Ability Name="CovLocustOverburn">
+		<DisplayNameID>24557</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<SmartTargetRange>30</SmartTargetRange>
+	</Ability>
+	<Ability Name="CovJumppack">
+		<DisplayNameID>24450</DisplayNameID>
+		<RolloverTextID>24451</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<Priority Vehicle="9" Air="9" Terrain="7" Infantry="9" Building="5" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="CovWraithSpecial">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="9" Air="9" Terrain="3" Infantry="9" Building="7" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+	</Ability>
+	<Ability Name="CovWraithSpecialMP">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="9" Air="0" Terrain="3" Infantry="9" Building="7" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+		<StopMovementOnceInRange />
+	</Ability>
+	<Ability Name="CovBruteShockwave">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="CovBlisterbackLockdown">
+		<DisplayNameID>6002</DisplayNameID>
+		<DisplayName2ID>6029</DisplayName2ID>
+		<RolloverTextID>6003</RolloverTextID>
+		<Type>ChangeMode</Type>
+		<SquadMode>Lockdown</SquadMode>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<Priority Vehicle="0" Air="0" Terrain="2" Infantry="0" Building="0" />
+		<Application Vehicle="deploy" Air="deploy" Terrain="deploy" Infantry="disabled" Building="disabled" />
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<UseFormation />
+	</Ability>
+	<Ability Name="CovShroudAreaCloak">
+		<DisplayNameID>6002</DisplayNameID>
+		<DisplayName2ID>6029</DisplayName2ID>
+		<RolloverTextID>6003</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>80</RecoverTime>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="CovGorgonJump">
+		<DisplayNameID>26142</DisplayNameID>
+		<RolloverTextID>26143</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<Duration>20</Duration>
+		<Priority Vehicle="2" Air="2" Terrain="7" Infantry="2" Building="0" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="disabled" />
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="CovDisruptionField">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="1" Air="1" Terrain="4" Infantry="1" Building="1" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="CovScarabField">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="1" Air="1" Terrain="4" Infantry="1" Building="1" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+	</Ability>
+	<Ability Name="CovSurveillanceDrone">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>Unit</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>50</RecoverTime>
+		<DamageTakenModifier>1.5</DamageTakenModifier>
+		<Priority Vehicle="4" Air="4" Terrain="0" Infantry="4" Building="4" />
+		<Application Vehicle="1" Air="1" Terrain="disabled" Infantry="1" Building="1" />
+	</Ability>
+	<Ability Name="CovDecimusAbility">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
+		<Application Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
+	</Ability>
+	<Ability Name="BanHunterTaunt">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+	</Ability>
+	<Ability Name="BanGoliathRam">
+		<DisplayNameID>24556</DisplayNameID>
+		<Type>Work</Type>
+		<SquadMode>HitAndRun</SquadMode>
+		<KeepSquadMode>false</KeepSquadMode>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>24</RecoverTime>
+		<RevvingDuration>1.20000005</RevvingDuration>
+		<Priority Vehicle="5" Air="0" Terrain="0" Infantry="10" Building="0" />
+		<Application Vehicle="mono" Air="disabled" Terrain="disabled" Infantry="mono" Building="disabled" />
+	</Ability>
+	<Ability Name="BanSkittererJoin">
+		<DisplayNameID>24556</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>24</RecoverTime>
+		<Priority Vehicle="5" Air="5" Terrain="0" Infantry="5" Building="0" />
+		<Application Vehicle="3" Air="2" Terrain="disabled" Infantry="2" Building="disabled" />
+	</Ability>
+	<Ability Name="CovPhantomTransport">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Location</TargetType>
+		<Priority Vehicle="3" Air="3" Terrain="10" Infantry="3" Building="2" />
+		<Application Vehicle="1" Air="1" Terrain="normal" Infantry="1" Building="1" />
+		<UseFormation />
+	</Ability>
+	<Ability Name="CovGruntCloak">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<Duration>30</Duration>
+		<DamageTakenModifier>1</DamageTakenModifier>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="0" Air="0" Terrain="5" Infantry="0" Building="0" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+	</Ability>
+	<Ability Name="BanStasisGrenade">
+		<DisplayNameID>6014</DisplayNameID>
+		<RolloverTextID>6015</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="7" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="mono" Terrain="disabled" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="BanArbiterRage">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>ChangeMode</Type>
+		<SquadMode>Rage</SquadMode>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<Duration>30</Duration>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="5" Air="5" Terrain="5" Infantry="5" Building="5" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+		<BuffParams BuffType="ArbiterRage" DamageMitigationScalar="0.800000012" SlowModifier="1.29999995" SquadModeOnDeactivate="Normal" BuffActivateFX="fx_arbiterrageaudio_01" BuffDeactivateFX="vfx_dlc2_units_arbiterrageend">30.0f</BuffParams>
+	</Ability>
+	<Ability Name="CovCommandAreaBuff">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>85</RecoverTime>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="8" Air="8" Terrain="10" Infantry="8" Building="1" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="CovHeavyGruntEmp">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="9" Air="9" Terrain="0" Infantry="0" Building="0" />
+		<Application Vehicle="mono" Air="mono" Terrain="disabled" Infantry="mono" Building="disabled" />
+	</Ability>
+	<Ability Name="BanRiderRam">
+		<DisplayNameID>24556</DisplayNameID>
+		<Type>Work</Type>
+		<SquadMode>HitAndRun</SquadMode>
+		<KeepSquadMode>false</KeepSquadMode>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<RevvingDuration>1.20000005</RevvingDuration>
+		<Priority Vehicle="5" Air="0" Terrain="0" Infantry="10" Building="0" />
+		<Application Vehicle="mono" Air="disabled" Terrain="disabled" Infantry="mono" Building="disabled" />
+	</Ability>
+	<Ability Name="BanMethaneDelivery">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>80</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<AmmoCost>0</AmmoCost>
+		<Priority Vehicle="8" Air="0" Terrain="9" Infantry="8" Building="6" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="BanMortarTargetPaint">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>60</RecoverTime>
+		<DontInterruptAttack>false</DontInterruptAttack>
+		<Priority Vehicle="4" Terrain="0" Infantry="4" Building="4" />
+		<Application Vehicle="1" Terrain="disabled" Infantry="1" Building="1" />
+	</Ability>
+	<Ability Name="CovCorruptionPool">
+		<DisplayNameID>24553</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+		<StopMovementOnceInRange />
+	</Ability>
+	<Ability Name="BanCorruptConsume">
+		<DisplayNameID>6002</DisplayNameID>
+		<DisplayName2ID>6029</DisplayName2ID>
+		<RolloverTextID>6003</RolloverTextID>
+		<Type>Work</Type>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<TargetType>UnitOrLocation</TargetType>
+		<Priority Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="0" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="CpgnMacCannon">
+		<DisplayNameID>6020</DisplayNameID>
+		<RolloverTextID>6021</RolloverTextID>
+		<Type>Work</Type>
+	</Ability>
+	<Ability Name="cpgnUnload">
+		<DisplayNameID>6004</DisplayNameID>
+		<RolloverTextID>6005</RolloverTextID>
+		<Type>CommandMenu</Type>
+	</Ability>
+	<Ability Name="cpgnForgeSpecial">
+		<Type>Work</Type>
+		<DisplayNameID>24549</DisplayNameID>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="cpgnAndersSpecial">
+		<Type>Work</Type>
+		<DisplayNameID>24550</DisplayNameID>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="CpgnOrbitalCleansing">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>10</RecoverTime>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
+	</Ability>
+	<Ability Name="ForMonitorHeal">
+		<DisplayNameID>6020</DisplayNameID>
+		<RolloverTextID>6021</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+	</Ability>
+	<Ability Name="ForMonitorDamage">
+		<DisplayNameID>6022</DisplayNameID>
+		<RolloverTextID>6023</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+	</Ability>
+	<Ability Name="ForMonitorShield">
+		<DisplayNameID>6026</DisplayNameID>
+		<RolloverTextID>6027</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+	</Ability>
+	<Ability Name="ForLockdownBolt">
+		<DisplayNameID>6026</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="1" Air="1" Terrain="0" Infantry="1" Building="1" />
+		<Application Vehicle="1" Air="1" Terrain="0" Infantry="1" Building="1" />
+		<StopMovementOnceInRange />
+	</Ability>
+	<Ability Name="ForGraviticPulse">
+		<DisplayNameID>6026</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>40</RecoverTime>
+		<DontInterruptAttack>false</DontInterruptAttack>
+		<Priority Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
+		<Application Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
+	</Ability>
+	<Ability Name="ForGraviticPulseMP">
+		<DisplayNameID>6026</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<DontInterruptAttack>false</DontInterruptAttack>
+		<Priority Vehicle="1" Air="1" Terrain="0" Infantry="1" Building="1" />
+		<Application Vehicle="1" Air="1" Terrain="0" Infantry="1" Building="1" />
+	</Ability>
+	<Ability Name="FloodJump">
+		<DisplayNameID>24450</DisplayNameID>
+		<RolloverTextID>24451</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>25</RecoverTime>
+		<Priority Vehicle="9" Air="9" Terrain="7" Infantry="9" Building="5" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="FloodJumpLongCooldown">
+		<DisplayNameID>24450</DisplayNameID>
+		<RolloverTextID>24451</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<Priority Vehicle="9" Air="9" Terrain="7" Infantry="9" Building="5" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="FloodStomp">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>40</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="9" Air="9" Terrain="9" Infantry="9" Building="9" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="FloodSpawnSquad">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>3</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="3" Air="3" Terrain="9" Infantry="3" Building="2" />
+		<Application Vehicle="1" Air="1" Terrain="normal" Infantry="1" Building="1" />
+		<UseFormation />
+	</Ability>
+	<Ability Name="RM_UnscVultureNuke">
+		<DisplayNameID>6002</DisplayNameID>
+		<DisplayName2ID>6029</DisplayName2ID>
+		<RolloverTextID>6003</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<Priority Vehicle="2" Air="2" Terrain="0" Infantry="2" Building="2" />
+		<Application Vehicle="mono" Air="mono" Terrain="disabled" Infantry="mono" Building="mono" />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<StopMovementOnceInRange />
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="RM_UnscSpartanTakeOver">
+		<DisplayNameID>24236</DisplayNameID>
+		<RolloverTextID>24237</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<Priority Vehicle="10" Air="10" Terrain="3" Infantry="5" Building="1" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="RM_UnscScorpionSpecial">
+		<DisplayNameID>24553</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="mono" Terrain="disabled" Infantry="mono" Building="mono" />
+		<StopMovementOnceInRange />
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="RM_ForLockdownBolt">
+		<DisplayNameID>6026</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="1" Air="1" Terrain="0" Infantry="1" Building="1" />
+		<Application Vehicle="1" Air="1" Terrain="0" Infantry="1" Building="1" />
+		<StopMovementOnceInRange />
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="RM_UNSCArc">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<AmmoCost>0</AmmoCost>
+		<Priority Vehicle="8" Air="8" Terrain="4" Infantry="8" Building="3" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="RM_UnscGrizzlySpecial">
+		<DisplayNameID>24553</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>60</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="0" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+		<StopMovementOnceInRange />
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="RM_UnscFlameWall">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>60</RecoverTime>
+		<DontInterruptAttack>false</DontInterruptAttack>
+		<AbilityStartOnCooldown />
+		<AmmoCost>0</AmmoCost>
+		<Priority Vehicle="8" Terrain="9" Infantry="8" Building="3" />
+		<Application Vehicle="mono" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
+	<Ability Name="RM_UNSCHealBeacon">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Location</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<AbilityStartOnCooldown />
+		<AmmoCost>0</AmmoCost>
+		<Priority Vehicle="8" Air="8" Terrain="9" Infantry="8" Building="3" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+		<UseFormation />
+	</Ability>
+	<Ability Name="RM_UnscColossusStomp">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>40</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="0" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="RM_CovWraithSpecial">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="9" Air="0" Terrain="3" Infantry="9" Building="7" />
+		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
+		<StopMovementOnceInRange />
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="RM_CovBruteShockwave">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="RM_BanHunterTaunt">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="RM_BanArbiterRage">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>ChangeMode</Type>
+		<SquadMode>Rage</SquadMode>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<Duration>30</Duration>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="5" Air="5" Terrain="5" Infantry="5" Building="5" />
+		<Application Vehicle="normal" Air="normal" Terrain="normal" Infantry="normal" Building="normal" />
+		<BuffParams BuffType="ArbiterRage" DamageMitigationScalar="0.800000012" SlowModifier="1.29999995" SquadModeOnDeactivate="Normal" BuffActivateFX="fx_arbiterrageaudio_01" BuffDeactivateFX="vfx_dlc2_units_arbiterrageend">30.0f</BuffParams>
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="RM_CovCommandAreaBuff">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="8" Air="8" Terrain="10" Infantry="8" Building="1" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="RM_BanMortarTargetPaint">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>50</RecoverTime>
+		<DontInterruptAttack>false</DontInterruptAttack>
+		<Priority Vehicle="4" Terrain="0" Infantry="4" Building="4" />
+		<Application Vehicle="1" Terrain="disabled" Infantry="1" Building="1" />
+		<AbilityStartOnCooldown />
+	</Ability>
+	<Ability Name="RM_CovCorruptionTrail">
+		<DisplayNameID>24674</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>90</RecoverTime>
+		<Duration>45</Duration>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="8" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+		<AbilityStartOnCooldown />
+	</Ability>
+</Abilities>

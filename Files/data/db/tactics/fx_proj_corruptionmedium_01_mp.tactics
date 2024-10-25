@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>CorruptionDamageOverTime</Name>
+		<DamagePerSecond>110</DamagePerSecond>
+		<WeaponType>Corruption</WeaponType>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="36.5499992" />
+		<AOERadius>20</AOERadius>
+		<Corruption overlap="1.1f" />
+		<Buff targetType="Infantry" buffType="CorruptionDebuff" slowModifier="0.800000012">0.5</Buff>
+		<Buff targetType="GroundVehicle" buffType="CorruptionDebuff" slowModifier="0.649999976">0.5</Buff>
+	</Weapon>
+	<Weapon>
+		<Name>RM_CorruptionDamageOverTime</Name>
+		<DamagePerSecond>110</DamagePerSecond>
+		<WeaponType>Corruption</WeaponType>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="32" />
+		<AOERadius>20</AOERadius>
+		<Corruption overlap="1.1f" />
+		<Buff targetType="Infantry" buffType="CorruptionDebuff" slowModifier="0.75">0.5</Buff>
+		<Buff targetType="GroundVehicle" buffType="CorruptionDebuff" slowModifier="0.550000012">0.5</Buff>
+	</Weapon>
+	<Weapon>
+		<Name>CorruptionMissile</Name>
+		<DamagePerSecond>425</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Corruption</WeaponType>
+		<Projectile>fx_proj_corruptionmedium_01_mp</Projectile>
+		<ImpactEffect size="Medium" doShockwaveAction="true">CorruptionMedium</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>false</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Name>CorruptionDamageOverTimeAction</Name>
+		<Weapon>CorruptionDamageOverTime</Weapon>
+	</Action>
+	<Action>
+		<Name>RM_CorruptionDamageOverTimeAction</Name>
+		<Weapon>RM_CorruptionDamageOverTime</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Default>true</Default>
+		<Name>CorruptionAttackAction</Name>
+		<Weapon>CorruptionMissile</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

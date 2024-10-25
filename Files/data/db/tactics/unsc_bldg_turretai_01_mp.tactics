@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Chaingun</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>116</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_incendiarycannon_01</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>0.0500000007</Accuracy>
+		<MaxDeviation>3.5</MaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<UseGroupRange />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.699999988</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>StandardGun</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>195</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_cannon_01</Projectile>
+		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>0.0500000007</Accuracy>
+		<MaxDeviation>3.5</MaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="Turretbuilding">1</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+		<UseGroupRange />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.699999988</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>ChaingunJohnson</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>127</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_incendiarycannon_01</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>0.0500000007</Accuracy>
+		<MaxDeviation>3.5</MaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<UseGroupRange />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.699999988</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+		<StartDisabled />
+	</Weapon>
+	<Weapon>
+		<Name>StandardGunJohnson</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>214</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_cannon_01</Projectile>
+		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>0.0500000007</Accuracy>
+		<MaxDeviation>3.5</MaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="Turretbuilding">1</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+		<UseGroupRange />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.699999988</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+		<StartDisabled />
+	</Weapon>
+	<Weapon>
+		<Name>ChaingunJohnson1</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>127</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_incendiarycannon_01</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>0.0500000007</Accuracy>
+		<MaxDeviation>3.5</MaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<UseGroupRange />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.699999988</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.75</LifeStealRatio>
+		<StartDisabled />
+	</Weapon>
+	<Weapon>
+		<Name>StandardGunJohnson1</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>214</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_cannon_01</Projectile>
+		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>0.0500000007</Accuracy>
+		<MaxDeviation>3.5</MaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="Turretbuilding">1</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+		<UseGroupRange />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.699999988</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.75</LifeStealRatio>
+		<StartDisabled />
+	</Weapon>
+	<Action>
+		<Name>ChaingunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>Chaingun</Weapon>
+		<Strafing maxDistance="15" turnRate="90" trackingSpeed="40" jitter="20" />
+		<PersistBetweenOpps />
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>StandardGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>StandardGun</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>ChaingunAttackActionJohnson</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>ChaingunJohnson</Weapon>
+		<Strafing maxDistance="15" turnRate="90" trackingSpeed="40" jitter="20" />
+		<PersistBetweenOpps />
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>StandardGunAttackActionJohnson</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>StandardGunJohnson</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>ChaingunAttackActionJohnson1</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>ChaingunJohnson1</Weapon>
+		<Strafing maxDistance="15" turnRate="90" trackingSpeed="40" jitter="20" />
+		<PersistBetweenOpps />
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>StandardGunAttackActionJohnson1</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>StandardGunJohnson1</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_wraithshield</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>ChillAura</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>25</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ChillAura" ChillOverTime="10.0f">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>GroundVehicle</Type>
+				<Type>Infantry</Type>
+				<Type>CryoBuilding</Type>
+				<Type>TurretBuilding</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Aircraft</Type>
+				<Type>BasicAircraft</Type>
+				<Type>DontChill</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>vfx_dlc4_units_cryoauratierdefence</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>ChillAura</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<Action>ChaingunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>AttackMe</TargetType>
+			<TargetType>TurretBuilding</TargetType>
+			<TargetType>Flying</TargetType>
+			<Action>StandardGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<Action>ChaingunAttackActionJohnson</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>AttackMe</TargetType>
+			<TargetType>TurretBuilding</TargetType>
+			<TargetType>Flying</TargetType>
+			<Action>StandardGunAttackActionJohnson</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<Action>ChaingunAttackActionJohnson1</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>AttackMe</TargetType>
+			<TargetType>TurretBuilding</TargetType>
+			<TargetType>Flying</TargetType>
+			<Action>StandardGunAttackActionJohnson1</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

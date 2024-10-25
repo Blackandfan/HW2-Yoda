@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<servers>
+	<server name="hw2_2018_03_01d_no_perf_logging_Oct2023CertRoll_r-pc">
+		<sandbox name="L343.13">d7dfb848-c93c-4877-a999-86412d6f20a8</sandbox>
+		<sandbox name="L343.14">00000000-0000-0000-0000-000000000000</sandbox>
+		<sandbox name="L343.17">d7dfb848-c93c-4877-a999-86412d6f20a8</sandbox>
+		<sandbox name="L343.99">00000000-0000-0000-0000-000000000000</sandbox>
+		<sandbox name="CERT.DEBUG">d7dfb848-c93c-4877-a999-86412d6f20a8</sandbox>
+		<sandbox name="CERT">d7dfb848-c93c-4877-a999-86412d6f20a8</sandbox>
+		<sandbox name="RETAIL">d7dfb848-c93c-4877-a999-86412d6f20a8</sandbox>
+		<sandbox name="default">00000000-0000-0000-0000-000000000000</sandbox>
+	</server>
+	<server name="hw2_2018_03_01d_no_perf_logging_Oct2023CertRoll_r-xo">
+		<sandbox name="L343.13">d7dfb848-c93c-4877-a999-86412d6f20a8</sandbox>
+		<sandbox name="L343.14">00000000-0000-0000-0000-000000000000</sandbox>
+		<sandbox name="L343.17">d7dfb848-c93c-4877-a999-86412d6f20a8</sandbox>
+		<sandbox name="L343.99">00000000-0000-0000-0000-000000000000</sandbox>
+		<sandbox name="CERT.DEBUG">d7dfb848-c93c-4877-a999-86412d6f20a8</sandbox>
+		<sandbox name="CERT">d7dfb848-c93c-4877-a999-86412d6f20a8</sandbox>
+		<sandbox name="RETAIL">d7dfb848-c93c-4877-a999-86412d6f20a8</sandbox>
+		<sandbox name="default">00000000-0000-0000-0000-000000000000</sandbox>
+	</server>
+	<titleid>35758393</titleid>
+</servers>
