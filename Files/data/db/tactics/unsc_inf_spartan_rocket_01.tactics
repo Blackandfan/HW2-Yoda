@@ -193,28 +193,6 @@
 		<FullBodyAttackAnim />
 		<PersistBetweenOpps />
 		<FindBetterAction />
-		<Fatality attacker="fatality_spartan03_v_brutehon01_attacker_01" target="fatality_spartan03_v_brutehon01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_bruteHonour_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_elitehon01_attacker_01" target="fatality_spartan03_v_elitehon01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_eliteranger01_attacker_01" target="fatality_spartan03_v_eliteranger01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_jackal_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_brute01_attacker_01" target="fatality_spartan03_v_brute01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_bruteLeader_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_jpbrute01_attacker_01" target="fatality_spartan03_v_jpbrute01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_bruteJumpPack_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan03_attacker_01" target="fatality_spartan03_v_spartan03_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_rocket_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan04_attacker_01" target="fatality_spartan03_v_spartan04_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_laser_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan05_attacker_01" target="fatality_spartan03_v_spartan05_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_chaingun_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan03_attacker_01" target="fatality_spartan03_v_spartan03_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cpgn_inf_spartanRocket_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan04_attacker_01" target="fatality_spartan03_v_spartan04_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cpgn_inf_spartanSniper_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan05_attacker_01" target="fatality_spartan03_v_spartan05_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cpgn_inf_spartanMG_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_marine01_attacker_01" target="fatality_spartan03_v_marine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_engineer_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_marine01_attacker_01" target="fatality_spartan03_v_marine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_engineer_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_marine01_attacker_01" target="fatality_spartan03_v_marine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_marine_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_marine01_attacker_01" target="fatality_spartan03_v_marine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_malemarine_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_flamer01_attacker_01" target="fatality_spartan03_v_flamer01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_flamemarine_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_fmarine01_attacker_01" target="fatality_spartan03_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_femalemarine_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_fmarine01_attacker_01" target="fatality_spartan03_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_femalemarine_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_odst01_attacker_01" target="fatality_spartan03_v_odst01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_odst_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_sniper01_attacker_01" target="fatality_spartan03_v_sniper01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_sniper_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan02_attacker_01" target="fatality_spartan03_v_spartan02_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_spartan_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan02_attacker_01" target="fatality_spartan03_v_spartan02_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
 	</Action>
 	<Action>
 		<Name>RocketLauncherAttackAction</Name>
@@ -226,28 +204,6 @@
 		<FullBodyAttackAnim />
 		<PersistBetweenOpps />
 		<FindBetterAction />
-		<Fatality attacker="fatality_spartan03_v_brutehon01_attacker_01" target="fatality_spartan03_v_brutehon01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_bruteHonour_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_elitehon01_attacker_01" target="fatality_spartan03_v_elitehon01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_eliteranger01_attacker_01" target="fatality_spartan03_v_eliteranger01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_jackal_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_brute01_attacker_01" target="fatality_spartan03_v_brute01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_bruteLeader_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_jpbrute01_attacker_01" target="fatality_spartan03_v_jpbrute01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_bruteJumpPack_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan03_attacker_01" target="fatality_spartan03_v_spartan03_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_rocket_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan04_attacker_01" target="fatality_spartan03_v_spartan04_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_laser_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan05_attacker_01" target="fatality_spartan03_v_spartan05_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_chaingun_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan03_attacker_01" target="fatality_spartan03_v_spartan03_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cpgn_inf_spartanRocket_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan04_attacker_01" target="fatality_spartan03_v_spartan04_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cpgn_inf_spartanSniper_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan05_attacker_01" target="fatality_spartan03_v_spartan05_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cpgn_inf_spartanMG_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_marine01_attacker_01" target="fatality_spartan03_v_marine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_engineer_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_marine01_attacker_01" target="fatality_spartan03_v_marine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_engineer_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_marine01_attacker_01" target="fatality_spartan03_v_marine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_marine_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_marine01_attacker_01" target="fatality_spartan03_v_marine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_malemarine_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_flamer01_attacker_01" target="fatality_spartan03_v_flamer01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_flamemarine_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_fmarine01_attacker_01" target="fatality_spartan03_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_femalemarine_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_fmarine01_attacker_01" target="fatality_spartan03_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_femalemarine_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_odst01_attacker_01" target="fatality_spartan03_v_odst01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_odst_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_sniper01_attacker_01" target="fatality_spartan03_v_sniper01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_sniper_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan02_attacker_01" target="fatality_spartan03_v_spartan02_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_spartan_01</Fatality>
-		<Fatality attacker="fatality_spartan03_v_spartan02_attacker_01" target="fatality_spartan03_v_spartan02_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
 	</Action>
 	<Action>
 		<Name>GroundPoundAction</Name>

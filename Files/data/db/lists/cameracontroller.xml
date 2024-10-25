@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<CameraManager>
+	<ReticleSettings DeadZone="0.100000001" AmbiguousDistance="15" SpeedModifier="3.4000001" MouseDragAndDropSpeedModifier="-0.0500000007" SnapToIdleUnit="true" DebugDisplaySnapConditions="false" DebugDisplayOutOfSnap="false">
+		<ZoomedInSettings>
+			<MovementSlowSettings GamepadStrength="1000" GamepadResistance="20" MouseStrength="40" MouseResistance="40" KeyboardStrength="1000" KeyboardResistance="20" ScrollStrength="1500" ScrollResistance="20" />
+			<MovementFastSettings GamepadStrength="1500" GamepadResistance="20" MouseStrength="60" MouseResistance="40" KeyboardStrength="1500" KeyboardResistance="20" ScrollStrength="2500" ScrollResistance="20" />
+			<FollowSnapSettings SnapAcceleration="1500" FollowDistance="10" SnapDistance="8" OutOfFollowSnapDistance="12" />
+			<GameplayFollowSettingsSpeeds>
+				<Speed Val="25" />
+				<Speed Val="50" />
+				<Speed Val="100" />
+				<Speed Val="200" />
+				<Speed Val="400" />
+			</GameplayFollowSettingsSpeeds>
+			<CinematicFollowSettingsSpeeds>
+				<Speed Val="25" />
+				<Speed Val="35" />
+				<Speed Val="50" />
+				<Speed Val="75" />
+				<Speed Val="125" />
+			</CinematicFollowSettingsSpeeds>
+		</ZoomedInSettings>
+		<ZoomedOutSettings>
+			<MovementSlowSettings GamepadStrength="2000" GamepadResistance="32" MouseStrength="35" MouseResistance="40" KeyboardStrength="1700" KeyboardResistance="20" ScrollStrength="2000" ScrollResistance="32" />
+			<MovementFastSettings GamepadStrength="10000" GamepadResistance="32" MouseStrength="1000" MouseResistance="40" KeyboardStrength="7500" KeyboardResistance="20" ScrollStrength="12500" ScrollResistance="32" />
+			<FollowSnapSettings SnapAcceleration="1600" FollowDistance="10" SnapDistance="8" OutOfFollowSnapDistance="12" />
+			<GameplayFollowSettingsSpeeds>
+				<Speed Val="35" />
+				<Speed Val="60" />
+				<Speed Val="160" />
+				<Speed Val="320" />
+				<Speed Val="640" />
+			</GameplayFollowSettingsSpeeds>
+			<CinematicFollowSettingsSpeeds>
+				<Speed Val="25" />
+				<Speed Val="55" />
+				<Speed Val="110" />
+				<Speed Val="200" />
+				<Speed Val="300" />
+			</CinematicFollowSettingsSpeeds>
+		</ZoomedOutSettings>
+		<FollowSettingsDistances>
+			<Distance Val="5" />
+			<Distance Val="10" />
+			<Distance Val="50" />
+			<Distance Val="100" />
+			<Distance Val="200" />
+		</FollowSettingsDistances>
+		<DoubleTap Activated="true" DoubleTapInputDelay="0.150000006" MaxAngle="45">
+			<Distances>
+				<Distance Val="25" />
+				<Distance Val="50" />
+				<Distance Val="100" />
+				<Distance Val="200" />
+				<Distance Val="800" />
+			</Distances>
+			<NotationMaxAngle>
+				<Notation Val="0.800000012" />
+				<Notation Val="0.600000024" />
+				<Notation Val="0.400000006" />
+				<Notation Val="0.200000003" />
+				<Notation Val="0" />
+			</NotationMaxAngle>
+			<NotationZeroAngle>
+				<Notation Val="1" />
+				<Notation Val="0.800000012" />
+				<Notation Val="0.600000024" />
+				<Notation Val="0.400000006" />
+				<Notation Val="0.200000003" />
+			</NotationZeroAngle>
+		</DoubleTap>
+	</ReticleSettings>
+	<GameplayCamera>
+		<Yaw Default="-90" Speed="200" MouseSpeed="0.25" KeysSpeed="200" MinAcceleration="400" MaxAcceleration="1000" DeadZone="0.5" MouseInputStrength="40" KeyInputStrength="40" InputResistance="11" />
+		<Rod Default="1" Speed="2.5" MouseSpeed="0.00999999978" KeysSpeed="3.5" MinAcceleration="10" MaxAcceleration="18" DeadZone="0.5">
+			<Min Pitch="7" Fov="15" Height="7" />
+			<Max Pitch="51" Fov="45" Height="75" />
+		</Rod>
+	</GameplayCamera>
+	<TrackCamera />
+	<IGCCamera Fov="60">
+		<FollowSpeeds>
+			<Speed Distance="5" Val="25" />
+			<Speed Distance="10" Val="55" />
+			<Speed Distance="50" Val="110" />
+			<Speed Distance="100" Val="200" />
+			<Speed Distance="200" Val="300" />
+		</FollowSpeeds>
+	</IGCCamera>
+	<DebugCameraHorizontal MinTranslationSpeed="50" MaxTranslationSpeed="200" RotationSpeed="120" ForceHorizontalTranslation="true" />
+	<DebugCameraFPS MinTranslationSpeed="50" MaxTranslationSpeed="200" RotationSpeed="120" ForceHorizontalTranslation="false" />
+	<DebugCameraModelView YawSpeed="2.f" PitchSpeed="2.f" DistanceSpeed="20.f" Fov="70.f" />
+	<DebugCameraTopDown TranslationSpeed="120.f" Fov="70.f" />
+	<DebugCameraVehicle Fov="70.f" />
+</CameraManager>

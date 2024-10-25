@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<playerColors>
+	<skirmish>
+		<color name="gaia" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" captureeffects="175 175 175" obscuringunit="175 175 175" effects="175 175 175" lights="175 175 175" enum="white" />
+		<color name="creeps" objects="175 175 175" corpse="88 88 88" selection="255 132 255" minimap="255 132 255" ui="175 175 175" captureeffects="175 175 175" obscuringunit="175 175 175" effects="175 175 175" lights="175 175 175" enum="white" />
+		<color name="unsc_red" objects="30 130 7" corpse="30 130 7" selection="30 130 7" minimap="30 130 7" ui="30 130 7" captureeffects="30 130 7" obscuringunit="30 130 7" effects="30 130 7" lights="30 130 7" enum="red" />
+		<color name="unsc_3v3red" objects="30 130 80" corpse="30 130 80" selection="18 130 74" minimap="59 255 157" ui="48 244 230" captureeffects="50 170 255" obscuringunit="59 255 157" effects="30 130 80" lights="30 130 80" enum="red" />
+		<color name="unsc_yellow" objects="255 69 0" corpse="255 69 0" selection="255 69 0" minimap="255 69 0" ui="255 69 0" captureeffects="255 69 0" obscuringunit="255 69 0" effects="255 69 0" lights="255 69 0" enum="red" />
+		<color name="unsc_orange" objects="0 191 255" corpse="0 191 255" selection="0 191 255" minimap="0 191 255" ui="0 191 255" captureeffects="0 191 255" obscuringunit="0 191 255" effects="0 191 255" lights="0 191 255" enum="red" />
+		<color name="unsc_blue" objects="228 81 198" corpse="228 81 198" selection="228 81 198" minimap="228 81 198" ui="228 81 198" captureeffects="228 81 198" obscuringunit="228 81 198" effects="228 81 198" lights="228 81 198" enum="blue" />
+		<color name="unsc_3v3navy" objects="228 81 198" corpse="228 81 198" selection="228 81 198" minimap="228 81 198" ui="228 81 198" captureeffects="228 81 198" obscuringunit="228 81 198" effects="228 81 198" lights="228 81 198" enum="blue" />
+		<color name="unsc_cyan" objects="0 255 255" corpse="0 255 255" selection="0 255 255" minimap="0 255 255" ui="0 255 255" captureeffects="0 255 255" obscuringunit="0 255 255" effects="0 255 255" lights="0 255 255" />
+		<color name="unsc_green" objects="145 163 85" corpse="145 163 85" selection="145 163 85" minimap="145 163 85" ui="145 163 85" captureeffects="145 163 85" obscuringunit="145 163 85" effects="145 163 85" lights="145 163 85" enum="blue" />
+		<color name="ban_red" objects="255 174 52" corpse="255 174 52" selection="255 174 52" minimap="255 174 52" ui="255 174 52" captureeffects="255 174 52" obscuringunit="255 174 52" effects="255 174 52" lights="255 174 52" enum="red" />
+		<color name="ban_3v3red" objects="255 174 52" corpse="255 174 52" selection="255 174 52" minimap="255 174 52" ui="255 174 52" captureeffects="255 174 52" obscuringunit="255 174 52" effects="255 174 52" lights="255 174 52" enum="red" />
+		<color name="ban_yellow" objects="91 35 55" corpse="91 35 55" selection="91 35 55" minimap="91 35 55" ui="91 35 55" captureeffects="91 35 55" obscuringunit="91 35 55" effects="91 35 55" lights="91 35 55" enum="red" />
+		<color name="ban_orange" objects="160 60 60" corpse="160 60 60" selection="159 29 29" minimap="209 80 80" ui="48 244 230" captureeffects="230 20 20" obscuringunit="253 96 96" effects="165 28 28" lights="165 28 28" enum="red" />
+		<color name="ban_blue" objects="165 95 245" corpse="83 48 172" selection="165 95 245" minimap="165 95 245" ui="165 95 245" captureeffects="165 95 245" obscuringunit="165 95 245" effects="165 95 245" lights="165 95 245" enum="blue" />
+		<color name="ban_3v3navy" objects="165 95 245" corpse="83 48 172" selection="165 95 245" minimap="165 95 245" ui="165 95 245" captureeffects="165 95 245" obscuringunit="165 95 245" effects="165 95 245" lights="165 95 245" enum="blue" />
+		<color name="ban_cyan" objects="255 105 180" corpse="255 105 180" selection="255 105 180" minimap="255 105 180" ui="255 105 180" captureeffects="255 105 180" obscuringunit="255 105 180" effects="255 105 180" lights="255 105 180" enum="blue" />
+		<color name="ban_green" objects="210 105 30" corpse="210 105 30" selection="210 105 30" minimap="210 105 30" ui="210 105 30" captureeffects="210 105 30" obscuringunit="210 105 30" effects="210 105 30" lights="210 105 30" enum="blue" />
+		<color name="flood" objects="255 0 255" corpse="255 0 255" selection="255 0 255" minimap="255 0 255" ui="255 0 255" captureeffects="255 0 255" obscuringunit="255 0 255" effects="255 0 255" lights="255 0 255" enum="flood" />
+		<civ>
+			<player num="1" colorName="unsc_red" />
+			<player num="2" colorName="unsc_3v3red" />
+			<player num="3" colorName="unsc_yellow" />
+			<player num="4" colorName="unsc_orange" />
+			<player num="5" colorName="unsc_blue" />
+			<player num="6" colorName="unsc_3v3navy" />
+			<player num="7" colorName="unsc_cyan" />
+			<player num="8" colorName="unsc_green" />
+			<player num="0" colorName="gaia" />
+			<player num="9" colorName="creeps" />
+			<player num="10" colorName="flood" />UNSC</civ>
+		<civ>
+			<player num="1" colorName="ban_red" />
+			<player num="2" colorName="ban_3v3red" />
+			<player num="3" colorName="ban_yellow" />
+			<player num="4" colorName="ban_orange" />
+			<player num="5" colorName="ban_blue" />
+			<player num="6" colorName="ban_3v3navy" />
+			<player num="7" colorName="ban_cyan" />
+			<player num="8" colorName="ban_green" />
+			<player num="0" colorName="gaia" />
+			<player num="9" colorName="creeps" />
+			<player num="10" colorName="flood" />Covenant</civ>
+		<civ>
+			<player num="1" colorName="flood" />
+			<player num="2" colorName="flood" />
+			<player num="3" colorName="flood" />
+			<player num="4" colorName="flood" />
+			<player num="5" colorName="flood" />
+			<player num="6" colorName="flood" />
+			<player num="7" colorName="flood" />
+			<player num="8" colorName="flood" />
+			<player num="0" colorName="flood" />
+			<player num="9" colorName="flood" />
+			<player num="10" colorName="flood" />Flood</civ>
+	</skirmish>
+	<spc>
+		<color name="0" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="48 244 230" captureeffects="175 175 175" obscuringunit="175 175 175" effects="175 175 175" lights="175 175 175" />
+		<color name="1" objects="43 77 60" corpse="35 55 12" selection="12 89 30" minimap="9 200 60" ui="48 244 230" captureeffects="50 170 255" obscuringunit="21 153 21" effects="50 90 50" lights="60 80 40 128" />
+		<color name="2" objects="180 150 40" corpse="248 227 33" selection="181 147 25" minimap="255 212 56" ui="48 244 230" captureeffects="50 170 255" obscuringunit="255 212 56" effects="180 150 40" lights="240 200 20" />
+		<color name="3" objects="48 121 189" corpse="48 121 189" selection="26 110 189" minimap="64 163 255" ui="48 244 230" captureeffects="50 170 255" obscuringunit="64 163 255" effects="48 121 189" lights="0 163 255" />
+		<color name="4" objects="225 35 35" corpse="225 35 35" selection="159 29 29" minimap="255 41 41" ui="48 244 230" captureeffects="50 170 255" obscuringunit="255 41 41" effects="225 35 35" lights="200 60 0" />
+		<color name="5" objects="220 220 220" corpse="25 25 15" selection="220 220 220" minimap="220 220 220" ui="48 244 230" captureeffects="50 170 255" obscuringunit="220 220 220" effects="220 220 220" lights="50 50 30" />
+		<color name="6" objects="185 160 125" corpse="93 50 63" selection="185 160 125" minimap="229 199 156" ui="48 244 230" captureeffects="50 170 255" obscuringunit="229 199 156" effects="185 160 125" lights="185 160 125" />
+		<color name="7" objects="255 0 178" corpse="83 48 172" selection="255 36 189" minimap="255 36 189" ui="48 244 230" captureeffects="230 20 20" obscuringunit="255 36 189" effects="255 0 178" lights="255 0 178" />
+		<color name="8" objects="35 100 225" corpse="35 100 225" selection="35 100 225" minimap="41 116 255" ui="48 244 230" captureeffects="230 20 20" obscuringunit="41 116 255" effects="35 100 225" lights="255 106 0" />
+		<color name="9" objects="215 50 30" corpse="105 10 0" selection="159 29 29" minimap="255 58 36" ui="48 244 230" captureeffects="230 20 20" obscuringunit="255 58 36" effects="215 50 30" lights="255 0 0" />
+		<color name="10" objects="40 50 20" corpse="20 25 10" selection="40 50 20" minimap="40 50 20" ui="48 244 230" captureeffects="230 20 20" obscuringunit="40 50 20" effects="40 50 20" lights="40 50 20" />
+		<color name="11" objects="255 215 50" corpse="128 107 25" selection="255 211 36" minimap="255 215 50" ui="48 244 230" captureeffects="230 20 20" obscuringunit="255 215 50" effects="255 215 50" lights="255 215 50" />
+		<color name="12" objects="215 190 175" corpse="108 95 87" selection="215 200 175" minimap="215 200 175" ui="48 244 230" captureeffects="230 20 20" obscuringunit="215 200 175" effects="215 190 175" lights="215 200 175" />
+		<color name="13" objects="225 35 35" corpse="225 35 35" selection="159 29 29" minimap="255 41 41" ui="48 244 230" captureeffects="50 170 255" obscuringunit="255 41 41" effects="225 35 35" lights="200 60 0" />
+		<color name="14" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="48 244 230" captureeffects="175 175 175" obscuringunit="175 175 175" effects="175 175 175" lights="175 175 175" />
+		<color name="15" objects="255 0 255" corpse="255 0 255" selection="255 0 255" minimap="255 0 255" ui="255 0 255" captureeffects="255 0 255" obscuringunit="255 0 255" effects="255 0 255" lights="255 0 255" enum="flood" />
+		<color name="16" objects="250 145 20" corpse="250 145 20" selection="134 49 0" minimap="255 149 20" ui="48 244 230" captureeffects="230 20 20" obscuringunit="255 149 20" effects="141 61 15" lights="141 61 15" />
+		<color name="17" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="48 244 230" captureeffects="175 175 175" obscuringunit="175 175 175" effects="175 175 175" lights="175 175 175" />
+		<color name="18" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="48 244 230" captureeffects="175 175 175" obscuringunit="175 175 175" effects="175 175 175" lights="175 175 175" />
+		<color name="19" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="48 244 230" captureeffects="175 175 175" obscuringunit="175 175 175" effects="175 175 175" lights="175 175 175" />
+		<color name="20" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="48 244 230" captureeffects="175 175 175" obscuringunit="175 175 175" effects="175 175 175" lights="175 175 175" />
+		<civ>
+			<player num="0" colorName="0" />
+			<player num="1" colorName="1" />
+			<player num="2" colorName="2" />
+			<player num="3" colorName="3" />
+			<player num="4" colorName="4" />
+			<player num="5" colorName="5" />
+			<player num="6" colorName="6" />
+			<player num="7" colorName="13" />
+			<player num="8" colorName="14" />UNSC</civ>
+		<civ>
+			<player num="0" colorName="0" />
+			<player num="1" colorName="9" />
+			<player num="2" colorName="7" />
+			<player num="3" colorName="16" />
+			<player num="4" colorName="10" />
+			<player num="5" colorName="11" />
+			<player num="6" colorName="12" />
+			<player num="7" colorName="13" />
+			<player num="8" colorName="14" />Covenant</civ>
+		<civ>
+			<player num="0" colorName="15" />
+			<player num="1" colorName="15" />
+			<player num="2" colorName="15" />
+			<player num="3" colorName="15" />
+			<player num="4" colorName="15" />
+			<player num="5" colorName="15" />
+			<player num="6" colorName="15" />
+			<player num="7" colorName="15" />
+			<player num="8" colorName="15" />Flood</civ>
+	</spc>
+</playerColors>

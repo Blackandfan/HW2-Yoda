@@ -1,5 +1,90 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TechTree version="8">
+	<Tech name="skin_change1" type="Normal">
+		<DBID>1963</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status="Active">unsc_warthog_upgrade3</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="unsc_veh_warthog_01" ToType="unsc_veh_warthog_01_fear" />
+		</Effects>
+	</Tech>
+	<Tech name="skin_change2" type="Normal">
+		<DBID>1963</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status="Active">unsc_scorpion_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="unsc_veh_scorpion_01" ToType="unsc_veh_scorpion_01_fear" />
+		</Effects>
+	</Tech>
+	<Tech name="skin_change3" type="Normal">
+		<DBID>1963</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status="Active">unsc_hornet_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="unsc_air_hornet_01" ToType="unsc_air_hornet_01_fear" />
+		</Effects>
+	</Tech>
+	<Tech name="skin_change4" type="Normal">
+		<DBID>1963</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status="Active">cov_bruteChopper_upgrade4</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_veh_bruteChopper_01" ToType="cov_veh_bruteChopper_01_fear" />
+		</Effects>
+	</Tech>
+	<Tech name="skin_change5" type="Normal">
+		<DBID>1963</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status="Active">cov_wraith_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_veh_wraith_01" ToType="cov_veh_wraith_01_fear" />
+		</Effects>
+	</Tech>
+	<Tech name="skin_change6" type="Normal">
+		<DBID>1963</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status="Active">cov_hunter_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_inf_hunter_01" ToType="cov_inf_hunter_01_fear" />
+		</Effects>
+	</Tech>
+	<Tech name="skin_change6" type="Normal">
+		<DBID>1963</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Prereqs>
+			<TechStatus status="Active">_POWER_BoundlessLeech</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_veh_locust_01" ToType="cov_veh_locust_01_fear" />
+			<Effect type="ReparentProtoObject" FromType="cov_inf_bruteHonour_01" ToType="cov_inf_bruteHonour_01_fear" />
+		</Effects>
+	</Tech>
 	<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade1" relativity="Absolute">
 		<Target type="ProtoUnit">unsc_bldg_command_01</Target>
 	</Effect>
