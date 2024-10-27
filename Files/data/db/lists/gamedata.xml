@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<GameData>
+	<Resources>
+		<Resource Deductable="true">Supplies</Resource>
+		<Resource Deductable="true">Power</Resource>
+		<Resource Deductable="false">HQLevel</Resource>
+		<Resource Deductable="true">Collectable</Resource>
+	</Resources>
+	<Rates>
+		<Rate>Supplies</Rate>
+		<Rate>Power</Rate>
+		<Rate>LeaderPowerCharge</Rate>
+	</Rates>
+	<UnscSupplyPadBonus>1.10000002</UnscSupplyPadBonus>
+	<UnscSupplyPadBreakEvenPoint>6</UnscSupplyPadBreakEvenPoint>
+	<CovSupplyPadBonus>1.10000002</CovSupplyPadBonus>
+	<CovSupplyPadBreakEvenPoint>6</CovSupplyPadBreakEvenPoint>
+	<LeaderPowerChargeResource>LeaderPowerCharge</LeaderPowerChargeResource>
+	<LeaderPowerChargeRate>LeaderPowerCharge</LeaderPowerChargeRate>
+	<DifficultyEasy>0</DifficultyEasy>
+	<DifficultyNormal>0.340000004</DifficultyNormal>
+	<DifficultyHard>0.670000017</DifficultyHard>
+	<DifficultyLegendary>1</DifficultyLegendary>
+	<DifficultyScoreMultiplier>
+		<CombatBonus>
+			<Easy>1</Easy>
+			<Normal>1</Normal>
+			<Hard>1.10000002</Hard>
+			<Legendary>1.20000005</Legendary>
+		</CombatBonus>
+		<TimeBonus>
+			<Easy>1</Easy>
+			<Normal>1</Normal>
+			<Hard>1.10000002</Hard>
+			<Legendary>1.20000005</Legendary>
+		</TimeBonus>
+	</DifficultyScoreMultiplier>
+	<CampaignDifficultyModifiers>
+		<DamageGivenMultiplier>
+			<Easy>0.600000024</Easy>
+			<Normal>1</Normal>
+			<Hard>1.14999998</Hard>
+			<Legendary>1.14999998</Legendary>
+		</DamageGivenMultiplier>
+		<DamageTakenMultiplier>
+			<Easy>1.29999995</Easy>
+			<Normal>1.10000002</Normal>
+			<Hard>1</Hard>
+			<Legendary>0.850000024</Legendary>
+		</DamageTakenMultiplier>
+	</CampaignDifficultyModifiers>
+	<DifficultyDefault>0.400000006</DifficultyDefault>
+	<DifficultySPCAIDefault>0.5</DifficultySPCAIDefault>
+	<Pops>
+		<Pop>Unit</Pop>
+		<Pop>Temple</Pop>
+		<Pop>Leader</Pop>
+		<Pop>Spartan</Pop>
+		<Pop>HonorGuard</Pop>
+		<Pop>Rhino</Pop>
+		<Pop>Reactor</Pop>
+		<Pop>Decimus</Pop>
+		<Pop>Retriever</Pop>
+	</Pops>
+	<RefCounts>
+		<RefCount>EMP</RefCount>
+		<RefCount>Disruption</RefCount>
+		<RefCount>Regen</RefCount>
+		<RefCount>SpartanAura</RefCount>
+		<RefCount>Hierarch</RefCount>
+		<RefCount>CpuHack</RefCount>
+		<RefCount>Frenzy</RefCount>
+		<RefCount>SensorLock</RefCount>
+		<RefCount>TargetJamming</RefCount>
+		<RefCount>CovShieldGen</RefCount>
+		<RefCount>EnergyWeb</RefCount>
+		<RefCount>MedicFlag</RefCount>
+		<RefCount>Counter1</RefCount>
+		<RefCount>Counter2</RefCount>
+		<RefCount>Counter3</RefCount>
+		<RefCount>Counter4</RefCount>
+		<RefCount>Counter5</RefCount>
+	</RefCounts>
+	<HUDItems>
+		<HUDItem>Minimap</HUDItem>
+		<HUDItem>Resources</HUDItem>
+		<HUDItem>Time</HUDItem>
+		<HUDItem>PowerStatus</HUDItem>
+		<HUDItem>Units</HUDItem>
+		<HUDItem>DpadHelp</HUDItem>
+		<HUDItem>ButtonHelp</HUDItem>
+		<HUDItem>Reticle</HUDItem>
+		<HUDItem>Score</HUDItem>
+		<HUDItem>UnitStats</HUDItem>
+		<HUDItem>CircleMenuExtraInfo</HUDItem>
+	</HUDItems>
+	<FlashableItems>
+		<Item>Minimap</Item>
+		<Item>CircleMenu0</Item>
+		<Item>CircleMenu1</Item>
+		<Item>CircleMenu2</Item>
+		<Item>CircleMenu3</Item>
+		<Item>CircleMenu4</Item>
+		<Item>CircleMenu5</Item>
+		<Item>CircleMenu6</Item>
+		<Item>CircleMenu7</Item>
+		<Item>CircleMenuPop</Item>
+		<Item>CircleMenuPower</Item>
+		<Item>CircleMenuSupply</Item>
+		<Item>Dpad</Item>
+		<Item>DpadUp</Item>
+		<Item>DpadDown</Item>
+		<Item>DpadLeft</Item>
+		<Item>DpadRight</Item>
+		<Item>ResourcePanel</Item>
+		<Item>ResourcePanelPop</Item>
+		<Item>ResourcePanelPower</Item>
+		<Item>ResourcePanelSupply</Item>
+	</FlashableItems>
+	<UnitFlags>
+		<UnitFlag>AttackBlocked</UnitFlag>
+	</UnitFlags>
+	<SquadFlags>
+		<SquadFlag>AttackBlocked</SquadFlag>
+		<SquadFlag>Invulnerable</SquadFlag>
+		<SquadFlag>NotAttackable</SquadFlag>
+	</SquadFlags>
+	<CodeProtoObjects>
+		<CodeProtoObject Type="Revealer">sys_revealer</CodeProtoObject>
+		<CodeProtoObject Type="Blocker">sys_blocker</CodeProtoObject>
+		<CodeProtoObject Type="RallyStart">sys_rallystart_01</CodeProtoObject>
+		<CodeProtoObject Type="Obstruction">sys_obstructionAreaBox_01</CodeProtoObject>
+		<CodeProtoObject Type="TeamObstruction">sys_teamObstructionAreaBox_01</CodeProtoObject>
+		<CodeProtoObject Type="ObjectiveArrow">fx_horzArrowPointer_01</CodeProtoObject>
+		<CodeProtoObject Type="ObjectiveLocArrow">fx_vertArrowPointer_01</CodeProtoObject>
+		<CodeProtoObject Type="ObjectiveLocArrowArrow">hook_markers_markerobjectiveprimaryarrow01</CodeProtoObject>
+		<CodeProtoObject Type="ObjectiveLocArrowInner">hook_markers_markerobjectiveprimaryinner01</CodeProtoObject>
+		<CodeProtoObject Type="ObjectiveLocArrowCircles">hook_markers_markerobjectiveprimaryrings01</CodeProtoObject>
+		<CodeProtoObject Type="SecondaryObjectiveArrow">fx_horzArrowPointerSecondary_01</CodeProtoObject>
+		<CodeProtoObject Type="SecondaryObjectiveLocArrow">fx_vertArrowPointerSecondary_01</CodeProtoObject>
+		<CodeProtoObject Type="mapEmergencyPing">fx_mapEmergencyPing</CodeProtoObject>
+		<CodeProtoObject Type="StealthDetectionRing">units_unsc_weapons_detectorpulse</CodeProtoObject>
+		<CodeProtoObject Type="FlareNormal">sys_marker_flare_01</CodeProtoObject>
+		<CodeProtoObject Type="NextWayPoint">sys_marker_WPNext_01</CodeProtoObject>
+		<CodeProtoObject Type="QueuedWayPoint">sys_marker_WPQueued_01</CodeProtoObject>
+		<CodeProtoObject Type="EndWayPoint">sys_marker_WPEnd_01</CodeProtoObject>
+		<CodeProtoObject Type="HoldPositionWayPoint">sys_marker_WPHoldPosition_01</CodeProtoObject>
+		<CodeProtoObject Type="AttackMoveWayPoint">sys_marker_WPAttackMove_01</CodeProtoObject>
+		<CodeProtoObject Type="AttackWayPoint">sys_marker_WPAttack</CodeProtoObject>
+		<CodeProtoObject Type="PhysicsThrownObject">sys_thrownObject</CodeProtoObject>
+		<CodeProtoObject Type="SkirmishEmptyBaseObject">game_base_socket_01</CodeProtoObject>
+		<CodeProtoObject Type="SkirmishScarab">cov_veh_scarab_01</CodeProtoObject>
+		<CodeProtoObject Type="Blisterback">cov_air_blisterback_01</CodeProtoObject>
+		<CodeProtoObject Type="Shroud">cov_air_shroud_01</CodeProtoObject>
+		<CodeProtoObject Type="Destroyer">unsc_air_destroyer_01</CodeProtoObject>
+		<CodeProtoObject Type="Vulture">unsc_air_vulture_01</CodeProtoObject>
+		<CodeProtoObject Type="Arbiter">cov_inf_arbiter_01</CodeProtoObject>
+		<CodeProtoObject Type="LeaderPowerCaster">sys_leaderPowerCaster</CodeProtoObject>
+		<CodeProtoObject Type="SPCHeroSpartanRocket">cpgn_inf_spartanRocket_01</CodeProtoObject>
+		<CodeProtoObject Type="SPCHeroSpartanMG">cpgn_inf_spartanMG_01</CodeProtoObject>
+		<CodeProtoObject Type="SPCHeroSpartanSniper">cpgn_inf_spartanSniper_01</CodeProtoObject>
+		<CodeProtoObject Type="SmallSnowMound">fx_snow_mound_small</CodeProtoObject>
+		<CodeProtoObject Type="MediumSnowMound">fx_snow_mound_medium</CodeProtoObject>
+		<CodeProtoObject Type="LargeSnowMound">fx_snow_mound_large</CodeProtoObject>
+		<CodeProtoObject Type="Stun">fx_stunEffect</CodeProtoObject>
+		<CodeProtoObject Type="StunBig">fx_stunEffectBig</CodeProtoObject>
+		<CodeProtoObject Type="Slow">fx_slowEffect</CodeProtoObject>
+		<CodeProtoObject Type="SlowBig">fx_slowEffectBig</CodeProtoObject>
+		<CodeProtoObject Type="Stasis">vfx_dlc2_powers_stasisunit</CodeProtoObject>
+		<CodeProtoObject Type="StasisBig">vfx_dlc2_powers_stasisunit</CodeProtoObject>
+		<CodeProtoObject Type="StasisUber">vfx_dlc2_powers_stasisunitmassive</CodeProtoObject>
+		<CodeProtoObject Type="EMP">fx_stunEffect</CodeProtoObject>
+		<CodeProtoObject Type="HotdropPadBeam">fx_hotdrop_beam</CodeProtoObject>
+		<CodeProtoObject Type="Blackout">fx_blackout</CodeProtoObject>
+	</CodeProtoObjects>
+	<CodeObjectTypes>
+		<CodeObjectType Type="Building">_Building</CodeObjectType>
+		<CodeObjectType Type="BuildingSocket">_BuildingSocket</CodeObjectType>
+		<CodeObjectType Type="TurretSocket">_TurretSocket</CodeObjectType>
+		<CodeObjectType Type="TurretBuilding">TurretBuilding</CodeObjectType>
+		<CodeObjectType Type="DropTurret">DropTurret</CodeObjectType>
+		<CodeObjectType Type="Settlement">_Settlement</CodeObjectType>
+		<CodeObjectType Type="Base">_Base</CodeObjectType>
+		<CodeObjectType Type="MiniHQBuilding">MiniHQBuilding</CodeObjectType>
+		<CodeObjectType Type="PowerSocketBase">PowerSocketBase</CodeObjectType>
+		<CodeObjectType Type="PlayableBase">_PlayableBase</CodeObjectType>
+		<CodeObjectType Type="PlayerReactor">_PlayerReactor</CodeObjectType>
+		<CodeObjectType Type="Icon">_Icon</CodeObjectType>
+		<CodeObjectType Type="Gatherable">_Gatherable</CodeObjectType>
+		<CodeObjectType Type="Infantry">_Infantry</CodeObjectType>
+		<CodeObjectType Type="DontAutoInfectInFireFight">_DontAutoInfectInFireFight</CodeObjectType>
+		<CodeObjectType Type="DontAutoAttackInFireFight">_DontAutoAttackInFireFight</CodeObjectType>
+		<CodeObjectType Type="Transporter">_Transporter</CodeObjectType>
+		<CodeObjectType Type="Transportable">Transportable</CodeObjectType>
+		<CodeObjectType Type="Flood">_Flood</CodeObjectType>
+		<CodeObjectType Type="Rupture">_Rupture</CodeObjectType>
+		<CodeObjectType Type="Healer">_Healer</CodeObjectType>
+		<CodeObjectType Type="Shroud">_Shroud</CodeObjectType>
+		<CodeObjectType Type="SiegeTurret">_SiegeTurret</CodeObjectType>
+		<CodeObjectType Type="Cover">_Cover</CodeObjectType>
+		<CodeObjectType Type="LOSObstructable">_LOSObstructable</CodeObjectType>
+		<CodeObjectType Type="ObjectiveArrow">_ObjectiveArrow</CodeObjectType>
+		<CodeObjectType Type="CampaignHero">_CampaignHero</CodeObjectType>
+		<CodeObjectType Type="Hero">_Hero</CodeObjectType>
+		<CodeObjectType Type="HeroDeath">_HeroDeath</CodeObjectType>
+		<CodeObjectType Type="HotDropPickup">_HotDropPickup</CodeObjectType>
+		<CodeObjectType Type="TeleportDropoff">_TeleportDropoff</CodeObjectType>
+		<CodeObjectType Type="TeleportPickup">_TeleportPickup</CodeObjectType>
+		<CodeObjectType Type="GroundVehicle">GroundVehicle</CodeObjectType>
+		<CodeObjectType Type="Scout">_Scout</CodeObjectType>
+		<CodeObjectType Type="Forager">_Forager</CodeObjectType>
+		<CodeObjectType Type="CanUseCover">_CanUseCover</CodeObjectType>
+		<CodeObjectType Type="CanKite">_CanKite</CodeObjectType>
+		<CodeObjectType Type="Unit">Unit</CodeObjectType>
+		<CodeObjectType Type="CanUseTeleporter">_CanUseTeleporter</CodeObjectType>
+		<CodeObjectType Type="Barricade">_Barricade</CodeObjectType>
+		<CodeObjectType Type="BarricadeSocket">_BarricadeSocket</CodeObjectType>
+		<CodeObjectType Type="Garrison">_Garrison</CodeObjectType>
+		<CodeObjectType Type="StrategicHook">_StrategicHook</CodeObjectType>
+		<CodeObjectType Type="UnscSupplyPad">_UnscSupplyPad</CodeObjectType>
+		<CodeObjectType Type="CovSupplyPad">_CovSupplyPad</CodeObjectType>
+		<CodeObjectType Type="BaseShield">_BaseShield</CodeObjectType>
+		<CodeObjectType Type="WallShield">_WallShield</CodeObjectType>
+		<CodeObjectType Type="Leader">_Leader</CodeObjectType>
+		<CodeObjectType Type="Covenant">Covenant</CodeObjectType>
+		<CodeObjectType Type="Unsc">Unsc</CodeObjectType>
+		<CodeObjectType Type="CovenantOrUNSC">CovenantOrUNSC</CodeObjectType>
+		<CodeObjectType Type="BlackBox">_BlackBox</CodeObjectType>
+		<CodeObjectType Type="Skull">_Skull</CodeObjectType>
+		<CodeObjectType Type="BirthOnTop">_BirthOnTop</CodeObjectType>
+		<CodeObjectType Type="CanCryo">CanCryo</CodeObjectType>
+		<CodeObjectType Type="Hook">_Hook</CodeObjectType>
+		<CodeObjectType Type="Mine">Mine</CodeObjectType>
+		<CodeObjectType Type="DecaptureOnly">_DecaptureOnly</CodeObjectType>
+		<CodeObjectType Type="AnalysableMove">_AnalysableMove</CodeObjectType>
+		<CodeObjectType Type="AnalysableDeath">_AnalysableDeath</CodeObjectType>
+		<CodeObjectType Type="Military">Military</CodeObjectType>
+		<CodeObjectType Type="TechBuilding">_TechBuilding</CodeObjectType>
+		<CodeObjectType Type="SupplyGeneratorBuilding">_SupplyGeneratorBuilding</CodeObjectType>
+		<CodeObjectType Type="PowerLevelBuilding">_PowerLevelBuilding</CodeObjectType>
+		<CodeObjectType Type="NodeBuilding">_NodeBuilding</CodeObjectType>
+		<CodeObjectType Type="Temple">_Temple</CodeObjectType>
+		<CodeObjectType Type="AOMBuilding">_AOMBuilding</CodeObjectType>
+		<CodeObjectType Type="Ground">_Ground</CodeObjectType>
+		<CodeObjectType Type="Air">_Air</CodeObjectType>
+		<CodeObjectType Type="NonAggressive">_NonAggressive</CodeObjectType>
+		<CodeObjectType Type="ProductionBuildingNotBase">_ProductionBuildingNotBase</CodeObjectType>
+		<CodeObjectType Type="CaptureNode">_CaptureNode</CodeObjectType>
+		<CodeObjectType Type="CanLockdown">_CanLockdown</CodeObjectType>
+		<CodeObjectType Type="CanCapture">_CanCapture</CodeObjectType>
+		<CodeObjectType Type="AIControllable">_AIControllable</CodeObjectType>
+		<CodeObjectType Type="Shield">_Shield</CodeObjectType>
+		<CodeObjectType Type="Cloak">_Cloak</CodeObjectType>
+		<CodeObjectType Type="CanDetectStealth">_CanDetectStealth</CodeObjectType>
+		<CodeObjectType Type="Drone">Drone</CodeObjectType>
+		<CodeObjectType Type="UberUnit">UberUnit</CodeObjectType>
+		<CodeObjectType Type="SpartanBoard">SpartanBoard</CodeObjectType>
+		<CodeObjectType Type="SpartanBoardFlying">SpartanBoardFlying</CodeObjectType>
+		<CodeObjectType Type="NonFlying">NonFlying</CodeObjectType>
+		<CodeObjectType Type="Flying">Flying</CodeObjectType>
+		<CodeObjectType Type="HoloDecoy">HoloDecoy</CodeObjectType>
+		<CodeObjectType Type="PaintTarget">PaintTarget</CodeObjectType>
+		<CodeObjectType Type="ResourceGenerationBuilding">ResourceGenerationBuilding</CodeObjectType>
+		<CodeObjectType Type="ScriptedRepairOnly">ScriptedRepairOnly</CodeObjectType>
+		<CodeObjectType Type="CannotBeSearchedThroughScripts">CannotBeSearchedThroughScripts</CodeObjectType>
+		<CodeObjectType Type="RallyFlag">_RallyFlag</CodeObjectType>
+	</CodeObjectTypes>
+	<CodeSquadTypes>
+		<CodeSquadType Type="Drone">Drone</CodeSquadType>
+	</CodeSquadTypes>
+	<GarrisonDamageMultiplier>0</GarrisonDamageMultiplier>
+	<ConstructionDamageMultiplier>2</ConstructionDamageMultiplier>
+	<CaptureDecayRate>0.5</CaptureDecayRate>
+	<UnitLeashLength>4</UnitLeashLength>
+	<CloakingDelay>1</CloakingDelay>
+	<ReCloakDelay>5</ReCloakDelay>
+	<CloakDetectFrequency>2</CloakDetectFrequency>
+	<ShieldBarColor>200 200 200</ShieldBarColor>
+	<ShieldRegenDelay>20</ShieldRegenDelay>
+	<ShieldRegenTime>5</ShieldRegenTime>
+	<PerceiveTime>1</PerceiveTime>
+	<AmmoBarColor>192 192 192</AmmoBarColor>
+	<ProjectileGravity>30</ProjectileGravity>
+	<HeightBonusDamage>0</HeightBonusDamage>
+	<ProjectileTumbleRate>180</ProjectileTumbleRate>
+	<TrackInterceptDistance>25</TrackInterceptDistance>
+	<StationaryTargetAttackToleranceAngle>8</StationaryTargetAttackToleranceAngle>
+	<MovingTargetAttackToleranceAngle>16</MovingTargetAttackToleranceAngle>
+	<MovingTargetTrackingAttackToleranceAngle>30</MovingTargetTrackingAttackToleranceAngle>
+	<MovingTargetRangeMultiplier>0.800000012</MovingTargetRangeMultiplier>
+	<AttackedRevealerLOS>8</AttackedRevealerLOS>
+	<AttackedRevealerLifespan>1</AttackedRevealerLifespan>
+	<HeightToRespawnSquad>35</HeightToRespawnSquad>
+	<AttackRevealerLOS>8</AttackRevealerLOS>
+	<CliffHeightForFOW>8</CliffHeightForFOW>
+	<FOWExtendsDownCliffs>true</FOWExtendsDownCliffs>
+	<CliffMechanicsActivated>true</CliffMechanicsActivated>
+	<CliffMaxAdditionalHeight>6</CliffMaxAdditionalHeight>
+	<CliffDefenderMalus>0.75</CliffDefenderMalus>
+	<LOSMinDistanceForDiagonalCheck>60</LOSMinDistanceForDiagonalCheck>
+	<LOSDiagonalCheckUnderTerrainMaxDistance>30</LOSDiagonalCheckUnderTerrainMaxDistance>
+	<LOSArtillerySafetyDistance>0</LOSArtillerySafetyDistance>
+	<IsAttackerRevealed>false</IsAttackerRevealed>
+	<AttackRevealerLifespan>15</AttackRevealerLifespan>
+	<MinimumRevealerSize>4</MinimumRevealerSize>
+	<AttackRatingMultiplier>0.0571000017</AttackRatingMultiplier>
+	<DefenseRatingMultiplier>0.00219999999</DefenseRatingMultiplier>
+	<GoodAgainstMinAttackRating>3</GoodAgainstMinAttackRating>
+	<OpportunityBeingAttackedPriBonus>400</OpportunityBeingAttackedPriBonus>
+	<OpportunityDistPriFactor>10</OpportunityDistPriFactor>
+	<ChanceToRocket>0.100000001</ChanceToRocket>
+	<BuildingSelfDestructTime>3</BuildingSelfDestructTime>
+	<GlobalBuildingXPGrantLimit>5</GlobalBuildingXPGrantLimit>
+	<TributeAmountSupplies>200</TributeAmountSupplies>
+	<TributeCostSupplies>0.5</TributeCostSupplies>
+	<TributeAmountPower>200</TributeAmountPower>
+	<TributeCostPower>0.5</TributeCostPower>
+	<AirStrikeLoiterTime>5</AirStrikeLoiterTime>
+	<MaxDamageBankPctAdjust>0.300000012</MaxDamageBankPctAdjust>
+	<DamageBankTimer>7</DamageBankTimer>
+	<AutoGatherDistance>25</AutoGatherDistance>
+	<AutoCaptureDistance>30</AutoCaptureDistance>
+	<GoodAgainstReticle>
+		<NoEffect>0</NoEffect>
+		<Weak>1</Weak>
+		<Fair>2</Fair>
+		<Good>3</Good>
+		<Extreme>4</Extreme>
+	</GoodAgainstReticle>
+	<MaxNumCorpses>75</MaxNumCorpses>
+	<MaxCorpseDisposalCount>10</MaxCorpseDisposalCount>
+	<InfantryCorpseDecayTime>3</InfantryCorpseDecayTime>
+	<CorpseSinkingSpacing>3</CorpseSinkingSpacing>
+	<InfectionMap>
+		<InfectionMapEntry targetUnit="cov_inf_grunt_01">
+			<Infected weight="1" infectedUnit="cov_inf_grunt_01" infectedSquad="flood_inf_infected_gruntplasmapistol_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_generic_elitegrunt_01">
+			<Infected weight="1" infectedUnit="cov_inf_grunt_01" infectedSquad="flood_inf_infected_gruntplasmapistol_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_heavygruntsubLeader_01">
+			<Infected weight="1" infectedUnit="cov_inf_grunt_01" infectedSquad="flood_inf_infected_gruntplasmapistol_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_heavygruntLeader_01">
+			<Infected weight="1" infectedUnit="cov_inf_grunt_01" infectedSquad="flood_inf_infected_gruntplasmapistol_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_heavygrunt_01">
+			<Infected weight="1" infectedUnit="cov_inf_grunt_01" infectedSquad="flood_inf_infected_gruntplasmapistol_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_generic_malemarine_01">
+			<Infected weight="1" infectedUnit="flood_inf_infected_assaultrifle_01" infectedSquad="flood_inf_infected_assaultrifle_01" deathByInfectionAnim="Transform" />
+			<Infected weight="1" infectedUnit="flood_inf_infected_assaultrifle_02" infectedSquad="flood_inf_infected_assaultrifle_02" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_generic_femalemarine_01">
+			<Infected weight="1" infectedUnit="flood_inf_infected_assaultrifle_01" infectedSquad="flood_inf_infected_assaultrifle_01" deathByInfectionAnim="Transform" />
+			<Infected weight="1" infectedUnit="flood_inf_infected_assaultrifle_02" infectedSquad="flood_inf_infected_assaultrifle_02" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_generic_engineer_01">
+			<Infected weight="1" infectedUnit="flood_inf_infected_assaultrifle_01" infectedSquad="flood_inf_infected_assaultrifle_01" deathByInfectionAnim="Transform" />
+			<Infected weight="1" infectedUnit="flood_inf_infected_assaultrifle_02" infectedSquad="flood_inf_infected_assaultrifle_02" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_odst_01">
+			<Infected weight="2" infectedUnit="flood_inf_infected_odst_01_base" infectedSquad="flood_inf_infected_odst_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_sniper_01">
+			<Infected weight="2" infectedUnit="flood_inf_infected_sniper_01_base" infectedSquad="flood_inf_infected_sniper_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_flameMarine_01">
+			<Infected weight="2" infectedUnit="flood_inf_infected_hellbr_01" infectedSquad="flood_inf_infected_hellbr_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_flameMarine_02">
+			<Infected weight="2" infectedUnit="flood_inf_infected_hellbr_01" infectedSquad="flood_inf_infected_hellbr_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_cyclops_01">
+			<Infected weight="1" infectedUnit="flood_inf_infected_cyclops_01_base" infectedSquad="flood_inf_infected_cyclops_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_serina_cryomarines_01">
+			<Infected weight="2" infectedUnit="flood_inf_infected_serina_cryomarines_01" infectedSquad="flood_inf_infected_serina_cryomarines_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_bruteLeader_01">
+			<Infected weight="2" infectedUnit="flood_inf_infected_brutespiker_01" infectedSquad="flood_inf_infected_brutespiker_01" deathByInfectionAnim="Transform" />
+			<Infected weight="1" infectedUnit="flood_inf_carrierform_01" infectedSquad="flood_inf_carrierform_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_bruteSubLeader_01">
+			<Infected weight="2" infectedUnit="flood_inf_infected_brutespiker_01" infectedSquad="flood_inf_infected_brutespiker_01" deathByInfectionAnim="Transform" />
+			<Infected weight="1" infectedUnit="flood_inf_carrierform_01" infectedSquad="flood_inf_carrierform_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_arbiter_eliteLeader_01">
+			<Infected weight="2" infectedUnit="flood_inf_infected_eliteplasmarifle_01" infectedSquad="flood_inf_infected_eliteplasmarifle_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_eliteLeader_01_base">
+			<Infected weight="2" infectedUnit="flood_inf_infected_eliteplasmarifle_01" infectedSquad="flood_inf_infected_eliteplasmarifle_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_elitesubleader_01_base">
+			<Infected weight="2" infectedUnit="flood_inf_infected_eliteplasmarifle_01" infectedSquad="flood_inf_infected_eliteplasmarifle_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_arbiter_assaultteamleader_01">
+			<Infected weight="2" infectedUnit="flood_inf_infected_eliteplasmacaster_01" infectedSquad="flood_inf_infected_eliteplasmacaster_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_bruteJumpPack_01">
+			<Infected weight="1" infectedUnit="flood_inf_carrierform_01" infectedSquad="flood_inf_carrierform_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_jackal_01">
+			<Infected weight="2" infectedUnit="flood_inf_infected_elitecarbine_01" infectedSquad="flood_inf_infected_elitecarbine_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_arbiter_assaultteam_01">
+			<Infected weight="2" infectedUnit="flood_inf_infected_eliteplasmarifle_01" infectedSquad="flood_inf_infected_eliteplasmarifle_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_bruterider_01">
+			<Infected weight="9" infectedUnit="flood_inf_carrierform_01" infectedSquad="flood_inf_carrierform_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_brutegrenadier_01">
+			<Infected weight="1" infectedUnit="flood_inf_carrierform_01" infectedSquad="flood_inf_carrierform_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_veh_warthog_01">
+			<Infected weight="1" infectedUnit="flood_veh_infected_warthog_01_base" infectedSquad="flood_veh_infected_warthog_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_veh_scorpion_01">
+			<Infected weight="1" infectedUnit="flood_veh_infected_scorpion_01_base" infectedSquad="flood_veh_infected_scorpion_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_veh_grizzly_01">
+			<Infected weight="1" infectedUnit="flood_veh_infected_grizzly_01_base" infectedSquad="flood_veh_infected_grizzly_01_base" deathByInfectionAnim="DeathByInfection" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_veh_flamehog_01">
+			<Infected weight="1" infectedUnit="flood_veh_infected_flamehog_01" infectedSquad="flood_veh_infected_flamehog_01" deathByInfectionAnim="DeathByInfection" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_veh_johnson_mantis_01">
+			<Infected weight="1" infectedUnit="flood_veh_infected_johnson_mantis_01" infectedSquad="flood_veh_infected_johnson_mantis_01" deathByInfectionAnim="DeathByInfection" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_veh_johnson_colossus_01">
+			<Infected weight="1" infectedUnit="flood_veh_infected_johnson_colossus_01" infectedSquad="flood_veh_infected_johnson_colossus_01" deathByInfectionAnim="DeathByInfection" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_veh_wolverine_01">
+			<Infected weight="1" infectedUnit="flood_veh_infected_wolverine_01_base" infectedSquad="flood_veh_infected_wolverine_01_base" deathByInfectionAnim="DeathByInfection" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_veh_foxcannon_01">
+			<Infected weight="1" infectedUnit="flood_veh_infected_foxcannon_01_base" infectedSquad="flood_veh_infected_foxcannon_01_base" deathByInfectionAnim="DeathByInfection" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_veh_battleapc_01">
+			<Infected weight="1" infectedUnit="flood_veh_infected_mastodon_01" infectedSquad="flood_veh_infected_mastodon_01" deathByInfectionAnim="DeathByInfection" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_veh_ghost_01">
+			<Infected infectedUnit="flood_veh_infected_ghost_01_base" infectedSquad="flood_veh_infected_ghost_01_base" deathByInfectionAnim="HijackLoop" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_veh_brutechopper_01">
+			<Infected infectedUnit="flood_veh_infected_bruteChopper_01_base" infectedSquad="flood_veh_infected_bruteChopper_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_veh_prowler_01">
+			<Infected infectedUnit="flood_veh_infected_prowler_01_base" infectedSquad="flood_veh_infected_prowler_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_veh_wraith_01">
+			<Infected infectedUnit="flood_veh_infected_wraith_01_base" infectedSquad="flood_veh_infected_wraith_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_veh_gorgon_01">
+			<Infected infectedUnit="flood_veh_infected_gorgon_01_base" infectedSquad="flood_veh_infected_gorgon_01_base" deathByInfectionAnim="HijackLoop" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_veh_locust_01">
+			<Infected infectedUnit="flood_veh_infected_locust_01_base" infectedSquad="flood_veh_infected_locust_01_base" deathByInfectionAnim="HijackLoop" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_veh_grunt_methanewagon_01">
+			<Infected infectedUnit="flood_veh_infected_grunt_methanewagon_01" infectedSquad="flood_veh_infected_grunt_methanewagon_01" deathByInfectionAnim="HijackLoop" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_air_hornet_01">
+			<Infected infectedUnit="flood_air_infected_hornet_01_base" infectedSquad="flood_air_infected_hornet_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_air_vulture_01">
+			<Infected infectedUnit="flood_air_infected_vulture_01_base" infectedSquad="flood_air_infected_vulture_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_air_serina_pegasus_01">
+			<Infected infectedUnit="flood_air_infected_serina_pegasus_01" infectedSquad="flood_air_infected_serina_pegasus_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_air_banshee_01">
+			<Infected infectedUnit="flood_air_infected_banshee_01_base" infectedSquad="flood_air_infected_banshee_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_air_blisterback_01">
+			<Infected infectedUnit="flood_air_infected_blisterback_01_base" infectedSquad="flood_air_infected_blisterback_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_air_phantom_01">
+			<Infected infectedUnit="flood_air_infected_phantom_01_base" infectedSquad="flood_air_infected_phantom_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+	</InfectionMap>
+	<MaxSquadPathsPerFrame>100</MaxSquadPathsPerFrame>
+	<MaxPlatoonPathsPerFrame>100</MaxPlatoonPathsPerFrame>
+	<DamageReceivedXPFactor>0.200000003</DamageReceivedXPFactor>
+	<FatalityMinInterval>40</FatalityMinInterval>
+	<FatalityTransitionScale>0.25</FatalityTransitionScale>
+	<FatalityMaxTransitionTime>1</FatalityMaxTransitionTime>
+	<FatalityCooldown>0</FatalityCooldown>
+	<FatalityPositionOffsetTolerance>15</FatalityPositionOffsetTolerance>
+	<FatalityOrientationOffsetTolerance>45</FatalityOrientationOffsetTolerance>
+	<FatalityExclusionRange>0</FatalityExclusionRange>
+	<RecyleRefundRate>0.5</RecyleRefundRate>
+	<BurningEffectLimits DefaultLimit="1">
+		<BurningEffectLimitEntry Limit="1">Infantry</BurningEffectLimitEntry>
+		<BurningEffectLimitEntry Limit="3">GroundVehicle</BurningEffectLimitEntry>
+		<BurningEffectLimitEntry Limit="3">Aircraft</BurningEffectLimitEntry>
+		<BurningEffectLimitEntry Limit="5">Building</BurningEffectLimitEntry>
+	</BurningEffectLimits>
+	<BaseRebuildTimer>30</BaseRebuildTimer>
+	<ObjectiveArrowRadialOffset>35</ObjectiveArrowRadialOffset>
+	<ObjectiveArrowSwitchOffset>30</ObjectiveArrowSwitchOffset>
+	<ObjectiveArrowMaxIndex>6</ObjectiveArrowMaxIndex>
+	<ObjectiveArrowYOffset>1.5</ObjectiveArrowYOffset>
+	<OverrunMinVel>25</OverrunMinVel>
+	<OverrunJumpForce>400</OverrunJumpForce>
+	<OverrunDistance>20</OverrunDistance>
+	<CoopResourceSplitRate>0.600000024</CoopResourceSplitRate>
+	<GameOverDelay>5</GameOverDelay>
+	<HeroDownedLOS>5</HeroDownedLOS>
+	<HeroHPRegenTime>90</HeroHPRegenTime>
+	<HeroRevivalDistance>15</HeroRevivalDistance>
+	<HeroPercentHPRevivalThreshhold>0.5</HeroPercentHPRevivalThreshhold>
+	<MaxDeadHeroTransportDist>25</MaxDeadHeroTransportDist>
+	<TransportClearRadiusScale>3</TransportClearRadiusScale>
+	<TransportMaxSearchRadiusScale>15</TransportMaxSearchRadiusScale>
+	<TransportMaxSearchLocations>10</TransportMaxSearchLocations>
+	<TransportBlockTime>15</TransportBlockTime>
+	<TransportLoadBlockTime>5</TransportLoadBlockTime>
+	<TransportMaxBlockAttempts>1</TransportMaxBlockAttempts>
+	<TransportPickupHeight>8.0f</TransportPickupHeight>
+	<TransportDropoffHeight>8.0f</TransportDropoffHeight>
+	<TransportMax>1</TransportMax>
+	<HitchOffset>7</HitchOffset>
+	<PlayerStates>
+		<PlayerState>Playing</PlayerState>
+		<PlayerState>Resigned</PlayerState>
+		<PlayerState>Defeated</PlayerState>
+		<PlayerState>Disconnected</PlayerState>
+		<PlayerState>Won</PlayerState>
+		<PlayerState>Desynched</PlayerState>
+		<PlayerState>DisconnectedExplicitQuit</PlayerState>
+	</PlayerStates>
+	<UnitTransitionTeleport>
+		<TeleportOutDuration>1</TeleportOutDuration>
+		<TeleportOutRenderOffTime>0.300000012</TeleportOutRenderOffTime>
+		<TeleportOutHideTime>0.949999988</TeleportOutHideTime>
+		<TeleportOutPfxTime>0.100000001</TeleportOutPfxTime>
+		<TeleportOutPfxBanished>fx_teleportOUT_01</TeleportOutPfxBanished>
+		<TeleportOutPfxForerunner>fx_teleportOUT_Blue</TeleportOutPfxForerunner>
+		<TeleportRandDelayTime>0.5</TeleportRandDelayTime>
+		<TeleportInDuration>1</TeleportInDuration>
+		<TeleportInRenderOnTime>0.899999976</TeleportInRenderOnTime>
+		<TeleportInPfxTime>0.100000001</TeleportInPfxTime>
+		<TeleportInPfxBanished>fx_teleportIN_01</TeleportInPfxBanished>
+		<TeleportInPfxForerunner>fx_teleportIN_Blue</TeleportInPfxForerunner>
+	</UnitTransitionTeleport>
+	<TimeFrozenToThaw>9</TimeFrozenToThaw>
+	<TimeFreezingToThaw>3</TimeFreezingToThaw>
+	<DefaultCryoPoints>100</DefaultCryoPoints>
+	<DefaultThawSpeed>15</DefaultThawSpeed>
+	<FreezingSpeedModifier>0.5</FreezingSpeedModifier>
+	<FreezingDamageModifier>1</FreezingDamageModifier>
+	<FrozenDamageModifier>1</FrozenDamageModifier>
+	<Dot small="4" medium="7" />
+	<DefaultCamoRevealRate>50</DefaultCamoRevealRate>
+	<CamoRechargeRate>100</CamoRechargeRate>
+	<MaxStealthDetectionRange>100</MaxStealthDetectionRange>
+	<StealthDetectionCheckInterval>0.200000003</StealthDetectionCheckInterval>
+	<SquadHPSCap>0.0500000007</SquadHPSCap>
+	<SquadHPSCapRosterMode>0.0500000007</SquadHPSCapRosterMode>
+	<GoToSelectionGroupDistanceThreshold>100</GoToSelectionGroupDistanceThreshold>
+	<OptimalAttackRangeScalar>0.949999988</OptimalAttackRangeScalar>
+	<UseShieldedDamageType>false</UseShieldedDamageType>
+	<PlayerSkillMapping>
+		<Diff>Normal</Diff>
+		<Diff>Easy</Diff>
+		<Diff>Normal</Diff>
+		<Diff>Hard</Diff>
+		<Diff>Hard</Diff>
+		<Diff>Legendary</Diff>
+	</PlayerSkillMapping>
+	<CleansingBeamCameraSnappingSpeed>120</CleansingBeamCameraSnappingSpeed>
+	<CleansingBeamMaxBuildingHeight>20</CleansingBeamMaxBuildingHeight>
+	<SpawnedViaHealingVfx>vfx_unitvfx_miscunitvfx_spawnedviahealing</SpawnedViaHealingVfx>
+	<ChillToDecayTimeMilliseconds>3000</ChillToDecayTimeMilliseconds>
+	<ChillDecayPerSecond>40</ChillDecayPerSecond>
+	<FrozenToDecayTimeMilliseconds>10000</FrozenToDecayTimeMilliseconds>
+	<ChillDecayPerSecondWhenFrozen>50</ChillDecayPerSecondWhenFrozen>
+	<FrozenThreshold>200</FrozenThreshold>
+	<ShatterThreshold>1500</ShatterThreshold>
+	<ChillWorkRate>0.75</ChillWorkRate>
+	<ChillDamageDealtScalar>0.899999976</ChillDamageDealtScalar>
+	<ChillSlowModifier>0.699999988</ChillSlowModifier>
+	<DamageOnShatter>4000</DamageOnShatter>
+	<FreezeVfx>vfx_dlc4_units_freeze1</FreezeVfx>
+	<ShatterVfx>vfx_dlc4_units_shatter1</ShatterVfx>
+	<ThawVfx>vfx_dlc4_units_thaw1</ThawVfx>
+	<ShatterDamageIsTransferredToDamageProxy>true</ShatterDamageIsTransferredToDamageProxy>
+	<DoubleClickSelectAllDelay>0.349999994</DoubleClickSelectAllDelay>
+	<NoDropNearBaseRadius>33</NoDropNearBaseRadius>
+</GameData>

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TechTree version="8">
+	<Tech name="notflood" type="Normal">
+		<DBID>1963</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Effects />
+	</Tech>
 	<Tech name="skin_change1" type="Normal">
 		<DBID>1963</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -7,6 +13,7 @@
 		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status="Active">unsc_warthog_upgrade3</TechStatus>
+			<TechStatus status="Active">notflood</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="unsc_veh_warthog_01" ToType="unsc_veh_warthog_01_fear" />
@@ -19,6 +26,7 @@
 		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status="Active">unsc_scorpion_upgrade2</TechStatus>
+			<TechStatus status="Active">notflood</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="unsc_veh_scorpion_01" ToType="unsc_veh_scorpion_01_fear" />
@@ -31,6 +39,7 @@
 		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status="Active">unsc_hornet_upgrade1</TechStatus>
+			<TechStatus status="Active">notflood</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="unsc_air_hornet_01" ToType="unsc_air_hornet_01_fear" />
@@ -43,6 +52,7 @@
 		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status="Active">cov_bruteChopper_upgrade4</TechStatus>
+			<TechStatus status="Active">notflood</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="cov_veh_bruteChopper_01" ToType="cov_veh_bruteChopper_01_fear" />
@@ -55,6 +65,7 @@
 		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status="Active">cov_wraith_upgrade1</TechStatus>
+			<TechStatus status="Active">notflood</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="cov_veh_wraith_01" ToType="cov_veh_wraith_01_fear" />
@@ -67,18 +78,20 @@
 		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status="Active">cov_hunter_upgrade1</TechStatus>
+			<TechStatus status="Active">notflood</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="cov_inf_hunter_01" ToType="cov_inf_hunter_01_fear" />
 		</Effects>
 	</Tech>
-	<Tech name="skin_change6" type="Normal">
+	<Tech name="skin_change7" type="Normal">
 		<DBID>1963</DBID>
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Prereqs>
 			<TechStatus status="Active">_POWER_BoundlessLeech</TechStatus>
+			<TechStatus status="Active">notflood</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="cov_veh_locust_01" ToType="cov_veh_locust_01_fear" />
@@ -2204,6 +2217,42 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_carrierform_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="flood_carrierform_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_infected_rocket_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="flood_infectedrockethuman_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_spawner_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="flood_spawner_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="flood_spawner_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="flood_spawner_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_commander_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_warthog_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_warthog_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_foxcannon_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_minibaseNoSocks</Target>
 			</Effect>
@@ -5796,6 +5845,7 @@
 		<Effects>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CovTeleport1</Effect>
 			<Effect type="UnlockableGodPower" tier="1">ArbiterStasisMine1</Effect>
@@ -6103,6 +6153,7 @@
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -6114,6 +6165,7 @@
 		<Effects>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CorruptedMines1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="CorruptedMines1">CorruptedMines2</Effect>
@@ -6258,6 +6310,143 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="flood_spawner_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27806</DisplayNameID>
+		<RolloverTextID>27807</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">350</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_basic</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_spawner_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1.5" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_spawner_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="SpawnerInfAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_inf_spawner_01_mp</Target>
+			</Effect>
+			<Effect type="SquadCounter" NewCounterName="BruteWarlord_02">
+				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_spawner_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27808</DisplayNameID>
+		<RolloverTextID>27809</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">450</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">flood_spawner_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_spawner_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="2" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_spawner_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="SpawnerVehAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_inf_spawner_01_mp</Target>
+			</Effect>
+			<Effect type="SquadCounter" NewCounterName="BruteWarlord_03">
+				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_spawner_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27810</DisplayNameID>
+		<RolloverTextID>27811</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>35</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">flood_spawner_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_spawner_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="2" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_spawner_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="SpawnerAirAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_inf_spawner_01_mp</Target>
+			</Effect>
+			<Effect type="SquadCounter" NewCounterName="BruteWarlord_04">
+				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_carrierform_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>24174</DisplayNameID>
+		<RolloverTextID>24175</RolloverTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">200</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_carrierform_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_carrierform_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_infectedrockethuman_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>22376</DisplayNameID>
+		<RolloverTextID>22377</RolloverTextID>
+		<PrereqTextID>244</PrereqTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">900</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_assaultbeam</ResearchCompleteSound>
+		<Prereqs />
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_rocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_rocket_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="skin_applyfloodskins" type="Normal">
 		<DBID>1963</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -6267,6 +6456,17 @@
 			<TechStatus status="Active">covenant_LeaderFlood</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_air_banshee_01" ToType="cov_air_banshee_01_flood_mp" />
+			<Effect type="ReparentProtoObject" FromType="cov_air_blisterbackBase_01" ToType="cov_air_blisterbackBase_01_flood_mp" />
+			<Effect type="ReparentProtoObject" FromType="cov_air_blisterbackLockdown_01" ToType="cov_air_blisterbackLockdown_01_flood_mp" />
+			<Effect type="ReparentProtoObject" FromType="cov_inf_jackal_01" ToType="cov_inf_jackal_01_flood_mp" />
+			<Effect type="ReparentProtoObject" FromType="cov_inf_bruteLeader_01" ToType="cov_inf_bruteLeader_01_flood_mp" />
+			<Effect type="ReparentProtoObject" FromType="cov_inf_bruteSubLeader_01" ToType="cov_inf_bruteSubLeader_01_flood_mp" />
+			<Effect type="ReparentProtoObject" FromType="cov_veh_wraith_01" ToType="cov_veh_wraith_01_flood_mp" />
+			<Effect type="ReparentProtoObject" FromType="unsc_veh_warthog_01" ToType="unsc_veh_warthog_01_flood_mp" />
+			<Effect type="ReparentProtoObject" FromType="cov_veh_bruteChopper_01" ToType="cov_veh_bruteChopper_01_flood_mp" />
+			<Effect type="ReparentProtoObject" FromType="cov_inf_arbiter_assaultteamleader_01" ToType="cov_inf_arbiter_assaultteamleader_01_flood_mp" />
+			<Effect type="ReparentProtoObject" FromType="cov_inf_arbiter_assaultteam_01" ToType="cov_inf_arbiter_assaultteam_01_flood_mp" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_barracks_01" ToType="cov_bldg_barracks_01_flood_mp" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_lightfactory_01" ToType="cov_bldg_lightfactory_01_flood_mp" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_heavyfactory_01" ToType="cov_bldg_heavyfactory_01_flood_mp" />
@@ -6296,7 +6496,6 @@
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscMedDrones1_MP">UnscMedDrones2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscMedDrones2_MP">UnscMedDrones3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Flood_Emerge_InfectorsAOM</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="Flood_Emerge_InfectorsAOM">Flood_Emerge_InfectorsAOM2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">FloodRuptureEmerge</Effect>
 			<Effect type="UnlockableGodPower" tier="4">FloodSpiritGunship1</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="FloodSpiritGunship1">FloodSpiritGunship2</Effect>
@@ -6310,15 +6509,36 @@
 				<Target type="ProtoSquad">cov_inf_suicideGrunt_01</Target>
 				<Target type="ProtoSquad">cov_inf_suicideGrunt_02</Target>
 				<Target type="ProtoSquad">cov_veh_scarab_01</Target>
-				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
-				<Target type="ProtoSquad">cov_inf_arbiter_assaultteam_01</Target>
+				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
+				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
+				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
+				<Target type="ProtoSquad">cov_inf_generic_arbiterenforcer</Target>
+				<Target type="ProtoSquad">cov_inf_arbiter_assaultteam_02</Target>
 				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
-				<Target type="ProtoSquad">flood_inf_infectedrockethuman_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
 				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
 				<Target type="ProtoSquad">flood_inf_commander_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">cov_arbiter_assaultteam</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_bruteChopper_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_nightingale_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_carrierform_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
@@ -6353,56 +6573,20 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_warthog_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_foxcannon_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_wolverine_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_assaultteam_upgrade0" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_generic_arbiterenforcer" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_assaultteam_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_ghost_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_ghost_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_ghost_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_ghost_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteJumpPack_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_generic_brutejumppack" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
@@ -6453,7 +6637,25 @@
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_prowler_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_prowler_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_gorgon_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hunter_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hunter_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_engineer_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -6558,6 +6760,7 @@
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -6569,6 +6772,7 @@
 		<Effects>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">Grunt_AmbushMine1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="Grunt_AmbushMine1">Grunt_AmbushMine2</Effect>
@@ -6825,6 +7029,7 @@
 			<Effect type="UnlockableGodPower" tier="5">LekgoloEverlasting</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
@@ -6913,6 +7118,7 @@
 		<Effects>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CovRaidTech1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="CovRaidTech1">CovRaidTech2</Effect>
@@ -7100,6 +7306,7 @@
 		<Effects>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">Unbrk_MegaTurret</Effect>
 			<Effect type="UnlockableGodPower" tier="1">Unbrk_Overcharge1_mp</Effect>
@@ -10423,6 +10630,7 @@
 			<Effect type="UnlockableGodPower" tier="5">UnscGrizzlyBattalion</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_forge_grizzlyLOS</Target>
@@ -10514,6 +10722,7 @@
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -10588,6 +10797,7 @@
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -10688,6 +10898,7 @@
 			<Effect type="UnlockableGodPower" tier="5">UnscPelicanGunship</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -10792,6 +11003,7 @@
 			<Effect type="UnlockableGodPower" tier="5">UnscGhostInTheMachine</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -10803,6 +11015,7 @@
 		<Effects>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_jerome_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
@@ -10883,6 +11096,7 @@
 		<Effects>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
@@ -11074,6 +11288,7 @@
 		<Effects>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_flamecyclops_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
@@ -11199,6 +11414,7 @@
 		<Effects>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+				<Target type="Tech">notflood</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_serinahero_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
@@ -13910,9 +14126,6 @@
 		<DisplayNameID>1114</DisplayNameID>
 		<RolloverTextID>1115</RolloverTextID>
 		<PrereqTextID>233</PrereqTextID>
-		<Prereqs>
-			<TechStatus status="Active">unsc_basic</TechStatus>
-		</Prereqs>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">750</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
@@ -16067,6 +16280,7 @@
 				<Target type="ProtoSquad">cov_air_banshee_01</Target>
 				<Target type="ProtoSquad">cov_air_shroud_01</Target>
 				<Target type="ProtoSquad">cov_air_blisterback_01</Target>
+				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -16103,7 +16317,7 @@
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_02</Target>
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_03</Target>
 				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
-				<Target type="ProtoSquad">flood_inf_infectedrockethuman_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -16143,7 +16357,7 @@
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_02</Target>
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_03</Target>
 				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
-				<Target type="ProtoSquad">flood_inf_infectedrockethuman_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -16183,7 +16397,7 @@
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_02</Target>
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_03</Target>
 				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
-				<Target type="ProtoSquad">flood_inf_infectedrockethuman_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -16288,7 +16502,7 @@
 				<Target type="ProtoSquad">cov_veh_gorgon_01</Target>
 				<Target type="ProtoSquad">cov_veh_locust_01</Target>
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
-				<Target type="ProtoSquad">unsc_veh_foxcannon_01</Target>
+				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -16321,7 +16535,7 @@
 				<Target type="ProtoSquad">cov_veh_gorgon_01</Target>
 				<Target type="ProtoSquad">cov_veh_locust_01</Target>
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
-				<Target type="ProtoSquad">unsc_veh_foxcannon_01</Target>
+				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -16354,7 +16568,7 @@
 				<Target type="ProtoSquad">cov_veh_gorgon_01</Target>
 				<Target type="ProtoSquad">cov_veh_locust_01</Target>
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
-				<Target type="ProtoSquad">unsc_veh_foxcannon_01</Target>
+				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -16407,11 +16621,13 @@
 				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
 				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
 				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
-				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
-				<Target type="ProtoSquad">flood_inf_infectedrockethuman_01</Target>
-				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
+				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
-				<Target type="ProtoSquad">unsc_veh_foxcannon_01</Target>
+				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
+				<Target type="ProtoSquad">flood_inf_commander_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -16467,11 +16683,13 @@
 				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
 				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
 				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
-				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
-				<Target type="ProtoSquad">flood_inf_infectedrockethuman_01</Target>
-				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
+				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
-				<Target type="ProtoSquad">unsc_veh_foxcannon_01</Target>
+				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
+				<Target type="ProtoSquad">flood_inf_commander_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -16527,11 +16745,13 @@
 				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
 				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
 				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
-				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
-				<Target type="ProtoSquad">flood_inf_infectedrockethuman_01</Target>
-				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
+				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
-				<Target type="ProtoSquad">unsc_veh_foxcannon_01</Target>
+				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
+				<Target type="ProtoSquad">flood_inf_commander_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

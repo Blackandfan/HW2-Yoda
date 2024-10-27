@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <BackgroundMovies>
-	<Movie fadeinframes="10" fadeoutframes="10">data\video\FloodVignette.bk2</Movie>
+	<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE12_Ark_Banished.bk2</Movie>
 	<Playlist name="RosterMode">
 		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE09_Blitz_Output.bk2</Movie>
 	</Playlist>
@@ -8,28 +8,13 @@
 		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE00_Ark_Output.bk2</Movie>
 	</Playlist>
 	<Playlist name="Episode2Campaign">
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FloodVignette.bk2</Movie>
+		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE12_Ark_Banished.bk2</Movie>
 	</Playlist>
 	<Playlist name="Episode2">
 		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE10_Brute_Corrupted.bk2</Movie>
 		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE11_Brute_Unbreakable.bk2</Movie>
 	</Playlist>
 	<Playlist name="Episode2Full">
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE01_Spartan_Output.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE02_Brute_Output.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE03_Grizzly_Output.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE04_Decimus_Output.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE05_Flamer_Output.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE06_Locust_Output.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE07_Cyclops_Output.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE08_Blisterback_Output.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE10_Brute_Corrupted.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE11_Brute_Unbreakable.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE10_Brute_Corrupted.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE11_Brute_Unbreakable.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE10_Brute_Corrupted.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE11_Brute_Unbreakable.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE10_Brute_Corrupted.bk2</Movie>
-		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE11_Brute_Unbreakable.bk2</Movie>
+		<Movie fadeinframes="10" fadeoutframes="10">data\video\FrontEnd\FE12_Ark_Banished.bk2</Movie>
 	</Playlist>
 </BackgroundMovies>

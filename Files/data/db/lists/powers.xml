@@ -118,9 +118,9 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">14</Pop>
-			<Cost Supplies="600" Power="400" />
-			<AutoRecharge>330000</AutoRecharge>
+			<Pop type="Unit">18</Pop>
+			<Cost Supplies="600" Power="200" />
+			<AutoRecharge>190000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -206,112 +206,6 @@
 					</Drop>
 					<Drop>
 						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-				</Data>
-			</DataLevel>
-		</Attributes>
-	</Power>
-	<Power name="Flood_Emerge_InfectorsAOM2">
-		<Attributes>
-			<PowerType>Gunship</PowerType>
-			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">25</Pop>
-			<Cost Supplies="800" Power="600" />
-			<AutoRecharge>330000</AutoRecharge>
-			<UIRadius>30</UIRadius>
-			<Decal>AOE_Large</Decal>
-			<ShowTransportArrows>true</ShowTransportArrows>
-			<DisplayNameID>5010</DisplayNameID>
-			<RolloverTextID>5011</RolloverTextID>
-			<PrereqTextID>5011</PrereqTextID>
-			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
-			<IconLocation>8</IconLocation>
-			<CameraZoomMin>150</CameraZoomMin>
-			<CameraZoomMax>150</CameraZoomMax>
-			<CameraPitchMin>55</CameraPitchMin>
-			<CameraPitchMax>55</CameraPitchMax>
-			<CameraEnableUserScroll>true</CameraEnableUserScroll>
-			<CameraEnableUserYaw>false</CameraEnableUserYaw>
-			<CameraEnableUserZoom>false</CameraEnableUserZoom>
-			<FlashUI>
-				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
-				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
-			</FlashUI>
-			<DataLevel level="0">
-				<Data type="sound" name="HudUpSound" />
-				<Data type="sound" name="HudAbortSound" />
-				<Data type="sound" name="HudFireSound" />
-				<Data type="sound" name="HudLastFireSound" />
-				<Data type="sound" name="HudStartEnvSound" />
-				<Data type="sound" name="HudStopEnvSound" />
-				<Data type="int" name="NumGunships">3</Data>
-				<Data type="float" name="AOERadius">20</Data>
-				<Data type="float" name="WaitDuration">1</Data>
-				<Data type="protoobject" name="Gunship">flood_inf_ruptureemerge_LP_01</Data>
-				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_GrizzlyBattalion</Data>
-				<Data type="unitdrops" name="UnitDrops">
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_vehinfector_01</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_vehinfector_01</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_vehinfector_01</ProtoSquadID>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -390,7 +284,7 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">22</Pop>
+			<Pop type="Unit">16</Pop>
 			<Cost Supplies="1250" Power="210" />
 			<AutoRecharge>165000</AutoRecharge>
 			<UIRadius>30</UIRadius>
@@ -426,28 +320,20 @@
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_GrizzlyBattalion</Data>
 				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
-						<ProtoSquadID>flood_veh_infected_wraith_01_base</ProtoSquadID>
+						<ProtoSquadID>cov_veh_wraith_01</ProtoSquadID>
 						<VeterancyLevel>2</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>fld_custom_railgunflood</ProtoSquadID>
-						<VeterancyLevel>3</VeterancyLevel>
+						<ProtoSquadID>cov_inf_arbiter_assaultteam_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>fld_custom_railgunflood</ProtoSquadID>
-						<VeterancyLevel>3</VeterancyLevel>
+						<ProtoSquadID>cov_veh_bruteChopper_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_arbiter_assaultteam_01</ProtoSquadID>
-						<VeterancyLevel>3</VeterancyLevel>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_veh_infected_bruteChopper_01_base</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_veh_infected_bruteChopper_01_base</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<ProtoSquadID>cov_veh_bruteChopper_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -457,7 +343,7 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">26</Pop>
+			<Pop type="Unit">21</Pop>
 			<Cost Supplies="1350" Power="220" />
 			<AutoRecharge>165000</AutoRecharge>
 			<UIRadius>30</UIRadius>
@@ -497,19 +383,19 @@
 						<VeterancyLevel>2</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_generic_odst</ProtoSquadID>
+						<ProtoSquadID>flood_inf_infected_rocket_01</ProtoSquadID>
+						<VeterancyLevel>2</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_rocket_01</ProtoSquadID>
+						<VeterancyLevel>2</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_arbiter_assaultteam_02</ProtoSquadID>
 						<VeterancyLevel>3</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_generic_odst</ProtoSquadID>
-						<VeterancyLevel>3</VeterancyLevel>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_arbiter_assaultteam_01</ProtoSquadID>
-						<VeterancyLevel>3</VeterancyLevel>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_veh_infected_warthog_01_base</ProtoSquadID>
+						<ProtoSquadID>unsc_veh_warthog_01</ProtoSquadID>
 						<VeterancyLevel>2</VeterancyLevel>
 					</Drop>
 				</Data>

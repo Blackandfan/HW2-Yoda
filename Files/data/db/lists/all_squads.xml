@@ -4,6 +4,249 @@
 	<Squad name="FlyingFlood" dbid="16256726101795934130" />
 	<Squad name="Forerunner" dbid="12943458503600554757" />
 	<Squad name="Rebel" dbid="10443232853206385951" />
+	<Squad name="flood_inf_infected_gruntplasmapistol_01" parent_element="flood_inf_infected_gruntplasmapistol_01_sp" dbid="7209847888651370562">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+	</Squad>
+	<Squad name="flood_inf_infected_gruntplasmapistol_01_base" dbid="4043350716809326218">
+		<CombatRank>3</CombatRank>
+		<SubSelectSort>615</SubSelectSort>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.20000005</AIAttackRank>
+		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
+		<BuildPoints>8</BuildPoints>
+		<Cost ResourceType="Supplies">130</Cost>
+		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_grunt_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
+		<FrozenThreshold>100</FrozenThreshold>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>Units</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>AssaultElites_01</Counters>
+	</Squad>
+	<Squad name="flood_inf_infected_gruntplasmapistol_01_mp" parent_element="flood_inf_infected_gruntplasmapistol_01_base" dbid="7788961292759108650" />
+	<Squad name="flood_inf_infected_gruntplasmapistol_01_sp" parent_element="flood_inf_infected_gruntplasmapistol_01_base" dbid="7798527043922652100">
+		<Flag>DoNotMoveToAttackMe</Flag>
+	</Squad>
+	<Squad name="flood_veh_infected_grizzly_01_base" parent_element="flood_veh_infected_grizzly_01_base_sp" dbid="17041983731773779530">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+	</Squad>
+	<Squad name="flood_veh_infected_grizzly_01_base_base" dbid="196831819295490578">
+		<CombatRank>7</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_scorpion</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3020</DisplayNameID>
+		<RolloverTextID>3021</RolloverTextID>
+		<StatsNameID>25680</StatsNameID>
+		<RoleTextID>501</RoleTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<SubSelectSort>16</SubSelectSort>
+		<LeashDistance>30</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>10</AIAttackRank>
+		<Pop Type="Unit">9</Pop>
+		<Cost ResourceType="Supplies">750</Cost>
+		<Cost ResourceType="Power">140</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<BuildPoints>48</BuildPoints>
+		<HealValue>3.25</HealValue>
+		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_veh_infected_grizzly_01_base</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
+		<Flag>ForceLeashUpdate</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.100000001" max="8" />
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Scorpion_01</Counters>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+	</Squad>
+	<Squad name="flood_veh_infected_grizzly_01_base_mp" parent_element="flood_veh_infected_grizzly_01_base_base" dbid="13020588005521050530" />
+	<Squad name="flood_veh_infected_grizzly_01_base_sp" parent_element="flood_veh_infected_grizzly_01_base_base" dbid="13045353405429955244">
+		<Flag>DoNotMoveToAttackMe</Flag>
+	</Squad>
+	<Squad name="flood_inf_carrierform_01" dbid="7643942651026636629" parent_element="flood_inf_carrierform_01_sp">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+	</Squad>
+	<Squad name="flood_inf_carrierform_01_base" formationType="Flock" dbid="12117033294226329571">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3000</DisplayNameID>
+		<RolloverTextID>3001</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>93000</SubSelectSort>
+		<LeashDistance>30</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>21.5249996</AggroDistance>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.5</AIAttackRank>
+		<BuildPoints>8</BuildPoints>
+		<Pop Type="Unit">2</Pop>
+		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_carrierform_01</Unit>
+		</Units>
+		<OverrideUnitSoundNames />
+		<LeaderDiesLast />
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<FrozenThreshold>100</FrozenThreshold>
+		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>Carrierform_01</Counters>
+	</Squad>
+	<Squad name="flood_inf_carrierform_01_mp" parent_element="flood_inf_carrierform_01_base" dbid="10581657388020120155" />
+	<Squad name="flood_inf_carrierform_01_sp" parent_element="flood_inf_carrierform_01_base" dbid="10576023490438302341">
+		<Flag>DoNotMoveToAttackMe</Flag>
+	</Squad>
+	<Squad name="flood_air_airborneinfector_02" dbid="18345026867266862783">
+		<CombatRank>6</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\air_banshee</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3064</DisplayNameID>
+		<RolloverTextID>3065</RolloverTextID>
+		<RoleTextID>502</RoleTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<SubSelectSort>92550</SubSelectSort>
+		<LeashDistance>100</LeashDistance>
+		<LeashDeadzone>999</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<AIAttackRank>3.5</AIAttackRank>
+		<BuildPoints>15</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,4.30499983,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_air_airborneinfector_02</Unit>
+		</Units>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DoNotInstantRotate</Flag>
+		<Flag>DoNotMoveToAttackMe</Flag>
+		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>ForceLeashUpdate</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Banshee_01</Counters>
+		<Birth>IncomingAnim</Birth>
+		<BirthBone>b_reference_1</BirthBone>
+		<BirthTrainerAnimation>Birth</BirthTrainerAnimation>
+		<RammingDistanceScalar>5</RammingDistanceScalar>
+		<RammingSpeedScalar>1.5</RammingSpeedScalar>
+	</Squad>
+	<Squad name="flood_inf_vehinfector_02" dbid="13896596634908817471" formationType="Flock">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3000</DisplayNameID>
+		<RolloverTextID>3001</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>92500</SubSelectSort>
+		<LeashDistance>100</LeashDistance>
+		<LeashDeadzone>999</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.5</AIAttackRank>
+		<BuildPoints>10</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">100</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_vehinfector_02</Unit>
+		</Units>
+		<OverrideUnitSoundNames />
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Melee</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>DoNotMoveToAttackMe</Flag>
+		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
+		<Flag>ForceLeashUpdate</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>IncomingAnim</Birth>
+		<BirthBone>b_reference_0</BirthBone>
+		<BirthTrainerAnimation>Birth</BirthTrainerAnimation>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>Marines_01</Counters>
+		<RammingDistanceScalar>10</RammingDistanceScalar>
+		<RammingSpeedScalar>1</RammingSpeedScalar>
+	</Squad>
 	<Squad name="flood_structure_floodbosstentacledrop_01" dbid="1626793275312854217" formationType="Flock">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
@@ -63,7 +306,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="3" role="normal">flood_bldg_egg_infinfector_01</Unit>
+			<Unit count="3" role="normal">flood_bldg_eggdropaom_01</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
@@ -88,7 +331,7 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3401</SubSelectSort>
+		<SubSelectSort>92200</SubSelectSort>
 		<LeashDistance>100</LeashDistance>
 		<LeashDeadzone>999</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -96,14 +339,61 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>16</BuildPoints>
-		<Pop Type="Unit">0.5</Pop>
+		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="5" role="normal">flood_inf_infectfrm_02</Unit>
+			<Unit count="4" role="normal">flood_inf_infectfrm_02</Unit>
+		</Units>
+		<OverrideUnitSoundNames />
+		<LeaderDiesLast />
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>ForceLeashUpdate</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<BirthBone>bone_vfx_BirthPoint</BirthBone>
+		<BirthTrainerAnimation>Birth</BirthTrainerAnimation>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>Marines_01</Counters>
+		<ObstructionTweaker>1</ObstructionTweaker>
+	</Squad>
+	<Squad name="flood_inf_infectfrm_02_lowcount" dbid="12411580469313219614" formationType="Flock">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3000</DisplayNameID>
+		<RolloverTextID>3001</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>92200</SubSelectSort>
+		<LeashDistance>100</LeashDistance>
+		<LeashDeadzone>999</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>21.5249996</AggroDistance>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.5</AIAttackRank>
+		<BuildPoints>16</BuildPoints>
+		<Pop Type="Unit">0</Pop>
+		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_infectfrm_02</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
@@ -5428,7 +5718,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">flood_inf_commander_01</Unit>
+			<Unit count="1" role="normal">flood_inf_commander_01_mp</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
@@ -5448,13 +5738,25 @@
 		<BirthBone>b_reference_0</BirthBone>
 		<BirthTrainerAnimation>Birth</BirthTrainerAnimation>
 		<AvoidanceMass>Heavy</AvoidanceMass>
-		<Counters>Marines_01</Counters>
+		<Counters>Scarab_01</Counters>
 		<FrozenThreshold>500</FrozenThreshold>
 		<ShatterThreshold>3000</ShatterThreshold>
 		<DamageOnShatter>7500</DamageOnShatter>
 		<ChillDecayPerSecond>100</ChillDecayPerSecond>
 	</Squad>
-	<Squad name="flood_inf_commander_01_mp" parent_element="flood_inf_commander_01_base" dbid="11751029654116465492" />
+	<Squad name="flood_inf_commander_01_mp" parent_element="flood_inf_commander_01_base" dbid="11751029654116465492">
+		<Pop Type="Unit">31</Pop>
+		<Cost ResourceType="Supplies">2000</Cost>
+		<Cost ResourceType="Power">2000</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<DazeResist>0.25</DazeResist>
+		<FrozenThreshold>500</FrozenThreshold>
+		<ShatterThreshold>5000</ShatterThreshold>
+		<DamageOnShatter>10000</DamageOnShatter>
+		<ChillDecayPerSecond>100</ChillDecayPerSecond>
+		<MaxConvertedtoDroneSlots>3</MaxConvertedtoDroneSlots>
+		<CanAttackWhileMoving>true</CanAttackWhileMoving>
+	</Squad>
 	<Squad name="flood_inf_commander_01_sp" parent_element="flood_inf_commander_01_base" dbid="11772144675420466586">
 		<Flag>DoNotMoveToAttackMe</Flag>
 		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
@@ -5571,7 +5873,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">flood_inf_spawner_01</Unit>
+			<Unit count="1" role="normal">flood_inf_spawner_01_mp</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
@@ -5594,7 +5896,18 @@
 		<DamageOnShatter>5000</DamageOnShatter>
 		<ChillDecayPerSecond>80</ChillDecayPerSecond>
 	</Squad>
-	<Squad name="flood_inf_spawner_01_mp" parent_element="flood_inf_spawner_01_base" dbid="1428547255470341446" />
+	<Squad name="flood_inf_spawner_01_mp" parent_element="flood_inf_spawner_01_base" dbid="1428547255470341446">
+		<BuildPoints>45</BuildPoints>
+		<Pop Type="Unit">-6</Pop>
+		<Pop Type="HonorGuard">1</Pop>
+		<Cost ResourceType="Supplies">300</Cost>
+		<Cost ResourceType="Power">275</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<FrozenThreshold>400</FrozenThreshold>
+		<ShatterThreshold>3000</ShatterThreshold>
+		<DamageOnShatter>7000</DamageOnShatter>
+		<ChillDecayPerSecond>80</ChillDecayPerSecond>
+	</Squad>
 	<Squad name="flood_inf_spawner_01_sp" parent_element="flood_inf_spawner_01_base" dbid="1445730423192616904">
 		<Flag>DoNotMoveToAttackMe</Flag>
 		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
@@ -6171,14 +6484,14 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>600</SubSelectSort>
+		<SubSelectSort>90600</SubSelectSort>
 		<LeashDistance>15</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>21.5249996</AggroDistance>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
-		<BuildPoints>18</BuildPoints>
+		<BuildPoints>12</BuildPoints>
 		<Pop Type="Unit">0.5</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -6203,16 +6516,17 @@
 		</Selection>
 		<Birth>Trained</Birth>
 		<AvoidanceMass>Light</AvoidanceMass>
-		<Counters>Marines_01</Counters>
+		<Counters>InfectedRocket_01</Counters>
 		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="flood_inf_infected_rocket_01_mp" parent_element="flood_inf_infected_rocket_01_base" dbid="4308445601189180971">
-		<Pop Type="Unit">0.5</Pop>
-		<Cost ResourceType="Supplies">-30</Cost>
+		<Pop Type="Unit">1.5</Pop>
+		<Cost ResourceType="Supplies">120</Cost>
 		<Cost ResourceType="Power">110</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
 		<Units>
-			<Unit count="3" role="normal">flood_inf_infected_rocket_01</Unit>
+			<Unit count="2" role="normal">flood_inf_infected_rocket_01</Unit>
+			<Unit count="3" role="normal">flood_inf_infected_assaultrifle_01</Unit>
 		</Units>
 	</Squad>
 	<Squad name="flood_inf_infected_rocket_01_sp" parent_element="flood_inf_infected_rocket_01_base" dbid="4333492476074907701">
@@ -6788,7 +7102,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">for_air_sentinel_01</Unit>
+			<Unit count="1" role="normal">creep_flood_airborne_01</Unit>
 		</Units>
 		<Flag>DiesWhenFrozen</Flag>
 		<Flag>Repairable</Flag>

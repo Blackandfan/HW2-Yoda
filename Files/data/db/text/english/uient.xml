@@ -4,43 +4,102 @@
 	<str id="UIENT.LEADERSELECT.ROLE01.FLOODBOY">Desolator</str>
 	<str id="UIENT.LEADERSELECT.ROLE02.FLOODBOY">Stormtrooper</str>
 	<str id="UIENT.LEADERSELECT.SHORTDESCR.FLOODBOY">The Flood focuses on aggressive rush attacks.</str>
+	<str id="UIENT.FLOOD_INF_COMMANDER_01.RadialCenter.Name">ABOMINATION</str>
+	<str id="UIENT.FLOOD_INF_COMMANDER_01.RadialEdge.Name">HIVE COMMANDER</str>
+	<str id="UIENT.FLOOD_INF_COMMANDER_01.RadialEdge.Role">ANTI-GROUND</str>
+	<str id="UIENT.FLOOD_INF_COMMANDER_01.RadialEdge.ShortDescr">Close range uber unit.</str>
+	<str id="UIENT.FLOOD_INF_SPAWNER_01.RadialCenter.Name">SPAWNER</str>
+	<str id="UIENT.FLOOD_INF_SPAWNER_01.RadialEdge.Name">SPAWNER</str>
+	<str id="UIENT.FLOOD_INF_SPAWNER_01.RadialEdge.Role">HERO</str>
+	<str id="UIENT.FLOOD_INF_SPAWNER_01.RadialEdge.ShortDescr">&gt;Ranged Hero
+Able to spawn infection forms using upgrades.</str>
 	<str id="UIENT.LEADERSELECT.SHORTDESCR.FLOODBOY.BLITZ">The Flood focuses on aggressive rush attacks.</str>
-	<str id="UIENT.flood_inf_infectedrockethuman_01.RADIALEDGE.NAME">INFECTED ROCKET INFANTRY</str>
-	<str id="UIENT.flood_inf_infectedrockethuman_01.RADIALEDGE.ROLE">I NEED TEXT</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERNAME.FloodEggAOMDrop1">Flood Egg I</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERDESCR.FloodEggAOMDrop1">Drops a cluster of flood eggs onto the battlefield.</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERNAME.FloodEggAOMDrop2">Flood Egg II</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERDESCR.FloodEggAOMDrop2">Drops a cluster of flood eggs onto the battlefield.</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERNAME.Flood_Emerge_InfectorsAOM">Flood Rupture I</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERDESCR.Flood_Emerge_InfectorsAOM">Pod infector drop.</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERNAME.Flood_Emerge_InfectorsAOM2">Flood Rupture II</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERDESCR.Flood_Emerge_InfectorsAOM2">Pod infector + veh infector drop.</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERNAME.FloodRuptureEmerge">RUPTURE</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERDESCR.FloodRuptureEmerge">Spawn a flood rupture.</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERNAME.FloodSpiritGunship1">COMBAT SUPPORT I</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERDESCR.FloodSpiritGunship1">Drops a cluster of infected troops onto the battlefield.</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERNAME.FloodSpiritGunship2">COMBAT SUPPORT II</str>
-	<str id="UIENT.COMMANDTREEPAGE.POWERDESCR.FloodSpiritGunship2">Drops a cluster of infected troops onto the battlefield.</str>
-	<str id="UIENT.flood_carrierform_upgrade1.RADIALCENTER.NAME">SQUAD RESERVES</str>
-	<str id="UIENT.flood_carrierform_upgrade1.RADIALEDGE.NAME">SQUAD RESERVES</str>
+	<str id="UIENT.flood_bldg_eggdropaom_01.RadialCenter.Name">EGG</str>
+	<str id="UIENT.flood_bldg_eggdropaom_01.RadialEdge.Name">EGG</str>
+	<str id="UIENT.flood_bldg_eggdropaom_01.RadialEdge.Role">ANTI-INFANTRY</str>
+	<str id="UIENT.flood_structure_floodbosstentacledrop_01.RadialCenter.Name">RUPTURE</str>
+	<str id="UIENT.flood_structure_floodbosstentacledrop_01.RadialEdge.Name">RUPTURE</str>
+	<str id="UIENT.flood_structure_floodbosstentacledrop_01.RadialEdge.Role">ANTI-GROUND</str>
+	<str id="UIENT.flood_inf_infected_rocket_01.RadialCenter.Name">INFECTED ENGINEER</str>
+	<str id="UIENT.flood_inf_infected_rocket_01.RadialEdge.Name">INFECTED ENGINEER</str>
+	<str id="UIENT.flood_inf_infected_rocket_01.RadialEdge.Role">ANTI-VEHICLE</str>
+	<str id="UIENT.flood_inf_infected_rocket_01.RadialEdge.ShortDescr">Lightly armored
+Fast moving</str>
+	<str id="UIENT.flood_inf_carrierform_01.RadialCenter.Name">CARRIER FORM</str>
+	<str id="UIENT.flood_inf_carrierform_01.RadialEdge.Name">CARRIER FORM</str>
+	<str id="UIENT.flood_inf_carrierform_01.RadialEdge.Role">ANTI-INFANTRY</str>
+	<str id="UIENT.flood_inf_carrierform_01.RadialEdge.ShortDescr">Cheap and expendable</str>
+	<str id="UIENT.Flood_Emerge_InfectorsAOM.RADIALCENTER.NAME">POD INFECTOR</str>
+	<str id="UIENT.Flood_Emerge_InfectorsAOM.RADIALEDGE.NAME">POD INFECTOR</str>
+	<str id="UIENT.Flood_Emerge_InfectorsAOM.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.Flood_Emerge_InfectorsAOM.RADIALEDGE.SALESPITCH">Summon a bunch of pod infectors to temporarily support you in battle.</str>
+	<str id="UIENT.Flood_Emerge_InfectorsAOM.RADIALEDGE.SHORTDESCR">Summon a bunch of pod infectors to temporarily support you in battle.</str>
+	<str id="UIENT.FloodRuptureEmerge.RADIALCENTER.NAME">RUPTURE</str>
+	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.NAME">RUPTURE</str>
+	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.SALESPITCH">Deploys a Rupture that supports you temporarily.</str>
+	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.SHORTDESCR">Activate to deploy a Rupture that supports you temporarily.</str>
+	<str id="UIENT.FloodEggAOMDrop1.RADIALCENTER.NAME">FLOOD EGG I</str>
+	<str id="UIENT.FloodEggAOMDrop1.RADIALEDGE.NAME">FLOOD EGG I</str>
+	<str id="UIENT.FloodEggAOMDrop1.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodEggAOMDrop1.RADIALEDGE.SALESPITCH">Deploys flood eggs that carry pod infectors.</str>
+	<str id="UIENT.FloodEggAOMDrop1.RADIALEDGE.SHORTDESCR">Activate to deploy flood eggs that carry pod infectors.</str>
+	<str id="UIENT.FloodEggAOMDrop1.RADIALEDGE.UPGRADEPITCH">Increases flood egg count.</str>
+	<str id="UIENT.FloodEggAOMDrop2.RADIALCENTER.NAME">FLOOD EGG II</str>
+	<str id="UIENT.FloodEggAOMDrop2.RADIALEDGE.NAME">FLOOD EGG II</str>
+	<str id="UIENT.FloodEggAOMDrop2.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodEggAOMDrop2.RADIALEDGE.SHORTDESCR">Activate to deploy flood eggs that carry pod infectors.</str>
+	<str id="UIENT.FloodSpiritGunship1.RadialCenter.Name">INFESTOR ASSAULT I</str>
+	<str id="UIENT.FloodSpiritGunship1.RadialEdge.Name">INFESTOR ASSAULT I</str>
+	<str id="UIENT.FloodSpiritGunship1.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodSpiritGunship1.RADIALEDGE.SALESPITCH">Deploys one vet 2 Wraith
+two vet 1 Brute Choppers
+one vet 1 Sangheili Enforcer squad.</str>
+	<str id="UIENT.FloodSpiritGunship1.RadialEdge.ShortDescr">Activate to get a drop-off of: 
+one vet 2 Wraith
+two vet 1 Brute Choppers
+one vet 1 Sangheili Enforcer squad.</str>
+	<str id="UIENT.FloodSpiritGunship1.RADIALEDGE.UPGRADEPITCH">Changes the squad composition to:
+one vet 2 Grizzly
+one vet 2 Warthog
+two vet 2 Rocket Infantry squads
+one vet 3 Sangheili Emfprcer squad.</str>
+	<str id="UIENT.FloodSpiritGunship2.RadialCenter.Name">INFESTOR ASSAULT II</str>
+	<str id="UIENT.FloodSpiritGunship2.RadialEdge.Name">INFESTOR ASSAULT II</str>
+	<str id="UIENT.FloodSpiritGunship2.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodSpiritGunship2.RadialEdge.ShortDescr">Activate to get a drop-off of:
+one vet 2 Grizzly
+one vet 2 Warthog
+two vet 2 Rocket Infantry squads
+one vet 3 Sangheili Emfprcer squad.</str>
+	<str id="UIENT.flood_carrierform_upgrade1.RADIALCENTER.NAME">BUFF</str>
+	<str id="UIENT.flood_carrierform_upgrade1.RADIALEDGE.NAME">BUFF</str>
 	<str id="UIENT.flood_carrierform_upgrade1.RADIALEDGE.ROLE">UNIT UPGRADE</str>
-	<str id="UIENT.flood_carrierform_upgrade1.RADIALEDGE.SHORTDESCR">Increases squad size</str>
-	<str id="UIENT.flood_infectedrockethuman_upgrade1.RADIALCENTER.NAME">SQUAD RESERVES</str>
-	<str id="UIENT.flood_infectedrockethuman_upgrade1.RADIALEDGE.NAME">SQUAD RESERVES</str>
+	<str id="UIENT.flood_carrierform_upgrade1.RADIALEDGE.SHORTDESCR">35% DMG buff
+25% Health buff</str>
+	<str id="UIENT.flood_infectedrockethuman_upgrade1.RADIALCENTER.NAME">SQUAD BUFF</str>
+	<str id="UIENT.flood_infectedrockethuman_upgrade1.RADIALEDGE.NAME">SQUAD BUFF</str>
 	<str id="UIENT.flood_infectedrockethuman_upgrade1.RADIALEDGE.ROLE">UNIT UPGRADE</str>
-	<str id="UIENT.flood_infectedrockethuman_upgrade1.RADIALEDGE.SHORTDESCR">Increases squad size</str>
-	<str id="UIENT.flood_spawner_upgrade1.RADIALCENTER.NAME">SQUAD RESERVES</str>
-	<str id="UIENT.flood_spawner_upgrade1.RADIALEDGE.NAME">SQUAD RESERVES</str>
+	<str id="UIENT.flood_infectedrockethuman_upgrade1.RADIALEDGE.SHORTDESCR">35% DMG buff
+35% Health buff</str>
+	<str id="UIENT.flood_spawner_upgrade1.RADIALCENTER.NAME">ABILITY UNLOCK I</str>
+	<str id="UIENT.flood_spawner_upgrade1.RADIALEDGE.NAME">ABILITY UNLOCK I</str>
 	<str id="UIENT.flood_spawner_upgrade1.RADIALEDGE.ROLE">UNIT UPGRADE</str>
-	<str id="UIENT.flood_spawner_upgrade1.RADIALEDGE.SHORTDESCR">Increases squad size</str>
-	<str id="UIENT.flood_spawner_upgrade2.RADIALCENTER.NAME">SQUAD RESERVES</str>
-	<str id="UIENT.flood_spawner_upgrade2.RADIALEDGE.NAME">SQUAD RESERVES</str>
+	<str id="UIENT.flood_spawner_upgrade1.RADIALEDGE.SHORTDESCR">Unlock Pod Infector passive ability.
+25% damage buff.
+50% health buff.</str>
+	<str id="UIENT.flood_spawner_upgrade2.RADIALCENTER.NAME">ABILITY UNLOCK II</str>
+	<str id="UIENT.flood_spawner_upgrade2.RADIALEDGE.NAME">ABILITY UNLOCK II</str>
 	<str id="UIENT.flood_spawner_upgrade2.RADIALEDGE.ROLE">UNIT UPGRADE</str>
-	<str id="UIENT.flood_spawner_upgrade2.RADIALEDGE.SHORTDESCR">Increases squad size</str>
-	<str id="UIENT.flood_spawner_upgrade3.RADIALCENTER.NAME">SQUAD RESERVES</str>
-	<str id="UIENT.flood_spawner_upgrade3.RADIALEDGE.NAME">SQUAD RESERVES</str>
+	<str id="UIENT.flood_spawner_upgrade2.RADIALEDGE.SHORTDESCR">Unlock Infester passive ability.
+25% damage buff.
+100% health buff.</str>
+	<str id="UIENT.flood_spawner_upgrade3.RADIALCENTER.NAME">ABILITY UNLOCK III</str>
+	<str id="UIENT.flood_spawner_upgrade3.RADIALEDGE.NAME">ABILITY UNLOCK III</str>
 	<str id="UIENT.flood_spawner_upgrade3.RADIALEDGE.ROLE">UNIT UPGRADE</str>
-	<str id="UIENT.flood_spawner_upgrade3.RADIALEDGE.SHORTDESCR">Increases squad size</str>
+	<str id="UIENT.flood_spawner_upgrade3.RADIALEDGE.SHORTDESCR">Unlock Seeder passive ability.
+25% damage buff.
+100% health buff.</str>
 	<str id="UIENT._RallyPoint.RadialCenter.Name">GLOBAL RALLY POINT</str>
 	<str id="UIENT._RallyPoint.RadialEdge.Name">GLOBAL RALLY POINT</str>
 	<str id="UIENT._RALLYPOINT.RADIALEDGE.ROLE">RALLY POINT</str>
@@ -1731,14 +1790,10 @@ Has ground pound AoE attack</str>
 	<str id="UIENT.FLOOD_BLDG_RUPTURE_01.RADIALEDGE.NAME">BURSTER</str>
 	<str id="UIENT.FLOOD_BLDG_RUPTURE_01.RADIALEDGE.ROLE" />
 	<str id="UIENT.FLOOD_BLDG_RUPTURE_01.RADIALEDGE.SHORTDESCR" />
-	<str id="UIENT.FLOOD_INF_COMMANDER_01.RADIALEDGE.NAME">ABOMINATION</str>
-	<str id="UIENT.FLOOD_INF_COMMANDER_01.RADIALEDGE.ROLE">HIVE COMMANDER</str>
 	<str id="UIENT.FLOOD_INF_INFECTED_GRUNTMELEE_01.RADIALEDGE.NAME">INFECTED INFANTRY</str>
 	<str id="UIENT.FLOOD_INF_INFECTED_GRUNTMELEE_01.RADIALEDGE.ROLE" />
 	<str id="UIENT.FLOOD_INF_INFECTFRM_01.RADIALEDGE.NAME">POD INFECTOR</str>
 	<str id="UIENT.FLOOD_INF_INFECTFRM_01.RADIALEDGE.ROLE">ANTI-INFANTRY</str>
-	<str id="UIENT.FLOOD_INF_SPAWNER_01.RADIALEDGE.NAME">SPAWNER</str>
-	<str id="UIENT.FLOOD_INF_SPAWNER_01.RADIALEDGE.ROLE" />
 	<str id="UIENT.FLOOD_INF_VEHINFECTOR_01.RADIALEDGE.NAME">INFESTER</str>
 	<str id="UIENT.FLOOD_INF_VEHINFECTOR_01.RADIALEDGE.ROLE">ANTI-VEHICLE</str>
 	<str id="UIENT.FLOOD_VEH_INFECTED_GHOST_01_BASE.RADIALEDGE.NAME">INFECTED VEHICLE</str>

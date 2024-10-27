@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>SpawnerAI</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile isSpawnedSquad="true">flood_inf_infectfrm_02</Projectile>
+		<ImpactEffect size="small">MediumPlasmaExplosion</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>20</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>20</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>12</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>4</PostAttackCooldownMin>
+		<PostAttackCooldownMax>7</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>SpawnerAV</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile isSpawnedSquad="true">flood_inf_vehinfector_02</Projectile>
+		<ImpactEffect size="small">VehicleInfectorExplosion</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>20</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>20</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>12</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>4</PostAttackCooldownMin>
+		<PostAttackCooldownMax>7</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>SpawnerAA</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile isSpawnedSquad="true">flood_air_airborneinfector_02</Projectile>
+		<ImpactEffect size="small">MediumPlasmaExplosion</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>20</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>20</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>12</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>4</PostAttackCooldownMin>
+		<PostAttackCooldownMax>7</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>Rifle</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>episode2_pack1_units_flood_infantry_FloodSpawnerSpine</Projectile>
+		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>
+		<MaxVelocityLead>25</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>8</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Aircraft">3</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.400000006</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+	</Weapon>
+	<Action>
+		<Name>RifleAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>Rifle</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FullBodyAttackAnim />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>SpawnerInfAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SecondaryAttack</Anim>
+		<Weapon>SpawnerAI</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FullBodyAttackAnim />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>SpawnerVehAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SecondaryAttack</Anim>
+		<Weapon>SpawnerAV</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FullBodyAttackAnim />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>SpawnerAirAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SecondaryAttack</Anim>
+		<Weapon>SpawnerAA</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FullBodyAttackAnim />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<Action>SpawnerInfAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<Action>SpawnerVehAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>SpawnerAirAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RifleAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>
