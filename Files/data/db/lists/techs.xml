@@ -6521,6 +6521,7 @@
 				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
 				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
 				<Target type="ProtoSquad">flood_inf_commander_01</Target>
+				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">cov_arbiter_assaultteam</Target>
@@ -6532,6 +6533,27 @@
 				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_gruntswarm_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+				<Target type="ProtoUnit">cov_bldg_minibase1sock_01</Target>
+				<Target type="ProtoUnit">cov_bldg_minibase2sock_01</Target>
+				<Target type="ProtoUnit">cov_bldg_minibase3sock_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_gruntswarm_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_gruntswarm_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
@@ -15526,18 +15548,23 @@
 		<Effects>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="MeleeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="MeleeUpgradeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="ThrowAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ThrowAttackUpgradeAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="GruntSwarm_02">
 				<Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -15560,12 +15587,15 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="HealthRegen" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="GruntSwarm_03">
 				<Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.14999998" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

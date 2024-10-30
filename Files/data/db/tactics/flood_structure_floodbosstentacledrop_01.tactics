@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>MeleeAttack</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1800</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<MaxVelocityLead>18.4500008</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>FloodBossTentacle</Hardpoint>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="Turretbuilding">1</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+		<PreAttackCooldownMin>0.1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.3</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.3</PostAttackCooldownMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3</Width>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>5</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Name>MeleeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim noInterrupt="true">SlamAttack</Anim>
+		<Weapon>MeleeAttack</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing maxDistance="35" turnRate="120" trackingSpeed="60" jitter="20" />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MeleeAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

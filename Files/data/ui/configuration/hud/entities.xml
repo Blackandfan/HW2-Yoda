@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <group>
 	<entry>
+		<key>flood_inf_gruntswarm_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_gruntrebellion_gruntswarm_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.flood_inf_gruntswarm_01.RADIALEDGE.NAME</value>
+		<value>UIENT.flood_inf_gruntswarm_01.RADIALEDGE.ROLE</value>
+		<value>unit</value>
+	</entry>
+	<entry>
 		<key>flood_bldg_eggdropaom_01</key>
 		<value>..\textures\hud\icons\entityIcons\flood_bldg_eggdropaom_01</value>
 		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_ability_icon</value>

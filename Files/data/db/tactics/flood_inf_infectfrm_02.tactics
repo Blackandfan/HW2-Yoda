@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Infect</Name>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>InfectionForm</WeaponType>
+		<TimeToInfect>1</TimeToInfect>
+		<InfectionJumpDelay>0.25</InfectionJumpDelay>
+		<InfectionTargetType>Infantry</InfectionTargetType>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">-1</TargetPriority>
+		<TargetPriority type="TurretBuilding">-1</TargetPriority>
+		<TargetPriority type="Building">-1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>Melee</Name>
+		<DamagePerSecond>120</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<TimeToInfect>0.100000001</TimeToInfect>
+		<InfectionJumpDelay>0.25</InfectionJumpDelay>
+		<InfectionTargetType>Infantry</InfectionTargetType>
+		<TargetPriority type="Infantry">-1</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>Infect</Name>
+		<ActionType>Infect</ActionType>
+		<Infection />
+		<Weapon>Infect</Weapon>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Melee</Name>
+		<ActionType>Infect</ActionType>
+		<Infection />
+		<Weapon>Melee</Weapon>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<Action>Infect</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>Melee</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

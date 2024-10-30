@@ -4,6 +4,49 @@
 	<Squad name="FlyingFlood" dbid="16256726101795934130" />
 	<Squad name="Forerunner" dbid="12943458503600554757" />
 	<Squad name="Rebel" dbid="10443232853206385951" />
+	<Squad name="flood_inf_gruntswarm_01" dbid="4116805038042123824">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3036</DisplayNameID>
+		<RolloverTextID>3037</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>1805</SubSelectSort>
+		<LeashDistance>50</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1</AIAttackRank>
+		<BuildPoints>17</BuildPoints>
+		<Pop Type="Unit">1</Pop>
+		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,5.5,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="leader">flood_inf_gruntswarmleader_01</Unit>
+			<Unit count="4" role="normal">flood_inf_gruntswarm_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>Melee</Flag>
+		<Flag>DontStopMoveActionIfAttacking</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>GruntSwarm_01</Counters>
+		<FrozenThreshold>100</FrozenThreshold>
+		<ChillDecayPerSecond>20</ChillDecayPerSecond>
+	</Squad>
 	<Squad name="flood_inf_infected_gruntplasmapistol_01" parent_element="flood_inf_infected_gruntplasmapistol_01_sp" dbid="7209847888651370562">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -346,7 +389,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="4" role="normal">flood_inf_infectfrm_02</Unit>
+			<Unit count="3" role="normal">flood_inf_infectfrm_02</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
@@ -5702,7 +5745,7 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3000</SubSelectSort>
+		<SubSelectSort>91001</SubSelectSort>
 		<LeashDistance>55</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>

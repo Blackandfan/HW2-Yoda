@@ -4,6 +4,12 @@
 	<str id="UIENT.LEADERSELECT.ROLE01.FLOODBOY">Desolator</str>
 	<str id="UIENT.LEADERSELECT.ROLE02.FLOODBOY">Stormtrooper</str>
 	<str id="UIENT.LEADERSELECT.SHORTDESCR.FLOODBOY">The Flood focuses on aggressive rush attacks.</str>
+	<str id="UIENT.flood_inf_gruntswarm_01.RADIALCENTER.NAME">CANNON FODDER</str>
+	<str id="UIENT.flood_inf_gruntswarm_01.RADIALEDGE.NAME">CANNON FODDER</str>
+	<str id="UIENT.flood_inf_gruntswarm_01.RADIALEDGE.ROLE">LIGHT INFANTRY</str>
+	<str id="UIENT.flood_inf_gruntswarm_01.RADIALEDGE.SHORTDESCR">Free and expendable
+Weak but numerous
+Quick capture unit</str>
 	<str id="UIENT.FLOOD_INF_COMMANDER_01.RadialCenter.Name">ABOMINATION</str>
 	<str id="UIENT.FLOOD_INF_COMMANDER_01.RadialEdge.Name">HIVE COMMANDER</str>
 	<str id="UIENT.FLOOD_INF_COMMANDER_01.RadialEdge.Role">ANTI-GROUND</str>

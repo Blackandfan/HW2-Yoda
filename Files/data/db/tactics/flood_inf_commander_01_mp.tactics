@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Rifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>600</DamagePerSecond>
+		<DamagePerSecond>750</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<MaxVelocityLead>25</MaxVelocityLead>
 		<MaxRange>16</MaxRange>
@@ -49,7 +49,7 @@
 	<Weapon>
 		<Name>HammerShockwave</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>6000</DamagePerSecond>
+		<DamagePerSecond>7500</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Hero</WeaponType>
 		<MaxRange>16</MaxRange>
@@ -81,7 +81,7 @@
 	<Weapon>
 		<Name>StompAttackWeapon</Name>
 		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>600</DamagePerSecond>
+		<DamagePerSecond>750</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<UseDPSasDPA />
 		<ImpactEffect size="Medium">ScarabStomp</ImpactEffect>
@@ -156,6 +156,7 @@
 		<Weapon>HammerShockwave</Weapon>
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
+		<Infection />
 	</Action>
 	<Action>
 		<Name>AreaBuff2</Name>
