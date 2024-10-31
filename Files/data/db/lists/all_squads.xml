@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Squads>
+	<Squad name="unsc_air_nightingale_01_flood_mp" dbid="6601905676987710632">
+		<CombatRank>2</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_vulture</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>26232</DisplayNameID>
+		<RolloverTextID>26233</RolloverTextID>
+		<RoleTextID>522</RoleTextID>
+		<PrereqTextID>236</PrereqTextID>
+		<SubSelectSort>300</SubSelectSort>
+		<LeashDistance>63</LeashDistance>
+		<LeashDeadzone>0</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<CryoPoints>150</CryoPoints>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<AIAttackRank>0</AIAttackRank>
+		<ActiveAbilityType>SmokeBomb</ActiveAbilityType>
+		<BuildPoints>20</BuildPoints>
+		<Pop Type="Unit">4</Pop>
+		<Cost ResourceType="Supplies">350</Cost>
+		<Cost ResourceType="Power">50</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<HPBar offset="0,4.30499983,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_air_nightingale_01</Unit>
+		</Units>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<Birth>FlyIn</Birth>
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Nightingale_01</Counters>
+		<BeingRepairedTargetHeightScale>0.25</BeingRepairedTargetHeightScale>
+		<HealValue>1.70000005</HealValue>
+	</Squad>
 	<Squad name="Flood" dbid="11545679860153930939" />
 	<Squad name="FlyingFlood" dbid="16256726101795934130" />
 	<Squad name="Forerunner" dbid="12943458503600554757" />
@@ -5788,7 +5832,7 @@
 		<ChillDecayPerSecond>100</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="flood_inf_commander_01_mp" parent_element="flood_inf_commander_01_base" dbid="11751029654116465492">
-		<Pop Type="Unit">31</Pop>
+		<Pop Type="Unit">21</Pop>
 		<Cost ResourceType="Supplies">2000</Cost>
 		<Cost ResourceType="Power">2000</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -8125,7 +8169,6 @@
 		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">400</Cost>
 		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,4.30499983,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>

@@ -55,7 +55,35 @@
 		<FullBodyAttackAnim />
 		<Strafing maxDistance="35" turnRate="120" trackingSpeed="60" jitter="20" />
 	</Action>
+	<Action>
+		<Name>InspireAura</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>20</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="Inspire" DamageMitigationScalar="0.920000017" DamageDealtModifier="1.09000003" BuffActivateFX="vfx_dlc2_units_spartanleaderinspireunit">
+				<BuffActivateFXOverrides>
+					<Override UnitType="LargeFlying" BuffFX="vfx_dlc2_units_spartanleaderinspireunitlargeflying" />
+					<Override UnitType="Flying" BuffFX="vfx_dlc2_units_spartanleaderinspireunitflying" />
+					<Override UnitType="LargeGroundVehicle" BuffFX="vfx_dlc2_units_spartanleaderinspirelargeunit" />
+				</BuffActivateFXOverrides>
+				<Duration>1.0f</Duration>
+			</BuffParams>
+			<TargetTypes>
+				<Type>Military</Type>
+				<Type>Building</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Mine</Type>
+				<Type>Drone</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>vfx_dlc2_units_spartanleaderinspire</ProtoObject>
+	</Action>
 	<Tactic>
+		<PersistentAction>InspireAura</PersistentAction>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>MeleeAttackAction</Action>

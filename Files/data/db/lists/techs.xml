@@ -2805,6 +2805,15 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_gruntswarm_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_minibase3sock_01_mp</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_gruntswarm_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_gruntswarm_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase2sock_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_gruntswarm_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase3sock_01_mp</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_gruntswarm_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01_mp</Target>
 			</Effect>
@@ -4209,18 +4218,23 @@
 		<Effects>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="MeleeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="MeleeUpgradeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="ThrowAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ThrowAttackUpgradeAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="GruntSwarm_02">
 				<Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4243,12 +4257,15 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="HealthRegen" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="GruntSwarm_03">
 				<Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.14999998" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
+				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5077,6 +5094,26 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="cov_tech_followers_3" type="Normal">
+		<DisplayNameID>27467</DisplayNameID>
+		<RolloverTextID>1173</RolloverTextID>
+		<Prereqs>
+			<TechStatus status="Active">cov_tech_followers_2</TechStatus>
+			<TechStatus status="Active">Flood_EventLeader</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">1750</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_followers</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" subtype="PopCap" amount="20" popType="Unit" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="cov_tech_global_aircraft_01" type="Normal">
 		<DisplayNameID>27091</DisplayNameID>
 		<RolloverTextID>27103</RolloverTextID>
@@ -5486,6 +5523,12 @@
 				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
 				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
 				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
+				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
+				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
+				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5544,6 +5587,12 @@
 				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
 				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
 				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
+				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
+				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
+				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5602,6 +5651,12 @@
 				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
 				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
 				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
+				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
+				<Target type="ProtoSquad">flood_inf_carrierform_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
+				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -6475,6 +6530,12 @@
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_02" ToType="cov_bldg_builder_02_flood_mp" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_03" ToType="cov_bldg_builder_03_flood_mp" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_04" ToType="cov_bldg_builder_04_flood_mp" />
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="BlisterbackArtilleryFireAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_air_blisterbackLockdown_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="CorruptedBlisterbackArtilleryFireAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_air_blisterbackLockdown_01</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="covenant_LeaderFlood" type="Normal">
@@ -6487,8 +6548,8 @@
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CovBloodlust</Effect>
-			<Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">CovTeleport1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="CovTeleport1">CovTeleport2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">FloodEggAOMDrop1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="FloodEggAOMDrop1">FloodEggAOMDrop2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">Grunt_LowDeathXP</Effect>
@@ -6497,9 +6558,11 @@
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscMedDrones2_MP">UnscMedDrones3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Flood_Emerge_InfectorsAOM</Effect>
 			<Effect type="UnlockableGodPower" tier="4">FloodRuptureEmerge</Effect>
-			<Effect type="UnlockableGodPower" tier="4">FloodSpiritGunship1</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="FloodSpiritGunship1">FloodSpiritGunship2</Effect>
-			<Effect type="UnlockableGodPower" tier="5">Grunt_InfantryRecycle</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="FloodRuptureEmerge">FloodRuptureEmerge2</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="FloodRuptureEmerge2">FloodRuptureEmerge3</Effect>
+			<Effect type="UnlockableGodPower" tier="4">LekgoloEverlasting</Effect>
+			<Effect type="UnlockableGodPower" tier="5">FloodSpiritGunship1</Effect>
+			<Effect type="UnlockableGodPower" tier="5" prereq="FloodSpiritGunship1">FloodSpiritGunship2</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovBoundlessRage</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
@@ -6511,7 +6574,7 @@
 				<Target type="ProtoSquad">cov_veh_scarab_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
+				<Target type="ProtoSquad">unsc_air_nightingale_01_flood_mp</Target>
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
 				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
 				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>

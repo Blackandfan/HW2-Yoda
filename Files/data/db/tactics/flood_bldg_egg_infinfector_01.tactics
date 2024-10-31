@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>PlasmaMine</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>1500</DamagePerSecond>
+		<DamagePerSecond>400</DamagePerSecond>
 		<UseDPSasDPA />
 		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="2" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4" />
@@ -34,6 +34,8 @@
 		<DontAutoRestart />
 		<ExplodeOnDeath />
 		<Infection />
+		<StartOnCooldown />
+		<RechargeDelay>4</RechargeDelay>
 	</Action>
 	<Tactic>
 		<PersistentAction>ExplosiveManager</PersistentAction>

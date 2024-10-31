@@ -40,11 +40,21 @@ Fast moving</str>
 	<str id="UIENT.Flood_Emerge_InfectorsAOM.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.Flood_Emerge_InfectorsAOM.RADIALEDGE.SALESPITCH">Summon a bunch of pod infectors to temporarily support you in battle.</str>
 	<str id="UIENT.Flood_Emerge_InfectorsAOM.RADIALEDGE.SHORTDESCR">Summon a bunch of pod infectors to temporarily support you in battle.</str>
-	<str id="UIENT.FloodRuptureEmerge.RADIALCENTER.NAME">RUPTURE</str>
-	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.NAME">RUPTURE</str>
+	<str id="UIENT.FloodRuptureEmerge.RADIALCENTER.NAME">RUPTURE I</str>
+	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.NAME">RUPTURE I</str>
 	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.SALESPITCH">Deploys a Rupture that supports you temporarily.</str>
 	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.SHORTDESCR">Activate to deploy a Rupture that supports you temporarily.</str>
+	<str id="UIENT.FloodRuptureEmerge2.RADIALCENTER.NAME">RUPTURE II</str>
+	<str id="UIENT.FloodRuptureEmerge2.RADIALEDGE.NAME">RUPTURE II</str>
+	<str id="UIENT.FloodRuptureEmerge2.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodRuptureEmerge2.RADIALEDGE.SALESPITCH">Deploy 2 Rupture that supports you temporarily.</str>
+	<str id="UIENT.FloodRuptureEmerge2.RADIALEDGE.SHORTDESCR">Activate to deploy 2 Rupture that supports you temporarily.</str>
+	<str id="UIENT.FloodRuptureEmerge3.RADIALCENTER.NAME">RUPTURE III</str>
+	<str id="UIENT.FloodRuptureEmerge3.RADIALEDGE.NAME">RUPTURE III</str>
+	<str id="UIENT.FloodRuptureEmerge3.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodRuptureEmerge3.RADIALEDGE.SALESPITCH">Deploy 3 Rupture that supports you temporarily.</str>
+	<str id="UIENT.FloodRuptureEmerge3.RADIALEDGE.SHORTDESCR">Activate to deploy 3 Rupture that supports you temporarily.</str>
 	<str id="UIENT.FloodEggAOMDrop1.RADIALCENTER.NAME">FLOOD EGG I</str>
 	<str id="UIENT.FloodEggAOMDrop1.RADIALEDGE.NAME">FLOOD EGG I</str>
 	<str id="UIENT.FloodEggAOMDrop1.RADIALEDGE.ROLE">ACTIVE POWER</str>
@@ -58,26 +68,30 @@ Fast moving</str>
 	<str id="UIENT.FloodSpiritGunship1.RadialCenter.Name">INFESTOR ASSAULT I</str>
 	<str id="UIENT.FloodSpiritGunship1.RadialEdge.Name">INFESTOR ASSAULT I</str>
 	<str id="UIENT.FloodSpiritGunship1.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.FloodSpiritGunship1.RADIALEDGE.SALESPITCH">Deploys one vet 2 Wraith
-two vet 1 Brute Choppers
-one vet 1 Sangheili Enforcer squad.</str>
+	<str id="UIENT.FloodSpiritGunship1.RADIALEDGE.SALESPITCH">Deploys two vet 1 Wraith
+one vet 1 Brute Choppers
+one vet 1 Grizzly
+two vet 1 Sangheili Enforcer squad
+three vet 1 Rocket Infantry squads
+two vet 1 Marauders.</str>
 	<str id="UIENT.FloodSpiritGunship1.RadialEdge.ShortDescr">Activate to get a drop-off of: 
-one vet 2 Wraith
-two vet 1 Brute Choppers
-one vet 1 Sangheili Enforcer squad.</str>
+two vet 1 Wraith
+one vet 1 Brute Choppers
+one vet 1 Grizzly
+two vet 1 Sangheili Enforcer squad
+three vet 1 Rocket Infantry squads
+two vet 1 Marauders</str>
 	<str id="UIENT.FloodSpiritGunship1.RADIALEDGE.UPGRADEPITCH">Changes the squad composition to:
-one vet 2 Grizzly
-one vet 2 Warthog
-two vet 2 Rocket Infantry squads
-one vet 3 Sangheili Emfprcer squad.</str>
+two vet 2 Wraith
+two vet 2 Grizzly
+two vet 2 Blisterbacks.</str>
 	<str id="UIENT.FloodSpiritGunship2.RadialCenter.Name">INFESTOR ASSAULT II</str>
 	<str id="UIENT.FloodSpiritGunship2.RadialEdge.Name">INFESTOR ASSAULT II</str>
 	<str id="UIENT.FloodSpiritGunship2.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.FloodSpiritGunship2.RadialEdge.ShortDescr">Activate to get a drop-off of:
-one vet 2 Grizzly
-one vet 2 Warthog
-two vet 2 Rocket Infantry squads
-one vet 3 Sangheili Emfprcer squad.</str>
+two vet 2 Wraith
+two vet 2 Grizzly
+two vet 2 Blisterbacks</str>
 	<str id="UIENT.flood_carrierform_upgrade1.RADIALCENTER.NAME">BUFF</str>
 	<str id="UIENT.flood_carrierform_upgrade1.RADIALEDGE.NAME">BUFF</str>
 	<str id="UIENT.flood_carrierform_upgrade1.RADIALEDGE.ROLE">UNIT UPGRADE</str>
@@ -2807,6 +2821,13 @@ Good all-round aircraft</str>
 	<str id="UIENT.unsc_air_nightingale_01.RadialEdge.Name">NIGHTINGALE</str>
 	<str id="UIENT.unsc_air_nightingale_01.RadialEdge.Role">SUPPORT UNIT</str>
 	<str id="UIENT.unsc_air_nightingale_01.RadialEdge.ShortDescr">Repairs and heals friendly units
+Defensive smoke suppresses combat
+Detects cloaked units
+Non-Combative</str>
+	<str id="UIENT.unsc_air_nightingale_01_flood_mp.RadialCenter.Name">NIGHTINGALE</str>
+	<str id="UIENT.unsc_air_nightingale_01_flood_mp.RadialEdge.Name">NIGHTINGALE</str>
+	<str id="UIENT.unsc_air_nightingale_01_flood_mp.RadialEdge.Role">SUPPORT UNIT</str>
+	<str id="UIENT.unsc_air_nightingale_01_flood_mp.RadialEdge.ShortDescr">Repairs and heals friendly units
 Defensive smoke suppresses combat
 Detects cloaked units
 Non-Combative</str>

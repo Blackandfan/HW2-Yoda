@@ -2605,6 +2605,30 @@
 		<value>$$_requirmentString3CovCleansingBeamPath1</value>
 	</entry>
 	<entry>
+		<key>FloodRuptureEmerge2</key>
+		<value>UIGLOB.COMMANDTREEPAGE.POWERNAME.COVCLEANSINGBEAMPATH1</value>
+		<value>UIGLOB.COMMANDTREEPAGE.POWERDESCR.COVCLEANSINGBEAMPATH1</value>
+		<value>UIGLOB.COMMANDTREEPAGE.ACTIVEABILITY</value>
+		<value>..\textures\hud\icons\entityIcons\powers\CovCleansingBeamPath1_icon</value>
+		<value>..\textures\hud\commandtree\atriox\img_leaderAbility_commandTree_cleansingBeam1</value>
+		<value>$$_requirmentString0CovCleansingBeamPath1</value>
+		<value>$$_requirmentString1CovCleansingBeamPath1</value>
+		<value>$$_requirmentString2CovCleansingBeamPath1</value>
+		<value>$$_requirmentString3CovCleansingBeamPath1</value>
+	</entry>
+	<entry>
+		<key>FloodRuptureEmerge3</key>
+		<value>UIGLOB.COMMANDTREEPAGE.POWERNAME.COVCLEANSINGBEAMPATH1</value>
+		<value>UIGLOB.COMMANDTREEPAGE.POWERDESCR.COVCLEANSINGBEAMPATH1</value>
+		<value>UIGLOB.COMMANDTREEPAGE.ACTIVEABILITY</value>
+		<value>..\textures\hud\icons\entityIcons\powers\CovCleansingBeamPath1_icon</value>
+		<value>..\textures\hud\commandtree\atriox\img_leaderAbility_commandTree_cleansingBeam1</value>
+		<value>$$_requirmentString0CovCleansingBeamPath1</value>
+		<value>$$_requirmentString1CovCleansingBeamPath1</value>
+		<value>$$_requirmentString2CovCleansingBeamPath1</value>
+		<value>$$_requirmentString3CovCleansingBeamPath1</value>
+	</entry>
+	<entry>
 		<key>FloodSpiritGunship1</key>
 		<value>UIGLOB.COMMANDTREEPAGE.POWERNAME.COVCLEANSINGBEAMPATH1</value>
 		<value>UIGLOB.COMMANDTREEPAGE.POWERDESCR.COVCLEANSINGBEAMPATH1</value>
