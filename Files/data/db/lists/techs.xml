@@ -4218,19 +4218,19 @@
 		<Effects>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="MeleeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
-				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="MeleeUpgradeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
-				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="ThrowAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
-				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ThrowAttackUpgradeAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
-				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="GruntSwarm_02">
 				<Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
@@ -4257,7 +4257,7 @@
 		<Effects>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="HealthRegen" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
-				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="GruntSwarm_03">
 				<Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
@@ -4265,7 +4265,7 @@
 			</Effect>
 			<Effect type="Data" amount="1.14999998" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
-				<Target type="ProtoSquad">flood_inf_gruntswarm_01</Target>
+				<Target type="ProtoUnit">flood_inf_gruntswarm_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

@@ -69,8 +69,8 @@
 	<Weapon>
 		<Name>Rifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
+		<DamagePerSecond>180</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
 		<Projectile>episode2_pack1_units_flood_infantry_FloodSpawnerSpine</Projectile>
 		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>
 		<MaxVelocityLead>25</MaxVelocityLead>

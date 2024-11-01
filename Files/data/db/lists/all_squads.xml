@@ -5842,7 +5842,6 @@
 		<DamageOnShatter>10000</DamageOnShatter>
 		<ChillDecayPerSecond>100</ChillDecayPerSecond>
 		<MaxConvertedtoDroneSlots>3</MaxConvertedtoDroneSlots>
-		<CanAttackWhileMoving>true</CanAttackWhileMoving>
 	</Squad>
 	<Squad name="flood_inf_commander_01_sp" parent_element="flood_inf_commander_01_base" dbid="11772144675420466586">
 		<Flag>DoNotMoveToAttackMe</Flag>

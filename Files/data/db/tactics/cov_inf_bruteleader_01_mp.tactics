@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>InCoverBrutegun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>22</DamagePerSecond>
+		<WeaponType>AASmallArms</WeaponType>
+		<Projectile>fx_proj_bruteGun_01</Projectile>
+		<ImpactEffect size="small">SpikerImpact</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Flying">9</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<VisualAmmo>4</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>Brutegun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>22</DamagePerSecond>
+		<WeaponType>AASmallArms</WeaponType>
+		<Projectile>fx_proj_bruteGun_01</Projectile>
+		<ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>25</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<VisualAmmo>4</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>AirBrutegun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>22</DamagePerSecond>
+		<WeaponType>AASmallArms</WeaponType>
+		<Projectile>fx_proj_bruteGun_01</Projectile>
+		<ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Flying">9</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<VisualAmmo>4</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>ThrownBruteShrapnelMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0.100000001</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_grenade_02</Projectile>
+		<ImpactEffect size="Small">BruteMineImpact</ImpactEffect>
+		<Mine>fx_mine_BruteShrapnel_01_MP</Mine>
+		<MaxRange>45</MaxRange>
+		<AlwaysReplaceTargetWithItsPosition />
+		<MaxPlantRange>46</MaxPlantRange>
+	</Weapon>
+	<Weapon>
+		<Name>EnemyThrownBruteShrapnelMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0.100000001</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_grenade_02</Projectile>
+		<ImpactEffect size="Small">BruteMineImpact</ImpactEffect>
+		<Mine>fx_mine_BruteShrapnel_01_MP</Mine>
+		<MaxRange>45</MaxRange>
+		<MaxPlantRange>46</MaxPlantRange>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+	</Weapon>
+	<Weapon>
+		<Name>RM_ThrownBruteShrapnelMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0.100000001</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_grenade_03</Projectile>
+		<ImpactEffect size="Small">BruteMineImpact</ImpactEffect>
+		<Mine>fx_mine_BruteShrapnel_01_RM</Mine>
+		<MaxRange>45</MaxRange>
+		<AlwaysReplaceTargetWithItsPosition />
+		<MaxPlantRange>46</MaxPlantRange>
+	</Weapon>
+	<Weapon>
+		<Name>RM_EnemyThrownBruteShrapnelMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0.100000001</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_grenade_03</Projectile>
+		<ImpactEffect size="Small">BruteMineImpact</ImpactEffect>
+		<Mine>fx_mine_BruteShrapnel_01_RM</Mine>
+		<MaxRange>45</MaxRange>
+		<MaxPlantRange>46</MaxPlantRange>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+	</Weapon>
+	<Action>
+		<Name>InCoverBrutegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<ReloadAnim>Reload</ReloadAnim>
+		<Weapon>InCoverBrutegun</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>AirBrutegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<ReloadAnim>Reload</ReloadAnim>
+		<Weapon>AirBrutegun</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>BrutegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<ReloadAnim>Reload</ReloadAnim>
+		<Weapon>Brutegun</Weapon>
+		<FullBodyAttackAnim />
+		<UsesAmmo />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>MineAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Mine</Anim>
+		<Weapon>ThrownBruteShrapnelMine</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+	</Action>
+	<Action>
+		<Name>EnemyMineAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Mine</Anim>
+		<Weapon>EnemyThrownBruteShrapnelMine</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+	</Action>
+	<Action>
+		<Name>RM_MineAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Mine</Anim>
+		<Weapon>RM_ThrownBruteShrapnelMine</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RM_EnemyMineAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Mine</Anim>
+		<Weapon>RM_EnemyThrownBruteShrapnelMine</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2.5999999</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>2.5999999</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1.3</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverBrutegunAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>AirBrutegunAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>BrutegunAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>MineAttackAction</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>MineAttackAction</Action>
+			<Relation>Ally</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>EnemyMineAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<Relation>Enemy</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>EnemyMineAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>RM_MineAttackAction</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>RM_MineAttackAction</Action>
+			<Relation>Ally</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>RM_EnemyMineAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<Relation>Enemy</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>RM_EnemyMineAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

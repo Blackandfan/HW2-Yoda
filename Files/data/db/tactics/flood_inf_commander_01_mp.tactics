@@ -169,7 +169,7 @@
 	<Action>
 		<Name>MeleeAttackAction</Name>
 		<ActionType>HandAttack</ActionType>
-		<Anim noInterrupt="true">Attack</Anim>
+		<Anim>Attack</Anim>
 		<Weapon>Rifle</Weapon>
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<FullBodyAttackAnim />
@@ -178,7 +178,7 @@
 	<Action>
 		<Name>AAMeleeAttackAction</Name>
 		<ActionType>HandAttack</ActionType>
-		<Anim noInterrupt="true">AirAttack</Anim>
+		<Anim>AirAttack</Anim>
 		<Weapon>RifleAir</Weapon>
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<FullBodyAttackAnim />
@@ -321,18 +321,14 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>GroundVehicle</TargetType>
-			<TargetType>Infantry</TargetType>
-			<Action>MeleeAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
 			<Action>AAMeleeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>MeleeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 	</Tactic>
 </TacticData>
