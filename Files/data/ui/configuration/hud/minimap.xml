@@ -2,6 +2,56 @@
 <group>
 	<group name="entities">
 		<entry>
+			<key>flood_inf_infected_gruntplasmapistol_01</key>
+			<value>banished_unit_infantry</value>
+			<value>0</value>
+		</entry>
+		<entry>
+			<key>flood_veh_infected_grizzly_01_base</key>
+			<value>unsc_unit_vehicle</value>
+			<value>3</value>
+		</entry>
+		<entry>
+			<key>flood_bldg_eggdropaom_01</key>
+			<value>banished_unit_infantry</value>
+			<value>0</value>
+		</entry>
+		<entry>
+			<key>flood_structure_floodbosstentacledrop_01</key>
+			<value>banished_unit_infantry</value>
+			<value>3</value>
+		</entry>
+		<entry>
+			<key>flood_inf_carrierform_01</key>
+			<value>banished_unit_infantry</value>
+			<value>0</value>
+		</entry>
+		<entry>
+			<key>flood_inf_gruntswarm_01</key>
+			<value>banished_unit_infantry</value>
+			<value>0</value>
+		</entry>
+		<entry>
+			<key>flood_inf_infectfrm_02</key>
+			<value>banished_unit_infantry</value>
+			<value>2</value>
+		</entry>
+		<entry>
+			<key>flood_inf_infectfrm_02_lowcount</key>
+			<value>banished_unit_infantry</value>
+			<value>2</value>
+		</entry>
+		<entry>
+			<key>flood_inf_vehinfector_02</key>
+			<value>banished_unit_infantry</value>
+			<value>2</value>
+		</entry>
+		<entry>
+			<key>flood_air_airbourneinfector_02</key>
+			<value>banished_unit_air</value>
+			<value>2</value>
+		</entry>
+		<entry>
 			<key>dlc4_maps_mcstopthesignal_m02controltowers</key>
 			<value>conduits</value>
 			<value>1</value>

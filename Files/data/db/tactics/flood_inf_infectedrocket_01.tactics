@@ -1,41 +1,112 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>PlasmaMine</Name>
+		<Name>RocketWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>1000</DamagePerSecond>
+		<DamagePerSecond>28</DamagePerSecond>
+		<WeaponType>AntiVehicle</WeaponType>
+		<Projectile>fx_proj_engmissile_01</Projectile>
+		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>1</VisualAmmo>
+		<ReloadAnimation>RocketReload</ReloadAnimation>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>3</PreAttackCooldownMax>
+		<PostAttackCooldownMin>3</PostAttackCooldownMin>
+		<PostAttackCooldownMax>4</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>MeleeAttack</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>4</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<TargetPriority type="Infantry">20</TargetPriority>
+		<TargetPriority type="groundVehicle">15</TargetPriority>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>JumpAttackHammer</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>400</DamagePerSecond>
 		<UseDPSasDPA />
-		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
-		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="2" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4" />
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>1.84500003</MaxRange>
+		<MinRange>0</MinRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>18</Radius>
+				<Radius>4</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
-		<WeaponType>Mines</WeaponType>
-		<Apply>0</Apply>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>500</PhysicsForceMin>
-		<PhysicsForceMax>700</PhysicsForceMax>
+		<Filter>Medium</Filter>
 	</Weapon>
 	<Action>
-		<Name>ExplosiveManager</Name>
-		<ActionType>ExplosiveManager</ActionType>
-		<FuseType>Proximity</FuseType>
-		<WorkRange>8</WorkRange>
-		<Weapon>PlasmaMine</Weapon>
-		<DontAutoRestart />
-		<ExplodeOnDeath />
-		<Infection />
-		<StartOnCooldown />
-		<RechargeDelay>4</RechargeDelay>
+		<Name>RocketAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackMove</MoveAnim>
+		<ReloadAnim>RocketReload</ReloadAnim>
+		<Weapon>RocketWeapon</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>MeleeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SecondaryAttack</Anim>
+		<Weapon>MeleeAttack</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>JumpAttackAction</Name>
+		<ActionType>JumpAttack</ActionType>
+		<StartAnim noInterrupt="true" motionExtraction="true">LeapTakeOff</StartAnim>
+		<Anim>LeapArc</Anim>
+		<EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.449999988">LeapLanding</EndAnim>
+		<Weapon>JumpAttackHammer</Weapon>
+		<MaxDistance>40</MaxDistance>
+		<MinRelativeHeight>8</MinRelativeHeight>
+		<MaxRelativeHeight>12</MaxRelativeHeight>
+		<VelocityScalar>35</VelocityScalar>
+		<LandingDelay>0.400000006</LandingDelay>
 	</Action>
 	<Action>
 		<Name>Capture</Name>
@@ -103,7 +174,25 @@
 		<WorkRange>4</WorkRange>
 	</Action>
 	<Tactic>
-		<PersistentAction>ExplosiveManager</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RocketAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MeleeAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>JumpAttackAction</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>JumpAttackAction</Action>
+		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>Garrison</TargetType>

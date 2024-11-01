@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Squads>
+	<Squad name="Flood" dbid="11545679860153930939" />
+	<Squad name="FlyingFlood" dbid="16256726101795934130" />
+	<Squad name="Forerunner" dbid="12943458503600554757" />
+	<Squad name="Rebel" dbid="10443232853206385951" />
 	<Squad name="unsc_air_nightingale_01_flood_mp" dbid="6601905676987710632">
 		<CombatRank>2</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_vulture</PortraitIcon>
@@ -44,10 +48,6 @@
 		<BeingRepairedTargetHeightScale>0.25</BeingRepairedTargetHeightScale>
 		<HealValue>1.70000005</HealValue>
 	</Squad>
-	<Squad name="Flood" dbid="11545679860153930939" />
-	<Squad name="FlyingFlood" dbid="16256726101795934130" />
-	<Squad name="Forerunner" dbid="12943458503600554757" />
-	<Squad name="Rebel" dbid="10443232853206385951" />
 	<Squad name="flood_inf_gruntswarm_01" dbid="4116805038042123824">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
@@ -252,7 +252,7 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">3</Pop>
+		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -300,7 +300,7 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>10</BuildPoints>
-		<Pop Type="Unit">3</Pop>
+		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">100</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -426,7 +426,7 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>16</BuildPoints>
-		<Pop Type="Unit">1</Pop>
+		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -6580,7 +6580,7 @@
 		<BuildPoints>12</BuildPoints>
 		<Pop Type="Unit">0.5</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
