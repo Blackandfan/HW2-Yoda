@@ -1,0 +1,163 @@
+frontend 
+{
+	firefight 
+	{
+		screen 
+		{
+			source = "default\flash\screens_frontend_firefight_FirefightMenu.swf";
+			priority = screen-normal;
+			scale-mode = preserve-aspect;
+			anchor-horizontal = left;
+			anchor-vertical = middle;
+		}
+		
+		mainMenu 
+		{
+			MenuItem0 
+			{				
+				@extend = "common.UIFontStyles.expandingHeaderBG";
+				
+				.label
+				{
+					text = "UIMP.FIREFIGHT.PRIVATEMATCH.TITLE";
+					@extend = "common.UIFontStyles.expandingHeaderText";
+				}
+
+				.image
+				{
+					image-path = "../textures/frontend/Firefight/img_firefight_privatematch";
+					@extend = "rostermode.RMFontStyles.centerFitImage";
+				}
+			}
+			MenuItem0:over  { sound = "PLAY_SFX_2D_UI_ChangeSelection"; }
+			MenuItem0:down  { sound = "PLAY_SFX_2D_UI_CampaignDifficulity_Down"; }
+			MenuItem0:focus { sound = "PLAY_SFX_2D_UI_ChangeSelection"; }
+			
+			tileText0 
+			{
+				text = "UIMP.FIREFIGHT.PRIVATEMATCH.DESCR";
+				@extend = "common.UIFontStyles.smallHeader";
+				text-html = true;
+			}
+		}
+		
+		privateMatch 
+		{
+			screen 
+			{
+				source = "default\flash\screens_frontend_multiplayer_PrivateMatch.swf";
+				priority = screen-normal;
+				scale-mode = preserve-aspect;
+				anchor-horizontal = left;
+				anchor-vertical = middle;
+			}
+			
+			gameTypePanel 
+			{
+					
+				@extend = "common.UIFontStyles.expandingHeaderBG";
+				margin-right = "50";
+				
+				.label 
+				{
+					@extend = "common.UIFontStyles.expandingHeaderText";
+					text = "UIMP.CUSTOMMATCH.OPTIONS.GAMEOPTIONS";
+				}
+				
+				.image 
+				{
+					image-path = "../textures/frontend/Icons/icon_Exclamation";
+					image-rendering = smooth;
+				}
+			}
+			
+			gameTypePanel:over {sound = "PLAY_SFX_2D_UI_Over_CustomMatch_GameType";}
+			gameTypePanel:focus {sound = "PLAY_SFX_2D_UI_Focus_CustomMatch_GameType";}
+			gameTypePanel:down {sound = "PLAY_SFX_2D_UI_Down_CustomMatch_GameType";}
+			
+			difficultyPanel 
+			{
+				
+				@extend = "common.UIFontStyles.expandingHeaderBG";
+				margin-right = "50";
+				
+				.label 
+				{
+					@extend = "common.UIFontStyles.expandingHeaderText";
+					text = "UIGLOB.TITLE.DIFFICULTY";
+				}
+				
+				.image 
+				{
+					/*image-path = "../textures/frontend/DifficultyHeroicImage";*/
+					@extend = "common.UIFontStyles.centerFitImage";
+				}
+			}
+
+			
+			difficultyPanel:over {sound = "PLAY_SFX_2D_UI_Over_CustomMatch_MapSelect";}
+			difficultyPanel:focus {sound = "PLAY_SFX_2D_UI_Focus_CustomMatch_MapSelect";}
+			difficultyPanel:down {sound = "PLAY_SFX_2D_UI_Down_CustomMatch_MapSelect";}
+			
+			gameTypeText 
+			{
+				@extend = "common.UIFontStyles.bodyTextColoured";
+				font-size = "28";
+			}
+			difficultyTitleText 
+			{
+				@extend = "common.UIFontStyles.bodyText";
+				font-size = "28";
+				text-align = center;
+			}
+			
+			modeOptionsTitleText 
+			{
+				text = "UIMP.CUSTOMMATCH.OPTIONS.MODEOPTIONS";
+				@extend = "common.UIFontStyles.bodyText";
+			}
+			
+			LockedTitleText 
+			{
+				@extend = "common.UIFontStyles.standardHeader";
+				text-align = center;
+				text = "UIGLOB.CODEX.CAMPAIGN.LOCKEDCODEXTITLE";
+			}
+			LockedText 
+			{
+				@extend = "common.UIFontStyles.bodyTextColoured";
+				text-align = center;
+				text = "UIDLC4.CAMPAIGNSELECTION.COOPERROR";
+				text-multiline = true;
+			}
+			customWarningText 
+			{
+				@extend = "common.UIFontStyles.bodyTextColoured";
+				text-align = left;
+				text = "UIMP.FIREFIGHT.GAMETYPE.MODIFIED.DESCR";
+				text-multiline = false;
+			}
+			customWarningIcon 
+			{
+				image-path = "../textures/frontend/Icons/icon_Exclamation";
+				image-rendering = smooth;
+				align-horizontal = "center";
+				align-vertical = "center";
+				image-fit = stretch;
+			}
+		}
+
+		
+		gameOptions 
+		{
+			screen 
+			{
+				source = "default\flash\screens_frontend_options_GameOptions_FireFight.swf";
+				priority = screen-normal;
+				scale-mode = preserve-aspect;
+				anchor-horizontal = left;
+				anchor-vertical =  middle;
+			}
+		}
+	}
+}

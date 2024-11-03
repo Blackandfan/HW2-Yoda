@@ -21,7 +21,7 @@
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Hero</WeaponType>
-		<MaxRange>2</MaxRange>
+		<MaxRange>3</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -59,7 +59,7 @@
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Hero</WeaponType>
-		<MaxRange>2</MaxRange>
+		<MaxRange>3</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -100,7 +100,7 @@
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Hero</WeaponType>
-		<MaxRange>2</MaxRange>
+		<MaxRange>3</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -142,7 +142,7 @@
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Hero</WeaponType>
-		<MaxRange>2</MaxRange>
+		<MaxRange>3</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>

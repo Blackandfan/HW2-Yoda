@@ -18,8 +18,8 @@
 		<Hardpoint>Torso</Hardpoint>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
-		<PostAttackCooldownMin>4</PostAttackCooldownMin>
-		<PostAttackCooldownMax>7</PostAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>6</PostAttackCooldownMax>
 		<Filter>Light</Filter>
 	</Weapon>
 	<Weapon>
@@ -40,8 +40,8 @@
 		<Hardpoint>Torso</Hardpoint>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
-		<PostAttackCooldownMin>4</PostAttackCooldownMin>
-		<PostAttackCooldownMax>7</PostAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>6</PostAttackCooldownMax>
 		<Filter>Light</Filter>
 	</Weapon>
 	<Weapon>
@@ -62,14 +62,14 @@
 		<Hardpoint>Torso</Hardpoint>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
-		<PostAttackCooldownMin>4</PostAttackCooldownMin>
-		<PostAttackCooldownMax>7</PostAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>6</PostAttackCooldownMax>
 		<Filter>Light</Filter>
 	</Weapon>
 	<Weapon>
 		<Name>Rifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>180</DamagePerSecond>
+		<DamagePerSecond>225</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>episode2_pack1_units_flood_infantry_FloodSpawnerSpine</Projectile>
 		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>

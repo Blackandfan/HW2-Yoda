@@ -2258,12 +2258,12 @@
 		</entry>
 		<entry>
 			<key>flood_inf_spawner_01</key>
-			<value>banished_unit_vehicle</value>
+			<value>banished_unit_hero</value>
 			<value>3</value>
 		</entry>
 		<entry>
 			<key>flood_inf_commander_01</key>
-			<value>banished_unit_hero</value>
+			<value>unsc_unit_special</value>
 			<value>4</value>
 		</entry>
 		<entry>

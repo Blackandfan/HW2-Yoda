@@ -118,7 +118,7 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">18</Pop>
+			<Pop type="Unit">0</Pop>
 			<Cost Supplies="600" Power="200" />
 			<AutoRecharge>190000</AutoRecharge>
 			<UIRadius>30</UIRadius>

@@ -6560,10 +6560,10 @@
 			<Effect type="UnlockableGodPower" tier="4">FloodRuptureEmerge</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="FloodRuptureEmerge">FloodRuptureEmerge2</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="FloodRuptureEmerge2">FloodRuptureEmerge3</Effect>
-			<Effect type="UnlockableGodPower" tier="4">LekgoloEverlasting</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovBoundlessRage</Effect>
 			<Effect type="UnlockableGodPower" tier="5">FloodSpiritGunship1</Effect>
 			<Effect type="UnlockableGodPower" tier="5" prereq="FloodSpiritGunship1">FloodSpiritGunship2</Effect>
-			<Effect type="UnlockableGodPower" tier="5">CovBoundlessRage</Effect>
+			<Effect type="UnlockableGodPower" tier="5">LekgoloEverlasting</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
 				<Target type="ProtoSquad">cov_inf_Brutehonour_01</Target>

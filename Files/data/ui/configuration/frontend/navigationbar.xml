@@ -41,12 +41,12 @@
 	</entry>
 	<entry>
 		<key>navBarMainMenu</key>
-		<value>UIGLOB.MAINMENUPAGE.HEADERS.CAMPAIGN</value>
+		<value>null</value>
 		<value>UIGLOB.MAINMENUPAGE.HEADERS.MULTIPLAYER</value>
-		<value>UIGLOB.MAINMENUPAGE.HEADERS.STRIKE</value>
-		<value>UIGLOB.MAINMENUPAGE.HEADERS.TUTORIAL</value>
+		<value>null</value>
+		<value>null</value>
 		<value>UIMP.SKIRMISHMATCH.GLOBAL.TITLE</value>
-		<value>UIGLOB.MAINMENUPAGE.HEADERS.STORE</value>
+		<value>null</value>
 		<value>null</value>
 		<value>null</value>
 		<value>UIMP.FINDMATCHPAGE.DESCRIPTION</value>
@@ -54,20 +54,20 @@
 	</entry>
 	<entry>
 		<key>navBarMainMenuFirefight</key>
-		<value>UIGLOB.MAINMENUPAGE.HEADERS.CAMPAIGN</value>
+		<value>null</value>
 		<value>UIGLOB.MAINMENUPAGE.HEADERS.MULTIPLAYER</value>
-		<value>UIGLOB.MAINMENUPAGE.HEADERS.STRIKE</value>
-		<value>UIGLOB.MAINMENUPAGE.HEADERS.TUTORIAL</value>
+		<value>null</value>
+		<value>null</value>
 		<value>UIMP.SKIRMISHMATCH.GLOBAL.TITLE</value>
-		<value>UIGLOB.MAINMENUPAGE.HEADERS.FIREFIGHT</value>
-		<value>UIGLOB.MAINMENUPAGE.HEADERS.STORE</value>
+		<value>null</value>
+		<value>null</value>
 		<value>null</value>
 		<value>UIMP.FINDMATCHPAGE.DESCRIPTION</value>
 		<value>UIGLOB.MAINMENUPAGE.HEADERS.MAINMENU</value>
 	</entry>
 	<entry>
 		<key>navBarMultiplayer</key>
-		<value>UIMP.FINDMATCHPAGE.HEADER.FINDMATCH</value>
+		<value>null</value>
 		<value>UIMP.FINDMATCHPAGE.HEADER.CUSTOMMATCH</value>
 		<value>null</value>
 		<value>null</value>

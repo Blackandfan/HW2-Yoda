@@ -1,0 +1,610 @@
+frontend {
+	mainMenu {
+		screen {
+			source = "default\flash\screens_frontend_MainMenu.swf";
+			priority = screen-normal;
+			scale-mode = preserve-aspect;
+			anchor-horizontal = left;
+			anchor-vertical = middle;
+		}
+		
+		menuTileChallenges:visible {
+			.header {
+				.progressBarA{
+					tween-easing = back-out;
+					tween-delay = 0.11;
+					tween-reset = 0;
+				}
+				.progressBarB{
+				   tween-easing = back-out;
+				   tween-delay = 0.11;
+				   tween-reset = 0;
+				}
+			}
+		}
+
+		menuTileChallenges:invisible {
+            .header {
+
+                .progressBarA{
+                    tween-pause = true;
+                }
+                .progressBarB{
+
+                    tween-pause = true;
+                }
+            }
+        }
+
+		menuTileChallenges:idle {
+			@extend = "common.UIFontStyles.expandingMenuTileBG";
+					
+			.label {
+				@extend = "common.UIFontStyles.expandingHeaderText";
+				text = "UIGLOB.MAINMENUPAGE.CHALLENGESPANEL.TITLE";
+			}
+			
+			.header {
+				.textB {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+						text-align = right;
+					}
+				}
+
+				.textC {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+						text-align = right;
+					}
+				}
+			}
+
+			.item0{
+				.imageA { image-rendering = smooth; }
+				.textA {
+					@extend = "common.UIFontStyles.largeHeaderOffline";
+					text-align = center;
+					text-multiline = true;
+				}
+				.textB {
+					@extend = "common.UIFontStyles.bodyTextColoured";
+					text-align = center;
+					text-multiline = true;
+				}
+			}
+
+			.item1{
+				.textA {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textB {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textC {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textD {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.imageA {
+					image-rendering = smooth;
+				}
+				.imageB {
+					image-rendering = smooth;
+				}
+				.imageC {
+					image-rendering = smooth;
+				}
+                .progressBarA{
+                    tween-easing = back-out;
+					tween-pause = true;
+					tween-duration = 0.6;
+                }
+			}
+
+			.item2{
+				.textA {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textB {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textC {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textD {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+						
+					}
+				}
+
+				.imageA {
+					image-rendering = smooth;
+				}
+				.imageB {
+					image-rendering = smooth;
+				}
+				.imageC {
+					image-rendering = smooth;
+				}
+				.progressBarA{
+                    tween-easing = back-out;
+					tween-pause = true;
+					tween-duration = 0.6;
+                }
+			}
+
+			.item3{
+				.textA {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textB {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textC {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textD {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.imageA {
+					image-rendering = smooth;
+				}
+				.imageB {
+					image-rendering = smooth;
+				}
+				.imageC {
+					image-rendering = smooth;
+				}
+				.progressBarA{
+                    tween-easing = back-out;
+					tween-pause = true;
+					tween-duration = 0.6;
+                }
+			}
+
+			.item4{
+				.textA {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textB {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textC {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textD {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.imageA {
+					image-rendering = smooth;
+				}
+				.imageB {
+					image-rendering = smooth;
+				}
+				.imageC {
+					image-rendering = smooth;
+				}
+				.progressBarA{
+                    tween-easing = back-out;
+					tween-pause = true;
+					tween-duration = 0.6;
+                }
+			}
+
+			.item5{
+				.textA {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textB {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textC {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textD {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+						
+					}
+				}
+
+				.imageA {
+					image-rendering = smooth;
+				}
+				.imageB {
+					image-rendering = smooth;
+				}
+				.imageC {
+					image-rendering = smooth;
+				}
+				.progressBarA{
+					tween-easing = back-out;
+					tween-pause = true;
+					tween-duration = 0.6;
+                }
+			}
+			.item6{
+				.textA {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+						
+					}
+				}
+
+				.textB {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textC {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+					}
+				}
+
+				.textD {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextSmall";
+						
+					}
+				}
+
+				.imageA {
+					image-rendering = smooth;
+				}
+				.imageB {
+					image-rendering = smooth;
+				}
+				.imageC {
+					image-rendering = smooth;
+				}
+				.progressBarA{
+					tween-easing = back-out;
+					tween-pause = true;
+					tween-duration = 0.6;
+                }
+			}
+		}
+
+
+		menuTileChallenges:over {
+			.item0{
+				.progressBarA{
+                    tween-reset = 0;
+                    tween-pause = false;
+					tween-delay =  0.88;
+                }
+			}
+			.item1{
+				.progressBarA{
+                     tween-reset = 0;
+                    tween-pause = false;
+					tween-delay =  0.88;
+                }
+			}
+			.item2{
+				.progressBarA{
+                    tween-reset = 0;
+                    tween-pause = false;
+					tween-delay =  0.88;
+                }
+			}
+			.item3{
+				.progressBarA{
+                    tween-reset = 0;
+                    tween-pause = false;
+					tween-delay =  0.88;
+                }
+			}
+			.item4{
+				.progressBarA{
+                    tween-reset = 0;
+                    tween-pause = false;
+					tween-delay =  0.88;
+                }
+			}
+			.item5{
+				.progressBarA{
+                    tween-reset = 0;
+                    tween-pause = false;
+					tween-delay = 0.88;
+                }
+			}
+			.item6{
+				.progressBarA{
+                    tween-reset = 0;
+                    tween-pause = false;
+					tween-delay = 0.88;
+                }
+			}
+			sound = "PLAY_SFX_2D_UI_Over_MainMenu_Challenges";
+		}
+
+		menuTileChallenges:down { sound = "PLAY_SFX_2D_UI_Down_MainMenu_Challenges"; }
+
+		menuTileChallenges:focus {
+			.item0{
+            	.progressBarA {
+					tween-reset = 0;
+					tween-pause = false;
+					tween-delay =  0.88;
+					}
+            	}
+			.item1{
+				.progressBarA{
+					tween-reset = 0;
+					tween-pause = false;
+					tween-delay =  0.88;
+				}
+			}
+			.item2{
+				.progressBarA{
+					tween-reset = 0;
+					tween-pause = false;
+					tween-delay =  0.88;
+				}
+			}
+			.item3{
+				.progressBarA{
+					tween-reset = 0;
+					tween-pause = false;
+					tween-delay =  0.88;
+				}
+			}
+			.item4{
+				.progressBarA{
+					tween-reset = 0;
+					tween-pause = false;
+					tween-delay =  0.88;
+				}
+			}
+			.item5{
+				.progressBarA{
+					tween-reset = 0;
+					tween-pause = false;
+					tween-delay = 0.88;
+				}
+			}
+			.item6{
+				.progressBarA{
+					tween-reset = 0;
+					tween-pause = false;
+					tween-delay = 0.88;
+				}
+			}
+			sound = "PLAY_SFX_2D_UI_Focus_MainMenu_Challenges";
+		}
+
+		menuTileRank:visible {
+			.header {
+				.progressBarA{
+					tween-easing = back-out;
+					tween-delay = 0.11;
+					tween-reset = 0;
+				}
+				.imageA {
+					/*image-path = "../textures/frontend/XPIcon";*/
+					image-rendering = smooth;
+				}
+			}
+		}
+
+        menuTileRank:invisible {
+			.header {
+				.progressBarA{
+					tween-pause = true;
+				}
+				.imageA {
+					/*image-path = "../textures/frontend/XPIcon";*/
+					image-rendering = smooth;
+				}
+			}
+		}
+
+		menuTileRank:idle {
+			@extend = "common.UIFontStyles.expandingMenuTileBG";
+					
+			.label {
+				@extend = "common.UIFontStyles.expandingHeaderText";
+				text = "UIGLOB.MAINMENUPAGE.RANKPANEL.TITLE";
+			}
+			
+			.labelTitle {
+				font-size = "26";
+				text-multiline = true;
+				text-align = "center";
+				@extend = "common.UIFontStyles.whiteTextColour";
+			}
+			
+			.header {
+				.textB {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextColoured";
+					}
+				}
+
+				.textC {
+					.label {
+						@extend = "common.UIFontStyles.bodyText";
+						font-size = 20;
+					}
+				}
+
+				.textD {
+					.label {
+						@extend = "common.UIFontStyles.largeHeader";
+						text-align = left;
+						font-size = 44;
+					}
+				}
+
+				.imageA {
+					/*image-path = "../textures/frontend/XPIcon";*/
+					image-rendering = smooth;
+				}
+			}
+
+			.item0 {
+				.imageA { 
+					image-rendering = smooth;
+					image-fit = "preserve-crop";
+					align-horizontal = "right";
+					/* align-vertical = "bottom"; */
+				}
+
+				.textA {
+					.label {
+						@extend = "common.UIFontStyles.bodyText";
+					}
+				}
+
+				.textB {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextColoured";
+						font-size = "28";
+					}
+				}
+
+				.textC {
+					.label {
+						@extend = "common.UIFontStyles.bodyText";
+					}
+				}
+
+				.textD {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextColoured";
+						font-size = "28";
+					}
+				}
+				
+				.textE {
+					.label {
+						@extend = "common.UIFontStyles.bodyText";
+					}
+				}
+
+				.textF {
+					.label {
+						@extend = "common.UIFontStyles.bodyTextColoured";
+						font-size = "28";
+					}
+				}
+			}
+		}
+
+		menuTileRank:over  { sound = "PLAY_SFX_2D_UI_Over_MainMenu_Rank"; }
+		menuTileRank:focus { sound = "PLAY_SFX_2D_UI_Focus_MainMenu_Rank"; }
+		menuTileRank:down  { sound = "PLAY_SFX_2D_UI_Down_MainMenu_Rank"; }
+
+		menuTileDLC {
+			.header {
+				.textA {
+					.label {
+						font-size = "22";
+						text-multiline = true;
+						text-align = "center";
+						text = "UIGLOB.DLC.COMINGSOON";
+					}
+				}
+			}
+
+			.item0{
+				.imageA { image-rendering = smooth; }
+				.textA {
+					@extend = "common.UIFontStyles.largeHeaderOffline";
+					text-align = center;
+					text-multiline = true;
+				}
+				.textB {
+					@extend = "common.UIFontStyles.bodyTextColoured";
+					text-align = center;
+					text-multiline = true;
+				}
+			}
+			
+			.item1 {
+				.imageA { image-rendering = smooth; }
+				.textA {
+					@extend = "common.UIFontStyles.expandingMenuTileBG";
+					.label {
+						@extend = "common.UIFontStyles.expandingHeaderText";
+						@extend = "common.UIFontStyles.darkTextColour";
+					}
+				}
+
+				.textB {
+					.label {
+						font-size = "26";
+						text-multiline = true;
+						text-align = "center";
+						text = "UIGLOB.DLC.COMINGSOON";
+					}
+				}
+			}
+		}
+		
+		menuTileDLC:idle {}
+        menuTileDLC:over { sound = "PLAY_SFX_2D_UI_Over_MainMenu_DLC"; }
+		menuTileDLC:down { sound = "PLAY_SFX_2D_UI_Down_MainMenu_DLC"; }
+		menuTileDLC:focus {	sound = "PLAY_SFX_2D_UI_Focus_MainMenu_DLC"; }
+	}
+}

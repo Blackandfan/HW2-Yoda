@@ -316,7 +316,6 @@
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
 			<Action>HammerShockwaveAction</Action>
 		</TargetRule>
 		<TargetRule>

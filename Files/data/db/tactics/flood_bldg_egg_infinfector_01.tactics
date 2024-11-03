@@ -25,6 +25,28 @@
 		<PhysicsForceMin>500</PhysicsForceMin>
 		<PhysicsForceMax>700</PhysicsForceMax>
 	</Weapon>
+	<Weapon>
+		<Name>MeleeAttack</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>4</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<TargetPriority type="Infantry">20</TargetPriority>
+		<TargetPriority type="groundVehicle">15</TargetPriority>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+	</Weapon>
 	<Action>
 		<Name>ExplosiveManager</Name>
 		<ActionType>ExplosiveManager</ActionType>
@@ -36,6 +58,14 @@
 		<Infection />
 		<StartOnCooldown />
 		<RechargeDelay>4</RechargeDelay>
+	</Action>
+	<Action>
+		<Name>MeleeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SecondaryAttack</Anim>
+		<Weapon>MeleeAttack</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
 	</Action>
 	<Action>
 		<Name>Capture</Name>
@@ -104,6 +134,11 @@
 	</Action>
 	<Tactic>
 		<PersistentAction>ExplosiveManager</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MeleeAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>Garrison</TargetType>

@@ -5807,14 +5807,12 @@
 		<Units>
 			<Unit count="1" role="normal">flood_inf_commander_01_mp</Unit>
 		</Units>
-		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>Melee</Flag>
 		<CanAttackWhileMoving>false</CanAttackWhileMoving>
-		<Flag>AvoidanceAgentAffectsBothTeams</Flag>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 			<AlignToCamera>true</AlignToCamera>
@@ -5961,7 +5959,6 @@
 		<Units>
 			<Unit count="1" role="normal">flood_inf_spawner_01_mp</Unit>
 		</Units>
-		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
@@ -6587,7 +6584,6 @@
 		<Units>
 			<Unit count="1" role="normal">flood_inf_infected_rocket_01</Unit>
 		</Units>
-		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
@@ -7188,7 +7184,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">creep_flood_airborne_01</Unit>
+			<Unit count="5" role="normal">unsc_inf_odst_01</Unit>
 		</Units>
 		<Flag>DiesWhenFrozen</Flag>
 		<Flag>Repairable</Flag>

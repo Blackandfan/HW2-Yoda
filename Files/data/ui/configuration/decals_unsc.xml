@@ -85,6 +85,17 @@
 	<Icon type="powericon" name="LeaderPower_ConduitOfRage_Medium" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="1" Intensity3="1" owner="ConduitOfRage_Medium">-1</Icon>
 	<Icon type="powericon" name="LeaderPower_ConduitOfRage_Small" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="1" Intensity3="1" owner="ConduitOfRage_Small">-1</Icon>
 	<Icon type="miscicon" name="LeaderPower_ArrowDirectional" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="3" owner="ArrowDirectional">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_inf_gruntswarm_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_inf_infected_gruntplasmapistol_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_inf_carrierform_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="10" SizeZ="10" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_inf_infectfrm_02">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="10" SizeZ="10" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_inf_infectfrm_02_lowcount">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_inf_vehinfector_02">-1</Icon>
+	<Icon type="uniticon" name="Air" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_air_airborneinfector_02">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="unsc_inf_marine_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="unsc_inf_marine_01">-1</Icon>
+	<Icon type="uniticon" name="Vehicle" SizeX="8" SizeZ="8" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_veh_infected_grizzly_01_base">-1</Icon>
+	<Icon type="uniticon" name="UNSC_BuildingTurret" SizeX="7" SizeZ="7" Offset="0,-1.89999998,0.5" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_structure_floodbosstentacledrop_01">-1</Icon>
 	<Icon type="uniticon" name="AirLarge" SizeX="16" SizeZ="16" Intensity1="1" Intensity2="2" Intensity3="2" owner="pow_for_andersultimate_01">-1</Icon>
 	<Icon type="uniticon" name="Air" SizeX="5" SizeZ="5" Intensity1="1" Intensity2="2" Intensity3="2" owner="neutralfor_sentinel_01">-1</Icon>
 	<Icon type="uniticon" name="Air" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="for_air_sentinel_01">-1</Icon>
