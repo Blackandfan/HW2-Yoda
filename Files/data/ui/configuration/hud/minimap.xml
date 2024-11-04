@@ -2,6 +2,11 @@
 <group>
 	<group name="entities">
 		<entry>
+			<key>unsc_air_nightingale_01_flood_mp</key>
+			<value>unsc_unit_air</value>
+			<value>3</value>
+		</entry>
+		<entry>
 			<key>flood_inf_infected_gruntplasmapistol_01</key>
 			<value>banished_unit_infantry</value>
 			<value>0</value>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>SniperRifle</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>157.5</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_lightCannon_01</Projectile>
+		<ImpactEffect size="Small">AutoCannonImpact</ImpactEffect>
+		<MaxVelocityLead>99</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Mine">1</TargetPriority>
+		<TargetPriority type="Aircraft">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">1</TargetPriority>
+		<TargetPriority type="Turretbuilding">1</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+		<VisualAmmo>1</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.89999998</PostAttackCooldownMax>
+		<RequirePreciseAiming />
+	</Weapon>
+	<Weapon>
+		<Name>MeleeAttack</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>4</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<TargetPriority type="Infantry">20</TargetPriority>
+		<TargetPriority type="groundVehicle">15</TargetPriority>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>JumpAttackHammer</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>400</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>1.84500003</MaxRange>
+		<MinRange>0</MinRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Action>
+		<Name>SniperRifleAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackMove</MoveAnim>
+		<ReloadAnim>SniperRifleReload</ReloadAnim>
+		<Weapon>SniperRifle</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>MeleeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SecondaryAttack</Anim>
+		<Weapon>MeleeAttack</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>JumpAttackAction</Name>
+		<ActionType>JumpAttack</ActionType>
+		<StartAnim noInterrupt="true" motionExtraction="true">LeapTakeOff</StartAnim>
+		<Anim>LeapArc</Anim>
+		<EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.449999988">LeapLanding</EndAnim>
+		<Weapon>JumpAttackHammer</Weapon>
+		<MaxDistance>40</MaxDistance>
+		<MinRelativeHeight>8</MinRelativeHeight>
+		<MaxRelativeHeight>12</MaxRelativeHeight>
+		<VelocityScalar>35</VelocityScalar>
+		<LandingDelay>0.400000006</LandingDelay>
+	</Action>
+	<Action>
+		<Name>PersonalCloak</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<DontAutoRestart />
+	</Action>
+	<Action>
+		<Name>SpawnDrone</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>unsc_veh_sniperdrone_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Mine</TargetType>
+			<TargetType>Infantry</TargetType>
+			<Action>SniperRifleAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MeleeAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<Relation>Enemy</Relation>
+		</TargetRule>
+		<PersistentAction>PersonalCloak</PersistentAction>
+		<PersistentAction>SpawnDrone</PersistentAction>
+	</Tactic>
+</TacticData>

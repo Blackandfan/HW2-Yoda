@@ -66,6 +66,7 @@
 	<Icon type="miscicon" name="Selection3D" SizeX="8" SizeZ="8" owner="circleselectAdd">-1</Icon>
 	<Icon type="miscicon" name="Selection3D" SizeX="8" SizeZ="8" owner="circleselectSubtract">-1</Icon>
 	<Icon type="miscicon" name="UnitSelectHover" SizeX="8" SizeZ="8" owner="unitHoverDecal">-1</Icon>
+	<Icon type="uniticon" name="Air" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="unsc_air_nightingale_01_flood_mp">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_inf_gruntswarm_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_inf_infected_gruntplasmapistol_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_inf_carrierform_01">-1</Icon>

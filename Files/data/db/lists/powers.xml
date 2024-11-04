@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="FloodEverlasting">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript activationSound="PLAY_SFX_3D_LP_BAN_LekgoloEverlastingUnlock">_POWER_Everlasting</TechScript>
+			<ProcOnPowerGranted />
+			<ProcOnSquadSpawned />
+			<ProcOnChangeOwner />
+			<ProcBuffName>EverlastingProc</ProcBuffName>
+			<ProcObjectTypeFilter>Building</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>TurretBuilding</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>Unit</ProcObjectTypeFilter>
+			<BuffHealingOverride healPercentPerTickOverride="0.005" healTickRateOverride="2">Building</BuffHealingOverride>
+			<BuffHealingOverride healPercentPerTickOverride="0.005" healTickRateOverride="2">TurretBuilding</BuffHealingOverride>
+			<BuffHealingOverride healPercentPerTickOverride="0.005" healTickRateOverride="2">Hero</BuffHealingOverride>
+			<Cost Supplies="0" Power="0" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="BuffDurationInfinite">true</Data>
+				<Data type="float" name="HealPercentPerTick">0.01</Data>
+				<Data type="float" name="HealTickRate">2</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="FloodEggAOMDrop1">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
@@ -218,7 +251,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="350" Power="100" />
 			<Pop type="Unit">0</Pop>
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -278,7 +311,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="400" Power="200" />
 			<Pop type="Unit">0</Pop>
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -338,7 +371,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="400" Power="200" />
 			<Pop type="Unit">0</Pop>
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>

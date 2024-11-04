@@ -20,6 +20,11 @@ Quick capture unit</str>
 	<str id="UIENT.FLOOD_INF_SPAWNER_01.RadialEdge.ShortDescr">&gt;Ranged Hero
 Able to spawn infection forms using upgrades.</str>
 	<str id="UIENT.LEADERSELECT.SHORTDESCR.FLOODBOY.BLITZ">The Flood focuses on aggressive rush attacks.</str>
+	<str id="UIENT.FloodEverlasting.RADIALCENTER.NAME">COMBAT REPAIR</str>
+	<str id="UIENT.FloodEverlasting.RADIALEDGE.NAME">COMBAT REPAIR</str>
+	<str id="UIENT.FloodEverlasting.RADIALEDGE.ROLE">PASSIVE POWER</str>
+	<str id="UIENT.FloodEverlasting.RADIALEDGE.SALESPITCH">Units and buildings are slowly but constantly healed, even during combat.</str>
+	<str id="UIENT.FloodEverlasting.RADIALEDGE.SHORTDESCR">Units and buildings are now slowly but constantly healed, even during combat.</str>
 	<str id="UIENT.flood_bldg_eggdropaom_01.RadialCenter.Name">EGG</str>
 	<str id="UIENT.flood_bldg_eggdropaom_01.RadialEdge.Name">EGG</str>
 	<str id="UIENT.flood_bldg_eggdropaom_01.RadialEdge.Role">ANTI-INFANTRY</str>
@@ -92,6 +97,10 @@ two vet 2 Blisterbacks.</str>
 two vet 2 Wraith
 two vet 2 Grizzly
 two vet 2 Blisterbacks</str>
+	<str id="UIENT.flood_blisterback_upgrade1.RADIALCENTER.NAME">GOO</str>
+	<str id="UIENT.flood_blisterback_upgrade1.RADIALEDGE.NAME">GOO</str>
+	<str id="UIENT.flood_blisterback_upgrade1.RADIALEDGE.ROLE">UNIT UPGRADE</str>
+	<str id="UIENT.flood_blisterback_upgrade1.RADIALEDGE.SHORTDESCR">Unlock passive ability.</str>
 	<str id="UIENT.flood_carrierform_upgrade1.RADIALCENTER.NAME">BUFF</str>
 	<str id="UIENT.flood_carrierform_upgrade1.RADIALEDGE.NAME">BUFF</str>
 	<str id="UIENT.flood_carrierform_upgrade1.RADIALEDGE.ROLE">UNIT UPGRADE</str>

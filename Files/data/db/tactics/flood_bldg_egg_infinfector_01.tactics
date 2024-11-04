@@ -10,43 +10,83 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>18</Radius>
+				<Radius>14</Radius>
 				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>18</Radius>
+				<DamageRatio>70</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Mines</WeaponType>
-		<Apply>0</Apply>
+		<Apply>6</Apply>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>500</PhysicsForceMin>
 		<PhysicsForceMax>700</PhysicsForceMax>
+		<Slow TargetType="Unit" MovementModifier="0.75" AOEEffect="true" SmartTargeting="false">10.0f</Slow>
 	</Weapon>
 	<Weapon>
-		<Name>MeleeAttack</Name>
+		<Name>PlasmaMineReduced</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
-		<WeaponType>Melee</WeaponType>
-		<MaxRange>4</MaxRange>
+		<DamagePerSecond>200</DamagePerSecond>
+		<UseDPSasDPA />
+		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="2" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4" />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>9</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>13</Radius>
+				<DamageRatio>70</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<WeaponType>Mines</WeaponType>
+		<Apply>1.5</Apply>
 		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>200</PhysicsForceMin>
-		<PhysicsForceMax>400</PhysicsForceMax>
-		<TargetPriority type="Infantry">20</TargetPriority>
-		<TargetPriority type="groundVehicle">15</TargetPriority>
-		<TargetPriority type="TurretBuilding">10</TargetPriority>
-		<TargetPriority type="Building">5</TargetPriority>
-		<Hardpoint>Torso</Hardpoint>
-		<Filter>Medium</Filter>
-		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<Slow TargetType="Unit" MovementModifier="0.75" AOEEffect="true" SmartTargeting="false">4.0f</Slow>
 	</Weapon>
+	<Action>
+		<Name>StealthManager</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<StartOnCooldown />
+		<RechargeDelay>4</RechargeDelay>
+		<WorkRange>22</WorkRange>
+		<MaxCharge>200</MaxCharge>
+	</Action>
+	<Action>
+		<Name>ExplosiveManager2</Name>
+		<ActionType>ExplosiveManager</ActionType>
+		<FuseType>Proximity</FuseType>
+		<WorkRange>0</WorkRange>
+		<Weapon>PlasmaMineReduced</Weapon>
+		<DontAutoRestart />
+		<ExplodeOnDeath />
+		<Infection />
+	</Action>
 	<Action>
 		<Name>ExplosiveManager</Name>
 		<ActionType>ExplosiveManager</ActionType>
@@ -54,187 +94,10 @@
 		<WorkRange>8</WorkRange>
 		<Weapon>PlasmaMine</Weapon>
 		<DontAutoRestart />
-		<ExplodeOnDeath />
 		<Infection />
-		<StartOnCooldown />
-		<RechargeDelay>4</RechargeDelay>
-	</Action>
-	<Action>
-		<Name>MeleeAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>SecondaryAttack</Anim>
-		<Weapon>MeleeAttack</Weapon>
-		<FullBodyAttackAnim />
-		<Strafing turnRate="180" trackingSpeed="60" />
-	</Action>
-	<Action>
-		<Name>Capture</Name>
-		<ActionType>Capture</ActionType>
-		<Anim>Capture</Anim>
-		<CaptureRate>1</CaptureRate>
-		<DecaptureRate>1.29999995</DecaptureRate>
-		<WorkRange>4</WorkRange>
-	</Action>
-	<Action>
-		<Name>Capture02</Name>
-		<ActionType>Capture</ActionType>
-		<Anim>Capture</Anim>
-		<DecaptureRate>1.29999995</DecaptureRate>
-		<WorkRange>4</WorkRange>
-		<StartDisabled />
-	</Action>
-	<Action>
-		<Name>Garrison</Name>
-		<ActionType>Garrison</ActionType>
-		<WorkRange>3.07500005</WorkRange>
-	</Action>
-	<Action>
-		<Name>GarrisonSpirit</Name>
-		<ActionType>Garrison</ActionType>
-		<Anim>HotDropUp</Anim>
-		<WorkRange>7.99499989</WorkRange>
-	</Action>
-	<Action>
-		<Name>UngarrisonSpirit</Name>
-		<ActionType>Ungarrison</ActionType>
-		<Anim>HotDropDown</Anim>
-		<WorkRange>0</WorkRange>
-	</Action>
-	<Action>
-		<Name>GarrisonHotDrop</Name>
-		<ActionType>Garrison</ActionType>
-		<Anim>HotDropUp</Anim>
-		<WorkRange>9.22500038</WorkRange>
-	</Action>
-	<Action>
-		<Name>UngarrisonHotDrop</Name>
-		<ActionType>Ungarrison</ActionType>
-		<Anim>HotDropDown</Anim>
-		<WorkRange>0</WorkRange>
-	</Action>
-	<Action>
-		<Name>GarrisonTeleport</Name>
-		<ActionType>Garrison</ActionType>
-		<Anim>TeleportOut</Anim>
-		<WorkRange>9.22500038</WorkRange>
-	</Action>
-	<Action>
-		<Name>UngarrisonTeleport</Name>
-		<ActionType>Ungarrison</ActionType>
-		<Anim>TeleportIn</Anim>
-		<WorkRange>0</WorkRange>
-	</Action>
-	<Action>
-		<Name>GatherCollectables</Name>
-		<ActionType>Gather</ActionType>
-		<Anim>Gather</Anim>
-		<Resource>Collectable</Resource>
-		<WorkRate>1</WorkRate>
-		<WorkRange>4</WorkRange>
 	</Action>
 	<Tactic>
 		<PersistentAction>ExplosiveManager</PersistentAction>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>MeleeAttackAction</Action>
-			<TargetType>NonFlying</TargetType>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Ally</Relation>
-			<TargetType>Garrison</TargetType>
-			<Action>Garrison</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>GaiaGarrison</TargetType>
-			<Action>Garrison</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>Collectable</TargetType>
-			<Action>GatherCollectables</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>CapturePoint</TargetType>
-			<TargetState>Capturable</TargetState>
-			<Action>Capture</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>CapturePoint</TargetType>
-			<TargetState>Capturable</TargetState>
-			<Action>Capture</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Neutral</Relation>
-			<TargetType>CapturePoint</TargetType>
-			<TargetState>Capturable</TargetState>
-			<Action>Capture</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>CapturePoint</TargetType>
-			<TargetState>Capturable</TargetState>
-			<Action>Capture02</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<Relation>Self</Relation>
-			<TargetType>TeleportPickup</TargetType>
-			<Action>GarrisonTeleport</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Ungarrison</Ability>
-			<GaiaOwned />
-			<Relation>Self</Relation>
-			<TargetType>TeleportPickup</TargetType>
-			<Action>UngarrisonTeleport</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>Resource_Supplies</TargetType>
-			<Action>GatherSupplies</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>Resource_Power</TargetType>
-			<Action>GatherPower</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Self</Relation>
-			<TargetType>HotDropPickup</TargetType>
-			<Action>GarrisonHotDrop</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Ungarrison</Ability>
-			<Relation>Self</Relation>
-			<TargetType>HotDropPickup</TargetType>
-			<Action>UngarrisonHotDrop</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Ally</Relation>
-			<TargetType>transport</TargetType>
-			<Action>GarrisonSpirit</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Ungarrison</Ability>
-			<Relation>Ally</Relation>
-			<TargetType>transport</TargetType>
-			<Action>UngarrisonSpirit</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<Relation>Self</Relation>
-			<TargetType>TeleportPickup</TargetType>
-			<Action>GarrisonTeleport</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<Ability>Ungarrison</Ability>
-			<Relation>Self</Relation>
-			<TargetType>TeleportDropoff</TargetType>
-			<Action>UngarrisonTeleport</Action>
-		</TargetRule>
+		<PersistentAction>ExplosiveManager2</PersistentAction>
 	</Tactic>
 </TacticData>

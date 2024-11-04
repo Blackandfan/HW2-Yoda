@@ -6509,7 +6509,11 @@
 	<Squad name="flood_inf_infected_humelee_01_sp" parent_element="flood_inf_infected_humelee_01_base" dbid="8150405797418369034">
 		<Flag>DoNotMoveToAttackMe</Flag>
 	</Squad>
-	<Squad name="flood_inf_infected_odst_01_base" parent_element="flood_inf_infected_odst_01_base_sp" dbid="6994915191590799231" />
+	<Squad name="flood_inf_infected_odst_01_base" parent_element="flood_inf_infected_odst_01_base_sp" dbid="6994915191590799231">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+	</Squad>
 	<Squad name="flood_inf_infected_odst_01_base_base" dbid="4065837440595185253">
 		<CombatRank>5</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
