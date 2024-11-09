@@ -11051,12 +11051,12 @@
 			<DataLevel level="0">
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
 				<Data type="bool" name="OverwritesSelf">true</Data>
-				<Data type="float" name="PillageGlobalCostScalar">1.29999995</Data>
+				<Data type="float" name="PillageGlobalCostScalar">1.15</Data>
 			</DataLevel>
 			<DataLevel level="1">
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
 				<Data type="bool" name="OverwritesSelf">true</Data>
-				<Data type="float" name="PillageGlobalCostScalar">1.60000002</Data>
+				<Data type="float" name="PillageGlobalCostScalar">1.3</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -27000,6 +27000,7 @@
 			<TechScript>_POWER_UnscBloodlust1</TechScript>
 			<ProcOnSquadKill />
 			<ProcBuffName>BloodlustProc</ProcBuffName>
+			<ProcObjectTypeFilter>Hero</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>BasicInfantry</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>BasicVehicle</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>BasicAircraft</ProcObjectTypeFilter>

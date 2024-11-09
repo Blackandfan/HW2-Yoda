@@ -137,7 +137,7 @@
 	</entry>
 	<entry>
 		<key>flood_inf_carrierform_01</key>
-		<value>..\textures\hud\icons\entityIcons\flood_inf_carrierform_01</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_suicideGrunt_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_locked_icon</value>
 		<value>UIENT.flood_inf_carrierform_01.RadialEdge.Name</value>
@@ -191,7 +191,7 @@
 	</entry>
 	<entry>
 		<key>flood_carrierform_upgrade1</key>
-		<value>..\textures\hud\icons\entityIcons\flood_carrierform_upgrade1</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_suicideGrunt_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_arbiter_gruntsquad_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
 		<value>UIENT.flood_carrierform_upgrade1.RadialCenter.Name</value>

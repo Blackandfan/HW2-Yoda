@@ -334,47 +334,16 @@
 		<RammingDistanceScalar>10</RammingDistanceScalar>
 		<RammingSpeedScalar>1</RammingSpeedScalar>
 	</Squad>
-	<Squad name="flood_structure_floodbosstentacledrop_01" dbid="1626793275312854217" formationType="Flock">
-		<CombatRank>3</CombatRank>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3000</DisplayNameID>
-		<RolloverTextID>3001</RolloverTextID>
-		<StatsNameID>25679</StatsNameID>
-		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>12</SubSelectSort>
-		<LeashDistance>35</LeashDistance>
-		<LeashDeadzone>9</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>21.5249996</AggroDistance>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<AIAttackRank>1.5</AIAttackRank>
-		<BuildPoints>18</BuildPoints>
-		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
-		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
+	<Squad name="flood_structure_floodbosstentacledrop_01" parent_element="unsc_bldg_dropTurret_01_base" dbid="5852744154379930568">
+		<Units override_type="absolute">
 			<Unit count="1" role="normal">flood_structure_floodbosstentacledrop_01</Unit>
 		</Units>
-		<OverrideUnitSoundNames />
-		<LeaderDiesLast />
-		<Flag>Repairable</Flag>
-		<Flag>Chatter</Flag>
+		<HPBar offset="-2,6,0">UNSC_Health</HPBar>
 		<Flag>KBAware</Flag>
+		<Flag>UseNameForAudio</Flag>
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
 		<Flag>UseNameForMenuIcon</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>All</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<Birth>Trained</Birth>
-		<AvoidanceMass>Light</AvoidanceMass>
-		<Counters>Marines_01</Counters>
 	</Squad>
 	<Squad name="flood_bldg_eggdropaom_01" dbid="15571555391561239374">
 		<CombatRank>1</CombatRank>
