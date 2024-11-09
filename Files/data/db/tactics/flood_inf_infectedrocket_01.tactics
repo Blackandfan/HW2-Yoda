@@ -3,77 +3,84 @@
 	<Weapon>
 		<Name>RocketWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>42</DamagePerSecond>
+		<DamagePerSecond>50</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
-		<MaxRange>40</MaxRange>
+		<MaxRange>55</MaxRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>0</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
 		<MovingMaxDeviation>0</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>1</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>5</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<ReloadAnimation>RocketReload</ReloadAnimation>
-		<TargetPriority type="Infantry">7</TargetPriority>
-		<TargetPriority type="GroundVehicle">4</TargetPriority>
-		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 		<ProjectileLaunchDirY />
+		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>3</PreAttackCooldownMax>
 		<PostAttackCooldownMin>3</PostAttackCooldownMin>
 		<PostAttackCooldownMax>4</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
-		<Name>MeleeAttack</Name>
+		<Name>AntiAircraftRocketLauncher</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
-		<WeaponType>Melee</WeaponType>
-		<MaxRange>4</MaxRange>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>200</PhysicsForceMin>
-		<PhysicsForceMax>400</PhysicsForceMax>
-		<TargetPriority type="Infantry">20</TargetPriority>
-		<TargetPriority type="groundVehicle">15</TargetPriority>
-		<TargetPriority type="TurretBuilding">10</TargetPriority>
-		<TargetPriority type="Building">5</TargetPriority>
-		<Hardpoint>Torso</Hardpoint>
-		<Filter>Medium</Filter>
-		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
-	</Weapon>
-	<Weapon>
-		<Name>JumpAttackHammer</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>400</DamagePerSecond>
-		<UseDPSasDPA />
-		<WeaponType>Melee</WeaponType>
-		<MaxRange>1.84500003</MaxRange>
-		<MinRange>0</MinRange>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>200</PhysicsForceMin>
-		<PhysicsForceMax>400</PhysicsForceMax>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>AntiVehicle</WeaponType>
+		<Projectile>fx_proj_engmissile_01</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">MissileImpact</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>55</MaxRange>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<EnableHeightBonusDamage />
 		<Hardpoint>Torso</Hardpoint>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>4</Radius>
+				<Radius>5</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<Filter>Medium</Filter>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.800000012</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.20000005</PostAttackCooldownMax>
 	</Weapon>
 	<Action>
 		<Name>RocketAttackAction</Name>
@@ -87,26 +94,17 @@
 		<FindBetterAction />
 	</Action>
 	<Action>
-		<Name>MeleeAttackAction</Name>
+		<Name>AntiAircraftRocketLauncherAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>SecondaryAttack</Anim>
-		<Weapon>MeleeAttack</Weapon>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackMove</MoveAnim>
+		<ReloadAnim>RocketReload</ReloadAnim>
+		<Weapon>AntiAircraftRocketLauncher</Weapon>
+		<Strafing turnRate="90" trackingSpeed="40" jitter="20" />
 		<FullBodyAttackAnim />
-		<Strafing turnRate="180" trackingSpeed="60" />
+		<PersistBetweenOpps />
 		<FindBetterAction />
-	</Action>
-	<Action>
-		<Name>JumpAttackAction</Name>
-		<ActionType>JumpAttack</ActionType>
-		<StartAnim noInterrupt="true" motionExtraction="true">LeapTakeOff</StartAnim>
-		<Anim>LeapArc</Anim>
-		<EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.449999988">LeapLanding</EndAnim>
-		<Weapon>JumpAttackHammer</Weapon>
-		<MaxDistance>40</MaxDistance>
-		<MinRelativeHeight>8</MinRelativeHeight>
-		<MaxRelativeHeight>12</MaxRelativeHeight>
-		<VelocityScalar>35</VelocityScalar>
-		<LandingDelay>0.400000006</LandingDelay>
+		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>Capture</Name>
@@ -180,18 +178,8 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>MeleeAttackAction</Action>
-			<TargetType>NonFlying</TargetType>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>JumpAttackAction</Action>
-			<TargetsGround />
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<Action>JumpAttackAction</Action>
+			<TargetType>Aircraft</TargetType>
+			<Action>AntiAircraftRocketLauncherAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>

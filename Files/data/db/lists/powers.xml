@@ -430,7 +430,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">46</Pop>
 			<Cost Supplies="2500" Power="350" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>225000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -517,7 +517,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">48</Pop>
 			<Cost Supplies="3000" Power="300" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>225000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>

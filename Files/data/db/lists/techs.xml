@@ -6500,6 +6500,9 @@
 			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">flood_inf_infected_rocket_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AntiAircraftRocketLauncherAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_inf_infected_rocket_01</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="flood_blisterback_upgrade1" type="Normal">
@@ -23151,23 +23154,17 @@
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Effects>
-			<Effect type="Data" amount="1.20000005" subtype="MaximumVelocity" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_foxcannon_01</Target>
+				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">unsc_air_hornet_01</Target>
+				<Target type="ProtoUnit">unsc_air_nightingale_01</Target>
+				<Target type="ProtoUnit">unsc_air_vulture_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10000002" subtype="MaximumVelocity" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.12" subtype="MaximumVelocity" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_mongoose_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.10000002" subtype="MaximumVelocity" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_flamehog_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit" exclude="UberUnit">BasicAircraft</Target>
 			</Effect>
 		</Effects>
 	</Tech>

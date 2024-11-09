@@ -109,7 +109,8 @@ two vet 2 Blisterbacks</str>
 	<str id="UIENT.flood_infectedrockethuman_upgrade1.RADIALCENTER.NAME">SQUAD BUFF</str>
 	<str id="UIENT.flood_infectedrockethuman_upgrade1.RADIALEDGE.NAME">SQUAD BUFF</str>
 	<str id="UIENT.flood_infectedrockethuman_upgrade1.RADIALEDGE.ROLE">UNIT UPGRADE</str>
-	<str id="UIENT.flood_infectedrockethuman_upgrade1.RADIALEDGE.SHORTDESCR">35% DMG buff
+	<str id="UIENT.flood_infectedrockethuman_upgrade1.RADIALEDGE.SHORTDESCR">Unlock Anti Air Rocket Weapon
+35% DMG buff
 35% Health buff</str>
 	<str id="UIENT.flood_spawner_upgrade1.RADIALCENTER.NAME">ABILITY UNLOCK I</str>
 	<str id="UIENT.flood_spawner_upgrade1.RADIALEDGE.NAME">ABILITY UNLOCK I</str>
