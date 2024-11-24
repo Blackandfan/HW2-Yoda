@@ -500,11 +500,11 @@
 						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_veh_infected_prowler_01_base</ProtoSquadID>
+						<ProtoSquadID>cov_veh_prowler_01</ProtoSquadID>
 						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_veh_infected_prowler_01_base</ProtoSquadID>
+						<ProtoSquadID>cov_veh_prowler_01</ProtoSquadID>
 						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>

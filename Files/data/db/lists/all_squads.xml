@@ -209,6 +209,7 @@
 		<BuildPoints>8</BuildPoints>
 		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="Power">15</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -499,7 +500,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">flood_inf_vehinfector_02</Unit>
+			<Unit count="1" role="normal">flood_inf_vehinfector_egg_02</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
@@ -5803,6 +5804,7 @@
 		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
 	<Squad name="flood_inf_commander_01_base" formationType="Flock" dbid="1878292424237619604">
+		<HealValue>4.5</HealValue>
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapScale>1</MinimapScale>
@@ -5822,7 +5824,7 @@
 		<Pop Type="Unit">9</Pop>
 		<Cost ResourceType="Supplies">900</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
-		<HPBar offset="0,20,0">UNSC_Health</HPBar>
+		<HPBar offset="0,20,0" sizeX="12.0f" sizeY="3.0f">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>

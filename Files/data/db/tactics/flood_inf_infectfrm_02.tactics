@@ -1,234 +1,30 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>PlasmaMine</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
-		<UseDPSasDPA />
-		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
-		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="2" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4" />
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>5</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
-			</Hitbox>
-		</AOEData>
-		<WeaponType>Mines</WeaponType>
-		<Apply>0</Apply>
-		<ThrowUnits />
-	</Weapon>
-	<Weapon>
-		<Name>MeleeAttack</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
-		<WeaponType>Melee</WeaponType>
-		<MaxRange>4</MaxRange>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>200</PhysicsForceMin>
-		<PhysicsForceMax>400</PhysicsForceMax>
-		<TargetPriority type="Infantry">20</TargetPriority>
-		<TargetPriority type="groundVehicle">15</TargetPriority>
-		<TargetPriority type="TurretBuilding">10</TargetPriority>
-		<TargetPriority type="Building">5</TargetPriority>
-		<Hardpoint>Torso</Hardpoint>
-		<Filter>Medium</Filter>
-		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+		<Name>Melee</Name>
+		<DamagePerSecond>80</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<TimeToInfect>0.100000001</TimeToInfect>
+		<InfectionJumpDelay>0.25</InfectionJumpDelay>
+		<InfectionTargetType>Infantry</InfectionTargetType>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
 	<Action>
-		<Name>ExplosiveManager</Name>
-		<ActionType>ExplosiveManager</ActionType>
-		<FuseType>Proximity</FuseType>
-		<WorkRange>3</WorkRange>
-		<Weapon>PlasmaMine</Weapon>
-		<DontAutoRestart />
-		<ExplodeOnDeath />
+		<Name>Melee</Name>
+		<ActionType>Infect</ActionType>
 		<Infection />
-	</Action>
-	<Action>
-		<Name>MeleeAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>SecondaryAttack</Anim>
-		<Weapon>MeleeAttack</Weapon>
-		<FullBodyAttackAnim />
-		<Strafing turnRate="180" trackingSpeed="60" />
-	</Action>
-	<Action>
-		<Name>Capture</Name>
-		<ActionType>Capture</ActionType>
-		<Anim>Capture</Anim>
-		<CaptureRate>1</CaptureRate>
-		<DecaptureRate>1.29999995</DecaptureRate>
-		<WorkRange>4</WorkRange>
-	</Action>
-	<Action>
-		<Name>Capture02</Name>
-		<ActionType>Capture</ActionType>
-		<Anim>Capture</Anim>
-		<DecaptureRate>1.29999995</DecaptureRate>
-		<WorkRange>4</WorkRange>
-		<StartDisabled />
-	</Action>
-	<Action>
-		<Name>Garrison</Name>
-		<ActionType>Garrison</ActionType>
-		<WorkRange>3.07500005</WorkRange>
-	</Action>
-	<Action>
-		<Name>GarrisonSpirit</Name>
-		<ActionType>Garrison</ActionType>
-		<Anim>HotDropUp</Anim>
-		<WorkRange>7.99499989</WorkRange>
-	</Action>
-	<Action>
-		<Name>UngarrisonSpirit</Name>
-		<ActionType>Ungarrison</ActionType>
-		<Anim>HotDropDown</Anim>
-		<WorkRange>0</WorkRange>
-	</Action>
-	<Action>
-		<Name>GarrisonHotDrop</Name>
-		<ActionType>Garrison</ActionType>
-		<Anim>HotDropUp</Anim>
-		<WorkRange>9.22500038</WorkRange>
-	</Action>
-	<Action>
-		<Name>UngarrisonHotDrop</Name>
-		<ActionType>Ungarrison</ActionType>
-		<Anim>HotDropDown</Anim>
-		<WorkRange>0</WorkRange>
-	</Action>
-	<Action>
-		<Name>GarrisonTeleport</Name>
-		<ActionType>Garrison</ActionType>
-		<Anim>TeleportOut</Anim>
-		<WorkRange>9.22500038</WorkRange>
-	</Action>
-	<Action>
-		<Name>UngarrisonTeleport</Name>
-		<ActionType>Ungarrison</ActionType>
-		<Anim>TeleportIn</Anim>
-		<WorkRange>0</WorkRange>
-	</Action>
-	<Action>
-		<Name>GatherCollectables</Name>
-		<ActionType>Gather</ActionType>
-		<Anim>Gather</Anim>
-		<Resource>Collectable</Resource>
-		<WorkRate>1</WorkRate>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>Melee</Weapon>
 		<WorkRange>4</WorkRange>
 	</Action>
 	<Tactic>
-		<PersistentAction>ExplosiveManager</PersistentAction>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>MeleeAttackAction</Action>
 			<TargetType>NonFlying</TargetType>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Ally</Relation>
-			<TargetType>Garrison</TargetType>
-			<Action>Garrison</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>GaiaGarrison</TargetType>
-			<Action>Garrison</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>Collectable</TargetType>
-			<Action>GatherCollectables</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>CapturePoint</TargetType>
-			<TargetState>Capturable</TargetState>
-			<Action>Capture</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>CapturePoint</TargetType>
-			<TargetState>Capturable</TargetState>
-			<Action>Capture</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Neutral</Relation>
-			<TargetType>CapturePoint</TargetType>
-			<TargetState>Capturable</TargetState>
-			<Action>Capture</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>CapturePoint</TargetType>
-			<TargetState>Capturable</TargetState>
-			<Action>Capture02</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<Relation>Self</Relation>
-			<TargetType>TeleportPickup</TargetType>
-			<Action>GarrisonTeleport</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Ungarrison</Ability>
-			<GaiaOwned />
-			<Relation>Self</Relation>
-			<TargetType>TeleportPickup</TargetType>
-			<Action>UngarrisonTeleport</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>Resource_Supplies</TargetType>
-			<Action>GatherSupplies</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>Resource_Power</TargetType>
-			<Action>GatherPower</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Self</Relation>
-			<TargetType>HotDropPickup</TargetType>
-			<Action>GarrisonHotDrop</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Ungarrison</Ability>
-			<Relation>Self</Relation>
-			<TargetType>HotDropPickup</TargetType>
-			<Action>UngarrisonHotDrop</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Ally</Relation>
-			<TargetType>transport</TargetType>
-			<Action>GarrisonSpirit</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Ungarrison</Ability>
-			<Relation>Ally</Relation>
-			<TargetType>transport</TargetType>
-			<Action>UngarrisonSpirit</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<Relation>Self</Relation>
-			<TargetType>TeleportPickup</TargetType>
-			<Action>GarrisonTeleport</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<Ability>Ungarrison</Ability>
-			<Relation>Self</Relation>
-			<TargetType>TeleportDropoff</TargetType>
-			<Action>UngarrisonTeleport</Action>
+			<Action>Melee</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>

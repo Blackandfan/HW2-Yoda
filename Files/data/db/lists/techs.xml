@@ -6538,6 +6538,9 @@
 			<TechStatus status="Active">covenant_LeaderFlood</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-30" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
+			</Effect>
 			<Effect type="ReparentProtoObject" FromType="cov_air_banshee_01" ToType="cov_air_banshee_01_flood_mp" />
 			<Effect type="ReparentProtoObject" FromType="cov_air_blisterbackBase_01" ToType="cov_air_blisterbackBase_01_flood_mp" />
 			<Effect type="ReparentProtoObject" FromType="cov_air_blisterbackLockdown_01" ToType="cov_air_blisterbackLockdown_01_flood_mp" />
@@ -6549,6 +6552,8 @@
 			<Effect type="ReparentProtoObject" FromType="cov_veh_bruteChopper_01" ToType="cov_veh_bruteChopper_01_flood_mp" />
 			<Effect type="ReparentProtoObject" FromType="cov_inf_arbiter_assaultteamleader_01" ToType="cov_inf_arbiter_assaultteamleader_01_flood_mp" />
 			<Effect type="ReparentProtoObject" FromType="cov_inf_arbiter_assaultteam_01" ToType="cov_inf_arbiter_assaultteam_01_flood_mp" />
+			<Effect type="ReparentProtoObject" FromType="cov_veh_prowler_01" ToType="cov_veh_prowler_01_flood_mp" />
+			<Effect type="ReparentProtoObject" FromType="unsc_veh_scorpion_01" ToType="unsc_veh_scorpion_01_flood_mp" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_barracks_01" ToType="cov_bldg_barracks_01_flood_mp" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_lightfactory_01" ToType="cov_bldg_lightfactory_01_flood_mp" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_heavyfactory_01" ToType="cov_bldg_heavyfactory_01_flood_mp" />

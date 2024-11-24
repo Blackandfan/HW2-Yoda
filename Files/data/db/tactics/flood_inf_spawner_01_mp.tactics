@@ -85,11 +85,11 @@
 		<TargetPriority type="GroundVehicle">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.400000006</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
+		<PreAttackCooldownMax>0.1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.25</PostAttackCooldownMax>
 		<Filter>Light</Filter>
-		<LifeStealRatio shield="false">0.200000006</LifeStealRatio>
+		<LifeStealRatio shield="false">0.3</LifeStealRatio>
 	</Weapon>
 	<Action>
 		<Name>RifleAttackAction</Name>
