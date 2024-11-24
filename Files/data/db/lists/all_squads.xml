@@ -6631,8 +6631,8 @@
 	</Squad>
 	<Squad name="flood_inf_infected_rocket_01_mp" parent_element="flood_inf_infected_rocket_01_base" dbid="4308445601189180971">
 		<Pop Type="Unit">1.5</Pop>
-		<Cost ResourceType="Supplies">120</Cost>
-		<Cost ResourceType="Power">110</Cost>
+		<Cost ResourceType="Supplies">105</Cost>
+		<Cost ResourceType="Power">100</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
 		<Units>
 			<Unit count="3" role="normal">flood_inf_infected_rocket_01</Unit>

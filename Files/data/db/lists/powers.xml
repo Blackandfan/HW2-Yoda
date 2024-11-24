@@ -187,58 +187,37 @@
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_GrizzlyBattalion</Data>
 				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+						<ProtoSquadID>flood_inf_vehinfector_02</ProtoSquadID>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+						<ProtoSquadID>flood_inf_vehinfector_02</ProtoSquadID>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+						<ProtoSquadID>flood_inf_vehinfector_02</ProtoSquadID>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+						<ProtoSquadID>flood_inf_vehinfector_02</ProtoSquadID>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+						<ProtoSquadID>flood_inf_vehinfector_02</ProtoSquadID>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+						<ProtoSquadID>flood_inf_vehinfector_02</ProtoSquadID>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+						<ProtoSquadID>flood_inf_vehinfector_02</ProtoSquadID>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+						<ProtoSquadID>flood_air_airborneinfector_02</ProtoSquadID>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+						<ProtoSquadID>flood_air_airborneinfector_02</ProtoSquadID>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+						<ProtoSquadID>flood_air_airborneinfector_02</ProtoSquadID>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+						<ProtoSquadID>flood_air_airborneinfector_02</ProtoSquadID>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -309,7 +288,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="400" Power="200" />
+			<Cost Supplies="400" Power="220" />
 			<Pop type="Unit">0</Pop>
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
@@ -369,7 +348,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="400" Power="200" />
+			<Cost Supplies="450" Power="220" />
 			<Pop type="Unit">0</Pop>
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
