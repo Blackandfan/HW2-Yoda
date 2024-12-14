@@ -7221,7 +7221,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">creep_flood_airborne_01</Unit>
+			<Unit count="1" role="normal">for_air_sentinel_01</Unit>
 		</Units>
 		<Flag>DiesWhenFrozen</Flag>
 		<Flag>Repairable</Flag>
@@ -8662,6 +8662,9 @@
 		<TurnRadius min="2" max="5" />
 	</Squad>
 	<Squad name="unsc_bldg_johnsonbunker_01" dbid="3996937595498649147">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
 		<CombatRank>5</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
 		<MinimapScale>1</MinimapScale>
