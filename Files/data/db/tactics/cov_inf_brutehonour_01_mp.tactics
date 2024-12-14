@@ -21,7 +21,7 @@
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Hero</WeaponType>
-		<MaxRange>3</MaxRange>
+		<MaxRange>2</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -59,7 +59,7 @@
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Hero</WeaponType>
-		<MaxRange>3</MaxRange>
+		<MaxRange>2</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -100,7 +100,7 @@
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Hero</WeaponType>
-		<MaxRange>3</MaxRange>
+		<MaxRange>2</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -142,7 +142,7 @@
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Hero</WeaponType>
-		<MaxRange>3</MaxRange>
+		<MaxRange>2</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -170,7 +170,7 @@
 		<DamagePerSecond>3000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Hero</WeaponType>
-		<MaxRange>3</MaxRange>
+		<MaxRange>2</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
@@ -210,7 +210,7 @@
 		<DamagePerSecond>3000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Hero</WeaponType>
-		<MaxRange>3</MaxRange>
+		<MaxRange>2</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>

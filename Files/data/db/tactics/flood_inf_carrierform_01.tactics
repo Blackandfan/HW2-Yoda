@@ -1,92 +1,166 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>PlasmaMine</Name>
-		<AttackRate>0.5</AttackRate>
+		<Name>Bomb</Name>
+		<AttackRate>5</AttackRate>
 		<DamagePerSecond>1000</DamagePerSecond>
 		<UseDPSasDPA />
+		<WeaponType>Mines</WeaponType>
+		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>
 		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
-		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="2" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4" />
+		<MaxRange>8</MaxRange>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>18</Radius>
+				<Radius>10</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
+				<DamageAllGarrisoned>True</DamageAllGarrisoned>
 			</Hitbox>
 		</AOEData>
-		<WeaponType>Mines</WeaponType>
-		<Apply>0</Apply>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>75</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>14</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>500</PhysicsForceMin>
 		<PhysicsForceMax>700</PhysicsForceMax>
+		<AOERadius>14</AOERadius>
+		<Daze TargetType="Building" MovementModifier="0" AOEEffect="true" SmartTargeting="false">6.5f</Daze>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<TargetPriority type="TurretBuilding">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<Filter>Medium</Filter>
 	</Weapon>
 	<Weapon>
-		<Name>MeleeAttack</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
-		<WeaponType>Melee</WeaponType>
-		<MaxRange>4</MaxRange>
+		<Name>BombAV</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>1000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Mines</WeaponType>
+		<Projectile>fx_proj_suicide_plasmaGrenade_02</Projectile>
+		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>
+		<MaxRange>5</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<DamageAllGarrisoned>True</DamageAllGarrisoned>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>75</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>14</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>200</PhysicsForceMin>
-		<PhysicsForceMax>400</PhysicsForceMax>
-		<TargetPriority type="Infantry">20</TargetPriority>
-		<TargetPriority type="groundVehicle">15</TargetPriority>
-		<TargetPriority type="TurretBuilding">10</TargetPriority>
-		<TargetPriority type="Building">5</TargetPriority>
-		<Hardpoint>Torso</Hardpoint>
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<AOERadius>14</AOERadius>
+		<ImpactEffect size="Medium" doShockwaveAction="true">SuicideGruntBurn</ImpactEffect>
+		<Daze TargetType="Building" MovementModifier="0" AOEEffect="true" SmartTargeting="false">6.5f</Daze>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<TargetPriority type="GroundVehicle">7</TargetPriority>
+		<TargetPriority type="TurretBuilding">1</TargetPriority>
 		<Filter>Medium</Filter>
-		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
 	</Weapon>
+	<State>
+		<WalkAnim>Run</WalkAnim>
+		<RunAnim>Run</RunAnim>
+		<JogAnim>Run</JogAnim>
+	</State>
 	<Action>
-		<Name>ExplosiveManager</Name>
-		<ActionType>ExplosiveManager</ActionType>
-		<FuseType>Proximity</FuseType>
-		<WorkRange>8</WorkRange>
-		<Weapon>PlasmaMine</Weapon>
-		<DontAutoRestart />
-		<ExplodeOnDeath />
-		<Infection />
-		<StartOnCooldown />
-		<RechargeDelay>4</RechargeDelay>
-	</Action>
-	<Action>
-		<Name>MeleeAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>SecondaryAttack</Anim>
-		<Weapon>MeleeAttack</Weapon>
+		<Name>SprintSuicideBombAV</Name>
+		<ActionType>Detonate</ActionType>
+		<AutoDetonate AutoDetonateIdleTime="0.100000001" AutoDetonateAggroRange="35" />
+		<Weapon>BombAV</Weapon>
 		<FullBodyAttackAnim />
-		<Strafing turnRate="180" trackingSpeed="60" />
-	</Action>
-	<Action>
-		<Name>Capture</Name>
-		<ActionType>Capture</ActionType>
-		<Anim>Capture</Anim>
-		<CaptureRate>1</CaptureRate>
-		<DecaptureRate>1.29999995</DecaptureRate>
-		<WorkRange>4</WorkRange>
-	</Action>
-	<Action>
-		<Name>Capture02</Name>
-		<ActionType>Capture</ActionType>
-		<Anim>Capture</Anim>
-		<DecaptureRate>1.29999995</DecaptureRate>
-		<WorkRange>4</WorkRange>
+		<DontAutoRestart />
+		<WorkRange>8</WorkRange>
+		<DodgeChanceMax>175</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
 		<StartDisabled />
+		<Infection />
+	</Action>
+	<Action>
+		<Name>SprintSuicideBomb</Name>
+		<ActionType>Detonate</ActionType>
+		<AutoDetonate AutoDetonateIdleTime="0" AutoDetonateAggroRange="35" />
+		<Weapon>Bomb</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<WorkRange>8</WorkRange>
+		<DodgeChanceMax>175</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
+		<Infection />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
 	</Action>
 	<Action>
 		<Name>Garrison</Name>
 		<ActionType>Garrison</ActionType>
 		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>0.600000024</CaptureRate>
+		<DecaptureRate>0.899999976</DecaptureRate>
+		<WorkRange>4</WorkRange>
 	</Action>
 	<Action>
 		<Name>GarrisonSpirit</Name>
@@ -133,11 +207,27 @@
 		<WorkRange>4</WorkRange>
 	</Action>
 	<Tactic>
-		<PersistentAction>ExplosiveManager</PersistentAction>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>SprintSuicideBombAV</Action>
+		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>MeleeAttackAction</Action>
 			<TargetType>NonFlying</TargetType>
+			<Action>SprintSuicideBombAV</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>SprintSuicideBomb</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>SprintSuicideBomb</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
@@ -171,25 +261,6 @@
 			<TargetType>CapturePoint</TargetType>
 			<TargetState>Capturable</TargetState>
 			<Action>Capture</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>CapturePoint</TargetType>
-			<TargetState>Capturable</TargetState>
-			<Action>Capture02</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<Relation>Self</Relation>
-			<TargetType>TeleportPickup</TargetType>
-			<Action>GarrisonTeleport</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Ungarrison</Ability>
-			<GaiaOwned />
-			<Relation>Self</Relation>
-			<TargetType>TeleportPickup</TargetType>
-			<Action>UngarrisonTeleport</Action>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />

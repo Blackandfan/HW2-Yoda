@@ -40,7 +40,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="100" Power="100" />
 			<Pop type="Unit">0</Pop>
-			<AutoRecharge>110000</AutoRecharge>
+			<AutoRecharge>90000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -97,7 +97,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="130" Power="130" />
 			<Pop type="Unit">0</Pop>
-			<AutoRecharge>110000</AutoRecharge>
+			<AutoRecharge>90000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
